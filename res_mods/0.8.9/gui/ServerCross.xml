@@ -1,0 +1,133 @@
+<ServerCross.xml>
+  <arcadeMode>
+    <serverGunMarkerEnable>True</serverGunMarkerEnable>
+    <serverGunMarker>
+      <texture>gui/maps/ingame/aim/gun_marker_blue_ultraSlimWhite.dds</texture>
+      <size>64 64</size>
+      <elems>
+        <top>
+          <mapping>13 0 26 13</mapping>
+          <size>13 13</size>
+        </top>
+        <right>
+          <mapping>26 0 39 13</mapping>
+          <size>13 13</size>
+        </right>
+        <bottom>
+          <mapping>39 0 52 13</mapping>
+          <size>13 13</size>
+        </bottom>
+        <left>
+          <mapping>0 0 13 13</mapping>
+          <size>13 13</size>
+        </left>
+        <center>
+          <mapping>0 13 21 34</mapping>
+          <size>21 21</size>
+        </center>
+      </elems>
+    </serverGunMarker>
+
+    <!--
+        Отключение переключения камеры на "убийцу" при уничтожении(если он виден конечно же =))
+        <noPostmortemDelay>True</noPostmortemDelay> - камера не переключается
+        <noPostmortemDelay>False</noPostmortemDelay> - камера переключается
+    -->
+    <noPostmortemDelay>False</noPostmortemDelay>
+   </arcadeMode>
+  <strategicMode>
+    <serverGunMarkerEnable>True</serverGunMarkerEnable>
+    <useTextureGunMarker>False</useTextureGunMarker>
+    <serverGunMarker>
+      <texture>gui/maps/ingame/aim/gun_marker_blue_ultraSlimWhite.dds</texture>
+      <size>64 64</size>
+      <elems>
+        <top>
+          <mapping>13 0 26 13</mapping>
+          <size>13 13</size>
+        </top>
+        <right>
+          <mapping>26 0 39 13</mapping>
+          <size>13 13</size>
+        </right>
+        <bottom>
+          <mapping>39 0 52 13</mapping>
+          <size>13 13</size>
+        </bottom>
+        <left>
+          <mapping>0 0 13 13</mapping>
+          <size>13 13</size>
+        </left>
+        <center>
+          <mapping>0 13 21 34</mapping>
+          <size>21 21</size>
+        </center>
+      </elems>
+    </serverGunMarker>
+  </strategicMode>
+  <sniperMode>
+    <serverGunMarkerEnable>True</serverGunMarkerEnable>
+    <serverGunMarker>
+      <texture>gui/maps/ingame/aim/gun_marker_blue_ultraSlimWhite.dds</texture>
+      <size>64 64</size>
+      <elems>
+        <top>
+          <mapping>13 0 26 13</mapping>
+          <size>13 13</size>
+        </top>
+        <right>
+          <mapping>26 0 39 13</mapping>
+          <size>13 13</size>
+        </right>
+        <bottom>
+          <mapping>39 0 52 13</mapping>
+          <size>13 13</size>
+        </bottom>
+        <left>
+          <mapping>0 0 13 13</mapping>
+          <size>13 13</size>
+        </left>
+        <center>
+          <mapping>0 13 21 34</mapping>
+          <size>21 21</size>
+        </center>
+      </elems>
+    </serverGunMarker>
+
+    <!--
+        <noBinoculars>True</noBinoculars> - затемнение в снайперском режиме отлючено
+        <noBinoculars>False</noBinoculars> - затемнение в снайперском режиме включено
+    -->
+    <!--
+        "True" removes scope shadow in sniper mode, "False" scope shadow visible in sniper mode (default). 
+    --> 
+    <noBinoculars>True</noBinoculars>
+
+    <!--
+        Изменение размера затемнения.
+        Работает при <noBinoculars>False</noBinoculars>
+        <resizeViewport>True</resizeViewport> - включено
+        <resizeViewport>False</resizeViewport> - выключено
+
+        Коэффициент размера затемнения
+        <viewportSize>Х Y</viewportSize> - чем меньше 1 тем больше видимая область
+        При значении ~"0.5 0.5" размер затемнения как в оригинале
+        При "1.0 1.0" затемнения вообще не должно быть.
+    -->
+    <!--
+        "True" enables re-size option for scope shadow, "False" disable re-size of scope shadow (default). 
+    -->
+    <resizeViewport>True</resizeViewport>
+    <!--
+        Коэффициент размера затемнения
+        <viewportSize>Х Y</viewportSize> - чем меньше 1 тем больше видимая область
+        При значении ~"0.5 0.5" размер затемнения как в оригинале
+        При "1.0 1.0" затемнения вообще не должно быть.
+    -->
+    <!--
+        Resize viewport of scope shadow in percentage of total video resolution. 1.0 is 100% of visible viewport. 
+    -->
+    <viewportSize>1.0 1.0</viewportSize>
+  </sniperMode>
+  <serverGunMarkerAlwaysVisible>True</serverGunMarkerAlwaysVisible>
+</ServerCross.xml>

@@ -1,0 +1,33 @@
+I didn't make any of the mods included in the pack!
+
+The mods included are as following:
+
+* J1mB0's Crosshair Mod & XVM Config - http://forum.worldoftanks.eu/index.php?/topic/56831-089-j1mb0s-crosshair-mod-xvm-config/
+* Color Messages and Session Stats - http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/
+* Damage Panel int centered and vanilla - http://forum.worldoftanks.eu/index.php?/topic/89516-089-damage-panel-134-int-centered-and-vanilla/
+* XVM Mod - http://www.modxvm.com
+* Active Dossier Uploader - http://www.vbaddict.net
+* Multilined TankCarousel for 0.8.9 by 4lCapwn and CS2001 - http://forum.worldoftanks.com/index.php?/topic/281624-089-multilined-tankcarousel-locastans-mod-for-89-v10/
+* Permanent Serverside Reticle mod - http://forum.worldoftanks.eu/index.php?/topic/295772-088-permanent-serverside-reticle-mod/
+* Serverside Reticle mod - gun_marker_blue_ultraSlimWhite.dds
+* ZoomX - http://drongo-lab.ru/staryj-servernyj-pricel-dlya-0-8-4-i-ne-tolko-zoom-mod/
+* Received Damage Announcer - http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/
+
+The only thing I've done is to create my own XVM configuration, 6th sense icon, remove a lot of XVM default crap, and wrap an installer around the whole thing to make it easier for others to install the mods.
+
+This installer is not meant for the general public - its just for my friends and such - so please don't redistribute it!
+
+The changes made to the XVM configuration is:
+* Enabled latency (ping) tests.
+* Hiding tutorial.
+* Reformatted player lists to put emphasis on players' WN6 rather than EFF. (EFF is so 2012).
+* Enabled hit log
+* Enabled win chance
+* Redefined colors such as WR, WN & EFF so that the color codes are based on the thresholds from WotLabs, and WOT-News respectively.
+* When you press ALT you see the name of the player in the color of the players WN6 rating.
+* Platoon mates damage to enemies is colored yellow, and when they receive damage it's colored pink.
+* Minimap shows a red line with dots where the camera points to.
+* Enabled proxy spotting circle
+* Preconfigured contour icons to use two different directories (under res_mods\xvm\res\contours\ you have ally, and enemy)
+
+The installer will also add a link to ADU to your Start Menu\Programs\Startup folder

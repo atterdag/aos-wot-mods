@@ -1,0 +1,40 @@
+     2013-12-09  atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+     
+             * INITIAL spawned from atterdag-wot-mods-0.8.9.2
+
+	 2013-12-09  atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+     
+             * res_mods\xvm\res\SixthSense.png
+			 Cleaned up logo.
+			 
+			 * res_mods\xvm\configs\aos.xc
+			 Added space between "/" which is between the WN6 rating, and the WR for each player.
+
+	 2013-12-09  atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+     
+             * Added MultilinedTankCarousel_1.0.zip
+			 
+			 * Added ServerCross.rar
+
+			 * Configured ServerCross to use gun_marker_blue_ultraSlimWhite.dds
+
+	 2013-12-10  atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+     
+             * Added ZoomX.rar mod
+			 
+			 * res_mods\xvm\configs\aos.xc
+			 
+			 Enabled 50 m proxy spotting circle
+
+	 2013-12-10  atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+			
+			* res_mods\xvm\res\SixthSense.png
+			
+			Made it 50% transparent so that it doesn't block the sight of markers underneth it.
+			
+			* res_mods\xvm\config\aos.xc
+			
+			Added settings for having two different locations for allied, and opposing tank icons (preparing for custom iconsets)
+			
+			* Added ReceivedDamage-v1.7.zip
+			
