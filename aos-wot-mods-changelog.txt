@@ -38,3 +38,13 @@
 			
 			* Added ReceivedDamage-v1.7.zip
 			
+	2013-12-15  atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+
+			* res_mods\xvm\config\aos.xc
+			
+			Deleted
+			
+			* res_mods\xvm\config\aos\*
+			
+			Migrated configuration from aox.xc
+			
