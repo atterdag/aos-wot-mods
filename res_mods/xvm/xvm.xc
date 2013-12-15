@@ -6,4 +6,4 @@
  */
 //${"configs/xvm.xc":"."}
 //${"configs/@Default/@xvm.xc":"."}
-${"configs/aos.xc":"."}
+${"configs/aos/@xvm.xc":"."}
