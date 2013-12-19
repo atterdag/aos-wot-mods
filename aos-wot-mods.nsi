@@ -124,13 +124,12 @@ section "uninstall"
 	Delete $INSTDIR\aos-wot-mods.ico
 	Delete $INSTDIR\ActiveDossierUploader.exe
 
-	# Generate a list by using "DIR /S /B /A:-D /O:GN res_mods >aos-wot-mods-files.txt". Remember to replace the current directory (e.g. "D:\wot-dev\aos-wot-mods") with "    Delete $INSTDIR\" in the file.
+	# Generate a list by using "DIR /S /B /A:-D /O:GN res_mods >aos-wot-mods-files.txt". Remember to replace the current directory (e.g. "D:\wot-dev\aos-wot-mods") with "    Delete $INSTDIR" in the file.
     Delete $INSTDIR\res_mods\0.8.9\gui\avatar_input_handler.xml
     Delete $INSTDIR\res_mods\0.8.9\gui\messenger.xml
     Delete $INSTDIR\res_mods\0.8.9\gui\ServerCross.xml
     Delete $INSTDIR\res_mods\0.8.9\gui\ZoomX.xml
     Delete $INSTDIR\res_mods\0.8.9\gui\flash\Application.swf
-    Delete $INSTDIR\res_mods\0.8.9\gui\flash\Application_crashed.swf
     Delete $INSTDIR\res_mods\0.8.9\gui\flash\TankCarousel.cfg
     Delete $INSTDIR\res_mods\0.8.9\gui\flash\TankCarousel.swf
     Delete $INSTDIR\res_mods\0.8.9\gui\flash\TankCarouselFilterControls.swf
@@ -173,9 +172,10 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\mods\xvmstat\stats.pyc
     Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\mods\xvmstat\vehinfo.pyc
     Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\mods\xvmstat\vehinfo_short.pyc
+    Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\mods\xvmstat\vehinfo_stat_avg.pyc
+    Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\mods\xvmstat\vehinfo_stat_top.pyc
     Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\mods\xvmstat\vehinfo_tiers.pyc
     Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\mods\xvmstat\xvm.pyc
-    Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\mods\xvmstat\XvmStat.pyc
     Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\Scaleform\daapi\view\lobby\hangar\tankcarousel.pyc
     Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\Scaleform\daapi\view\meta\tankcarouselmeta.pyc
     Delete $INSTDIR\res_mods\0.8.9\scripts\client\gui\Scaleform\locale\__init__.pyc
@@ -323,12 +323,15 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\l10n\de.xc
     Delete $INSTDIR\res_mods\xvm\l10n\en.xc
     Delete $INSTDIR\res_mods\xvm\l10n\es.xc
+    Delete $INSTDIR\res_mods\xvm\l10n\et.xc
     Delete $INSTDIR\res_mods\xvm\l10n\fi.xc
     Delete $INSTDIR\res_mods\xvm\l10n\fr.xc
     Delete $INSTDIR\res_mods\xvm\l10n\hu.xc
     Delete $INSTDIR\res_mods\xvm\l10n\it.xc
     Delete $INSTDIR\res_mods\xvm\l10n\ja.xc
     Delete $INSTDIR\res_mods\xvm\l10n\ko.xc
+    Delete $INSTDIR\res_mods\xvm\l10n\lt.xc
+    Delete $INSTDIR\res_mods\xvm\l10n\lv.xc
     Delete $INSTDIR\res_mods\xvm\l10n\nl.xc
     Delete $INSTDIR\res_mods\xvm\l10n\no.xc
     Delete $INSTDIR\res_mods\xvm\l10n\pl.xc
@@ -349,6 +352,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\mods\xvm-ping.swf
     Delete $INSTDIR\res_mods\xvm\mods\xvm-profile.swf
     Delete $INSTDIR\res_mods\xvm\mods\xvm-squad.swf
+    Delete $INSTDIR\res_mods\xvm\mods\xvm-tcarousel.swf
+    Delete $INSTDIR\res_mods\xvm\mods\xvm-techtree.swf
     Delete $INSTDIR\res_mods\xvm\res\SixthSense.png
 
 	# Generate a list by using "DIR /S /B /AD /O:GN res_mods >aos-wot-mods-directories.txt". Remember to reverse the list, and  replace the current directory (e.g. "D:\wot-dev\aos-wot-mods") with "     RMDir $INSTDIR" in the file.
