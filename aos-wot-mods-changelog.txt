@@ -155,3 +155,9 @@
 			* res_mods\xvm\mods\xvm-techtree.swf
 
 			Updated XVM to version 5.0.1
+
+     2013-12-19 atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+			
+			* A gazillion files
+			
+			Updated to support WoT 0.8.10
