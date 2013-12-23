@@ -1,0 +1,66 @@
+{
+    "RepairSysMessage": {
+            "type": "yellow",
+            "icon": "CreditsIcon"
+        },
+	"PurchaseForCreditsSysMessage": {
+            "type": "yellow",
+            "icon": "CreditsIcon"
+        },
+	"PurchaseForGoldSysMessage": {
+            "type": "yellow",
+            "icon": "GoldIcon"
+        },
+	"battleDefeatResult": {
+            "type": "red",
+			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{pure}}{{creditsContributionIn}}{{creditsContributionOut}}{{achieves}}{{quests}}",
+            "icon": "BattleResultIcon"
+        },
+	"battleDrawGameResult": {
+            "type": "yellow",
+			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{pure}}{{creditsContributionIn}}{{creditsContributionOut}}{{achieves}}{{quests}}",
+            "icon": "ClanBattleResultIcon"
+        },
+	"battleVictoryResult": {
+            "type": "green",
+			"message":"{{result}}{{arenaName}}{{vehicle}}{{xp}}{{xpPenalty}}{{credits}}{{creditsContributionIn}}{{creditsContributionOut}}{{pure}}{{achieves}}{{quests}}",
+            "icon": "TournamentBattleResultIcon"
+        },
+	"messages":{
+		"amf":{
+			"autoRepairError":"autoRepairError",
+			"autoLoadError":"autoLoadError",
+			"autoEquipError":"autoEquipError",
+			"autoRepairSuccess":"<font color='#00FF00'>Repair {{vehicle}} Spent: {{credits}} </font><img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>",
+			"autoLoadSuccess":"<font color='#00FF00'>Shells {{vehicle}} Spent: {{credits}} </font><img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>",
+			"autoEquipSuccess":"<font color='#00FF00'>Equipment {{vehicle}} Spent: {{credits}} </font><img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>",
+			"autoRepairSkipped":"autoRepairSkipped",
+			"autoLoadSkipped":"autoLoadSkipped",
+			"autoEquipSkipped":"autoEquipSkipped",
+			"autoRepairDisabledOption":"autoRepairDisabledOption",
+			"autoLoadDisabledOption":"autoLoadDisabledOption",
+			"autoEquipDisabledOption":"autoEquipDisabledOption",
+			"autoRepairErrorNoWallet":"autoLoadErrorNoWallet",
+			"autoEquipErrorNoWallet":"autoEquipErrorNoWallet",
+			"RepairCost":"<tab><img src='img://./scripts/client/mods/exel/icons/Repair.png' width='24' height='14' align='baseline' vspace='-4'> {{RepairCost}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
+			"AmmoCost":"<tab><img src='img://./scripts/client/mods/exel/icons/shells.png' width='24' height='14' align='baseline' vspace='-4'> {{AmmoCost}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
+			"EquipCost":"<tab><img src='img://./scripts/client/mods/exel/icons/Equipment.png' width='24' height='14' align='baseline' vspace='-4'> {{EquipCost}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n"},
+		"brf":{
+			"isWin":"<font color='#60FF00' size='13'>Victory!</font>\n",
+			"isDraw":"<font color='#FE7903' size='13'>Draw</font>\n",
+			"isDefeat":"<font color='#FE0E00' size='13'>Defeat</font>\n",
+			"xp":"Recived:{{xp}}{{dailyXPFactor}}<img src='img://gui/maps/icons/library/XpIcon-1.png' width='14' height='14' align='baseline' vspace='-4'>",
+			"vehicle":"<img src='img://./scripts/client/mods/exel/icons/TankGrey.png' width='24' height='14' align='baseline' vspace='-4'><font color='#FFBC33' size='12'>{{vehicle}}</font>\n",
+			"credits":"  {{credits}} <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
+			"purecredits":"{{RepairCost}}{{AmmoCost}}{{EquipCost}}<font color='#FFBC33'><b>Итого:</b></font><tab><font color='{{c:pureCredits}}'><b>{{pureCredits}}</b></font> <img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>\n",
+			"tmenXP":"Опыт экипажу:<tab>{{tmenXP}} <img src='img://gui/maps/icons/library/XpIcon-1.png' width='15' height='15' align='baseline' vspace='-4'>\n",
+			"arenaName":"{{arenaName}}<tab>{{createdAt}}\n",
+			"achieves":"<img src='img://gui/maps/icons/library/PersonalAchievementsIcon-1.png' width='14' height='14' align='baseline' vspace='-3'> {{achieves}}",
+			"xpPenalty":" (<font color='#FF4500' size='11'>Penalty: {{xpPenalty}}</font><img src='img://gui/maps/icons/library/XpIcon-1.png' width='16' height='16' align='baseline' vspace='-4'>)\n",
+			"dailyXPFactor":"(<font color='#60FF00'>x{{dailyXPFactor}}</font>)",
+			"creditsContributionIn":"(<font color='#60FF00' size='11'>Contribution: {{creditsContributionIn}}</font><img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>)\n",
+			"creditsContributionOut":"(<font color='#FF4500' size='11'>Penalty: {{creditsContributionOut}}</font><img src='img://gui/maps/icons/library/CreditsIconBig-1.png' width='8' height='8' align='baseline' vspace='-2'>)\n",
+			"quests":"{{quests}}"
+			}
+	}
+}
