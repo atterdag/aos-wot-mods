@@ -3,7 +3,7 @@
 
 == Latest version ==
 
- *[https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.10.2.exe 0.8.10.2]*
+ * *[https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.10.2.exe 0.8.10.2]*
 
 
 == Previous versions ==
