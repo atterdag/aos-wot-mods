@@ -14,11 +14,11 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 10
-!define VERSIONBUILD 1
+!define VERSIONBUILD 2
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
-!define HELPURL "http://www.spades.dk/forum/viewtopic.php?f=32&t=1726" # "Support Information" link
-!define UPDATEURL "http://www.spades.dk/forum/viewtopic.php?f=32&t=1726" # "Product Updates" link
+!define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
+!define UPDATEURL "https://code.google.com/p/aos-wot-mods/wiki/Downloads" # "Product Updates" link
 !define ABOUTURL "http://www.spades.dk/forum/viewtopic.php?f=32&t=1726" # "Publisher" link
 # This is the size (in kB) of all the files copied into "Program Files"
 !define INSTALLSIZE 10957
