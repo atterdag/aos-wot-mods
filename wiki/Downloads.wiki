@@ -1,11 +1,11 @@
 #labels download
-#Project downloads
+= Project downloads =
 
-= Introduction =
+== Latest version ==
 
-Latest version is *[https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.10.2.exe 0.8.10.2]*
+ *[https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.10.2.exe 0.8.10.2]*
 
 
-= Previous versions =
+== Previous versions ==
   * [https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.10.1.exe 0.8.10.1]
   * [https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.9.6.exe 0.8.9.6]
