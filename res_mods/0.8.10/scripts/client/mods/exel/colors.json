@@ -1,46 +1,57 @@
 {
     "winsRate": [
-			{ "value": 47,      "color": "#FE0E00" },
-			{ "value": 49,      "color": "#FE7903" },
-			{ "value": 52,      "color": "#F8F400" },
-			{ "value": 57,      "color": "#60FF00" },
-			{ "value": 64,      "color": "#02C9B3" },
-			{ "value": 101,     "color": "#D042F3" }
+		{ "value":   46,  "color": "#FE0E00" },
+		{ "value":   48,  "color": "#FE7903" },
+		{ "value":   51,  "color": "#F8F400" },
+		{ "value":   54,  "color": "#60FF00" },
+		{ "value":   60,  "color": "#02C9B3" },
+		{ "value":   70,  "color": "#D042F3" },
+		{ "value":  101,  "color": "#9900FF" }
 	],
 	"wn6": [					
-		{ "value": 425, "color": "#FE0E00" },	
-		{ "value": 795, "color": "#FE7903" },	
-		{ "value": 1175,"color": "#F8F400" },	
-		{ "value": 1570,"color": "#60FF00" },	
-		{ "value": 1885,"color": "#02C9B3" },	
-		{ "value": 9999,"color": "#D042F3" }	
+		{ "value":  500,  "color": "#990000" },	
+		{ "value":  700,  "color": "#FE0E00" },	
+		{ "value":  900,  "color": "#FE7903" },	
+		{ "value": 1100,  "color": "#F8F400" },	
+		{ "value": 1350,  "color": "#60FF00" },	
+		{ "value": 1500,  "color": "#00CC00" },	
+		{ "value": 1700,  "color": "#02C9B3" },	
+		{ "value": 2000,  "color": "#D042F3" },	
+		{ "value": 9999,  "color": "#9900FF" }	
 	],
 	"xwn6": [
-		{ "value": 1,   "color": "#EE0001" },
-		{ "value": 17,  "color": "#FE0E00" },
-		{ "value": 34,  "color": "#FE7903" },
-		{ "value": 53,  "color": "#F8F400" },
-		{ "value": 76,  "color": "#60FF00" },
-		{ "value": 93,  "color": "#02C9B3" },
-		{ "value": 999, "color": "#D042F3" }
+		{ "value":    0,  "color": "#990000" },
+		{ "value":    5,  "color": "#FE0E00" },
+		{ "value":   30,  "color": "#FE7903" },
+		{ "value":   50,  "color": "#F8F400" },
+		{ "value":   75,  "color": "#60FF00" },
+		{ "value":   90,  "color": "#00CC00" },
+		{ "value":   95,  "color": "#02C9B3" },
+		{ "value":   99,  "color": "#D042F3" },
+		{ "value": 9975,  "color": "#9900FF" }
     ],
 	"wn7": [	
-        { "value": 1,     "color": "#EE0001" },
-		{ "value": 455,   "color": "#EE0000" },
-		{ "value": 815,   "color": "#FE7903" },
-		{ "value": 1180,  "color": "#FFCC00" },
-        { "value": 1570,  "color": "#00EE00" },
-        { "value": 1890,  "color": "#02C9B3" },
-        { "value": 9999,  "color": "#D042F3" }
+		{ "value":  500,  "color": "#990000" },	
+		{ "value":  700,  "color": "#FE0E00" },	
+		{ "value":  900,  "color": "#FE7903" },	
+		{ "value": 1100,  "color": "#F8F400" },	
+		{ "value": 1350,  "color": "#60FF00" },	
+		{ "value": 1500,  "color": "#00CC00" },	
+		{ "value": 1700,  "color": "#02C9B3" },	
+		{ "value": 2000,  "color": "#D042F3" },	
+		{ "value": 9999,  "color": "#9900FF" }	
 	],
 	"xwn7": [					
-		{ "value": 17,	"color": "#FE0E00" },	
-		{ "value": 34,	"color": "#FE7903" },	
-		{ "value": 53,	"color": "#F8F400" },	
-		{ "value": 76,	"color": "#60FF00" },	
-		{ "value": 93,	"color": "#02C9B3" },	
-		{ "value": 999,   "color": "#D042F3" }	
-							  ],	
+		{ "value":    0,  "color": "#990000" },
+		{ "value":    5,  "color": "#FE0E00" },
+		{ "value":   30,  "color": "#FE7903" },
+		{ "value":   50,  "color": "#F8F400" },
+		{ "value":   75,  "color": "#60FF00" },
+		{ "value":   90,  "color": "#00CC00" },
+		{ "value":   95,  "color": "#02C9B3" },
+		{ "value":   99,  "color": "#D042F3" },
+		{ "value": 9975,  "color": "#9900FF" }
+	],	
     "avgDmgDealt": [
 			{ "value": 500,      "color": "#FE0E00" },
 			{ "value": 800,      "color": "#FE7903" },
