@@ -161,3 +161,10 @@
 			* A gazillion files
 			
 			Updated to support WoT 0.8.10
+
+	 2013-12-29 atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+	 
+			* SessionStat
+			
+			Updated to SessionStatistic_EXEL_0.8.10.4_DW_loca.zip
+			
