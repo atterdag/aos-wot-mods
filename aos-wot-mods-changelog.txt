@@ -168,3 +168,9 @@
 			
 			Updated to SessionStatistic_EXEL_0.8.10.4_DW_loca.zip
 			
+	 2013-12-30 atterdag  <http://forum.worldoftanks.eu/index.php?/user/atterdag-381313/>
+
+			* res_mods\0.8.10\scripts\client\mods\__init__.pyc
+			
+			Replaced the SessionStat version with the version from XVM
+			
