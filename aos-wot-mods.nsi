@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 10
-!define VERSIONBUILD 4
+!define VERSIONBUILD 5
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -67,6 +67,7 @@ Section "install"
 	File aos-wot-mods.ico
 	File cmsg_readme.txt
 	File SessionStatistic_0.8.10_Readme.txt
+	File RadialMenu_ReadMe.txt
 	
 	# Add any other files for the install directory (license files, app data, etc) here
 	File "ActiveDossierUploader.exe"
@@ -183,6 +184,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\gui\Scaleform\daapi\view\lobby\hangar\tankcarousel.pyc
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\gui\Scaleform\daapi\view\meta\tankcarouselmeta.pyc
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\gui\Scaleform\locale\__init__.pyc
+    Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\gui\Scaleform\RadialMenu.pyc
+	Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\gui\Scaleform\RadialMenu.xml
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\mods\__init__.pyc
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\mods\exel.pyc
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\mods\GunConstraints.pyc

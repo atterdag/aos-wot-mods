@@ -173,4 +173,20 @@
 			* res_mods\0.8.10\scripts\client\mods\__init__.pyc
 			
 			Replaced the SessionStat version with the version from XVM
+	
+	 2013-12-31 
+	
+			* res_mods\xvm\configs\aos\iconset.xc
+			
+			Defined separate directory for enemy and allied icons
+			
+			* res_mods\0.8.10\gui\flash\TankCarousel.cfg
+			
+			Changed <scaleTextFactor>0.9</scaleTextFactor> to <scaleTextFactor>1</scaleTextFactor>, which seems to have fixed the problem with the session history doesn't display.
+			
+			* res_mods\0.8.10\scripts\client\gui\Scaleform\RadialMenu.pyc
+			* res_mods\0.8.10\scripts\client\gui\Scaleform\RadialMenu.xml
+			
+			Installed RadialMenu_2.5.7_810.zip
+
 			
