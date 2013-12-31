@@ -158,6 +158,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\scaleform\TeamBasesPanel.swf
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\scaleform\VehicleMarkersManager.swf
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\scaleform\xvm.swf
+	Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\scaleform\DM\DM_ugn.xml
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\CameraNode.pyc
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\vehicle.pyc
     Delete $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\vehicle_damage.json
@@ -401,7 +402,8 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\AvatarInputHandler
     RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client
     RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts
-    RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\scaleform
+    RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\scaleform\DM
+	RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\scaleform
     RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\maps\ingame\aim
     RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\maps\ingame
     RMDir $INSTDIR\res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\gui\maps
