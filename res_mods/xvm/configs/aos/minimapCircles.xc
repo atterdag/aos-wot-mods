@@ -93,6 +93,7 @@
           { "germany-G_E":                 {"$ref": { "path": "rangeCircle" }, "distance": 1333} },
           { "usa-T92":                     {"$ref": { "path": "rangeCircle" }, "distance": 1411} },
           { "france-Bat_Chatillon155_58":  {"$ref": { "path": "rangeCircle" }, "distance": 1413} },
-          { "uk-GB31_Conqueror_Gun":       {"$ref": { "path": "rangeCircle" }, "distance": 1007} }        ]
+          { "uk-GB31_Conqueror_Gun":       {"$ref": { "path": "rangeCircle" }, "distance": 1007} }
+        ]
     }
 }
