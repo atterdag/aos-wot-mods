@@ -54,6 +54,7 @@
     "Load statistics": "Charger les statistiques",
 
     // UserInfo
+    "General stats": "Statistiques globales",
     "Summary": "Résumé",
     "Avg level": "Tier moyen",
     "WN6": "WN6",
@@ -63,6 +64,7 @@
     "avg": "moyenne",
     "top": "top",
     "draws": "égalités",
+    "Maximum damage": "Dégâts maximum",
     "Specific damage (Avg dmg / HP)": "Dégâts spec. (dégâts moyens / PV)",
     "Capture points": "Points de cap",
     "Defence points": "Points de def",
@@ -71,7 +73,7 @@
     // Crew
     "PutOwnCrew": "Mettre l'équipage adéquat",
     "PutBestCrew": "Mettre le meilleur équipage",
-    "PutClassCrew": "Mettre l'équipage de même classe",
+    "PutClassCrew": "Mettre un équipage de même classe",
 
     // Squad
     "Vehicle": "Char",
