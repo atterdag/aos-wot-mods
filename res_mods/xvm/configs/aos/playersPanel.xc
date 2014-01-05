@@ -42,7 +42,7 @@
       "format": {
         // Never seen this enemy.
         // Этот враг никогда не светился.
-        "neverSeen": "<font face='$FieldFont' size='24' color='#DDDDDD'>*</font>",
+        "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
         // This enemy was seen atleast once.
         // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
         "lost": "",
@@ -55,7 +55,7 @@
         // Artillery specific values.
         // Специфичные значения для артиллерии.
         "artillery": {
-          "neverSeen": "",
+          "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
           "lost": "",
           "revealed": "",
           "dead": ""
@@ -83,10 +83,10 @@
       "width": 65,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatLeft": "<font color='{{c:eff}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)",
+      "formatLeft": "<font color='{{c:wn}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)",
       // Display format for the right panel (macros allowed, see readme-en.txt).
       // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatRight": "<font color='{{c:eff}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)"
+      "formatRight": "<font color='{{c:wn}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)"
     },
     // Options for the "large" panels - the widest panels.
     // Режим ушей "large" - широкие уши в игре.
