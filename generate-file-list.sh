@@ -1,0 +1,18 @@
+#!/bin/sh
+
+if [ -f delme.txt ]; then
+	rm -f delme.txt
+fi
+
+for folder in {aos-wot-mods,res_mods}; do
+	for d in $($USERPROFILE/bin/find.exe $folder -type d); do
+		echo "    RMDir \$INSTDIR\\$d" >> delme.txt
+	done
+	for f in $($USERPROFILE/bin/find.exe $folder -type f); do
+		echo "    Delete \$INSTDIR\\$f" >> delme.txt
+	done
+done
+
+tac delme.txt | sed 's/\//\\/g' > file_and_directory_list.txt
+
+rm -f delme.txt
