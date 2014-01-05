@@ -228,6 +228,18 @@
       { "value": 2000, "color": ${"def.colorRating.unicum"       } },  // 1701 - 2000 - unicum
       { "value": 9999, "color": ${"def.colorRating.super_unicum" } }   // 2001 - *    - super unicum
     ],
+    // Dynamic color by WN8 rating
+    "wn8": [
+      { "value": 300,  "color": ${"def.colorRating.very_bad"     } },  //    0 - 299  - very bad
+      { "value": 600,  "color": ${"def.colorRating.bad"          } },  //  300 - 599  - bad
+      { "value": 900,  "color": ${"def.colorRating.poor"         } },  //  600 - 889  - poor
+      { "value": 1250, "color": ${"def.colorRating.average"      } },  //  900 - 1249 - average
+      { "value": 1600, "color": ${"def.colorRating.good"         } },  // 1250 - 1599 - good
+      { "value": 1900, "color": ${"def.colorRating.very_good"    } },  // 1600 - 1899 - very good
+      { "value": 2350, "color": ${"def.colorRating.excellent"    } },  // 1900 - 2349 - excellent
+      { "value": 2900, "color": ${"def.colorRating.unicum"       } },  // 1350 - 1899 - unicum
+      { "value": 9999, "color": ${"def.colorRating.super_unicum" } }   // 2900 - *    - super unicum
+    ],
     // Dynamic color by TEFF (E) rating
     // Динамический цвет по рейтингу TEFF (E)
     "e": [
