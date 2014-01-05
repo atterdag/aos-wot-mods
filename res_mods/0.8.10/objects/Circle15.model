@@ -1,0 +1,9 @@
+<CheckPoint_green.model>
+	
+	<nodelessVisual>	objects/Circle15	</nodelessVisual>
+	<materialNames>	</materialNames>
+	<visibilityBox>
+		<min>	-14.879044 -0.036130 -14.961002	</min>
+		<max>	14.879045 0.083558 14.961004	</max>
+	</visibilityBox>
+</CheckPoint_green.model>
