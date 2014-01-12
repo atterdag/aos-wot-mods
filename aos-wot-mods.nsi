@@ -28,7 +28,7 @@ RequestExecutionLevel admin ;Require admin rights on NT6+ (When UAC is turned on
 InstallDir "C:\Games\World_of_Tanks"
  
 # rtf or txt file - remember if it is txt, it must be in the DOS text format (\r\n)
-LicenseData "aos-wot-mods-disclaimer.txt"
+LicenseData "aos-wot-mods\disclaimer.txt"
 # This will be in the installer/uninstaller's title bar
 Name "${APPNAME}"
 Icon "${NSISDIR}\Contrib\Graphics\Icons\modern-install-full.ico"
@@ -69,7 +69,7 @@ Section "install"
 	File /r res_mods
 	
 	# Uninstaller - See function un.onInit and section "uninstall" for configuration
-	WriteUninstaller "$INSTDIR\aos-wot-mods\uninstall.exe"
+	WriteUninstaller "$INSTDIR\aos-wot-mods-uninstall.exe"
  
 	# Start Menu
 	CreateShortCut "$SMSTARTUP\ActiveDossierUploader.lnk" "$INSTDIR\ActiveDossierUploader.exe" "" "" "" SW_SHOWNORMAL "" "http://www.vbaddict.net statistic and replay upload tool"
@@ -79,7 +79,7 @@ Section "install"
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "UninstallString" "$\"$INSTDIR\aos-wot-mods-uninstall.exe$\""
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "QuietUninstallString" "$\"$INSTDIR\aos-wot-mods-uninstall.exe$\" /S"
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "InstallLocation" "$\"$INSTDIR$\""
-	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "DisplayIcon" "$\"$INSTDIR\aos-wot-mods.ico$\""
+	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "DisplayIcon" "$\"$INSTDIR\aos-wot-mods\aos-wot-mods.ico$\""
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "Publisher" "${COMPANYNAME}"
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "HelpLink" "$\"${HELPURL}$\""
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}" "URLUpdateInfo" "$\"${UPDATEURL}$\""
@@ -117,7 +117,6 @@ section "uninstall"
 	Delete "$SMSTARTUP\ActiveDossierUploader.lnk"
  
 	# Remove files
-	# Generate a list in aos-wot-mods-files.txt by using generate-file-list.bat. Remember to replace the current directory (e.g. "D:\wot-dev\aos-wot-mods") with "    Delete $INSTDIR" in the file.
 	Delete $INSTDIR\ActiveDossierUploader.exe
 	
 	# Generate a list in res_mods-files.txt by using generate-file-list.bat. Remember to replace the current directory (e.g. "D:\wot-dev\aos-wot-mods") with "    Delete $INSTDIR" in the file.
@@ -437,7 +436,7 @@ section "uninstall"
     RMDir $INSTDIR\aos-wot-mods
 
 	# Always delete uninstaller as the last action
-	Delete $INSTDIR\aos-wot-mods\uninstall.exe
+	Delete $INSTDIR\aos-wot-mods-uninstall.exe
 
 	# Remove uninstaller information from the registry
 	DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${COMPANYNAME} ${APPNAME}"
