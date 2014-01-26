@@ -5,6 +5,9 @@ I've created a installer using NSIS of my mod packs for all those that can't be 
 
 [size=150][url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.10.7.exe]aos-wot-mods-0.8.10.7.exe[/url][/size]
 
+Here's a zip file for those that does not like an installer.
+[size=150][url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.10.7.zip]aos-wot-mods-0.8.10.7.zip[/url][/size]
+
 Pog's contour icons for those who are in to these:
 
 [size=150][url=https://dl.dropboxusercontent.com/u/11915528/wot/pogs-wot-icons-mod-0.8.10.2.exe]pogs-wot-icons-mod-0.8.10.2.exe[/url][/size]
