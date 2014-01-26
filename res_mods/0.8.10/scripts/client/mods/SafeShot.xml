@@ -1,0 +1,32 @@
+<safeShotSetting>
+	
+    <!-- Author: Skino88 -->
+	
+	<!-- By pressing modes is completely disabled. -->
+	<disableKey>KEY_LALT</disableKey>
+	
+	<!-- The "sticky" hotkey. -->
+	<toggledDisableKey>false</toggledDisableKey>
+	
+	<!-- Lock switch shot by the Allies. -->
+	<teamShot>true</teamShot>
+		
+		<!-- Switch message when trying to shoot at an ally. -->
+		<toggleMessage>true</toggleMessage>
+		
+		<!-- Message when trying to shoot at an ally. -->
+		<textMessage>%s, don't bother to shoot!</textMessage>
+		
+	<!-- Lock switch shots to destroy tanks. -->
+	<deadShot>true</deadShot>
+		
+		<!-- Duration blocking shots to destroy tanks. (0.5 - 4.0) -->
+		<deadShotTime>1.0</deadShotTime>
+		
+	<!-- Switch corrections rangefinder. -->
+	<longShot>true</longShot>
+		
+		<!-- Duration substitution distance rangefinder. (0.5 - 10.0) -->
+		<longShotTime>4.0</longShotTime>
+		
+</safeShotSetting>

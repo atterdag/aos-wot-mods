@@ -14,14 +14,14 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 10
-!define VERSIONBUILD 6
+!define VERSIONBUILD 7
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
 !define UPDATEURL "https://code.google.com/p/aos-wot-mods/wiki/Downloads" # "Product Updates" link
 !define ABOUTURL "http://www.spades.dk/forum/viewtopic.php?f=32&t=1726" # "Publisher" link
 # This is the size (in kB) of all the files copied into "Program Files"
-!define INSTALLSIZE 10957
+!define INSTALLSIZE 10385
  
 RequestExecutionLevel admin ;Require admin rights on NT6+ (When UAC is turned on)
  
@@ -311,6 +311,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\mods\SessionStat\#02C9B3.png
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\mods\SessionStat\#00EE00.png
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\mods\SessionStat\!Hits.png
+    Delete $INSTDIR\res_mods\0.8.10\scripts\client\mods\SafeShot.xml
+    Delete $INSTDIR\res_mods\0.8.10\scripts\client\mods\SafeShot.pyc
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\mods\GunConstraints.pyc
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\mods\exel.pyc
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\mods\exel\sysMsg.json
@@ -420,6 +422,7 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.8.10
     RMDir $INSTDIR\res_mods
     Delete $INSTDIR\aos-wot-mods\SessionStatistic\Readme.txt
+    Delete $INSTDIR\aos-wot-mods\SafeShot\List_of_keyboard_shortcuts.txt
     Delete $INSTDIR\aos-wot-mods\RadialMenu\ReadMe.txt
     Delete $INSTDIR\aos-wot-mods\disclaimer.txt
     Delete $INSTDIR\aos-wot-mods\cmsg\readme.txt
@@ -429,6 +432,7 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\camo_fix_S0me0ne\Installation.txt
     Delete $INSTDIR\aos-wot-mods\aos-wot-mods.ico
     RMDir $INSTDIR\aos-wot-mods\SessionStatistic
+    RMDir $INSTDIR\aos-wot-mods\SafeShot
     RMDir $INSTDIR\aos-wot-mods\RadialMenu
     RMDir $INSTDIR\aos-wot-mods\cmsg
     RMDir $INSTDIR\aos-wot-mods\Circle15mod
