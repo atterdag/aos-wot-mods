@@ -65,6 +65,11 @@ Section "install"
 	File /r aos-wot-mods
 	
 	# Add any other files for the install directory (license files, app data, etc) here
+	FindProcDLL::FindProc "ActiveDossierUploader.exe"
+	IntCmp $R0 1 0 notRunning
+		MessageBox MB_OK|MB_ICONEXCLAMATION "Active Dossier Uploader is running. Please close it - You can find it as a green cirle icon in the task bar." /SD IDOK
+		Abort
+	notRunning:
 	File "ActiveDossierUploader.exe"
 	File /r res_mods
 	
