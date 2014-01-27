@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 10
-!define VERSIONBUILD 7
+!define VERSIONBUILD 8
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -65,11 +65,6 @@ Section "install"
 	File /r aos-wot-mods
 	
 	# Add any other files for the install directory (license files, app data, etc) here
-	FindProcDLL::FindProc "ActiveDossierUploader.exe"
-	IntCmp $R0 1 0 notRunning
-		MessageBox MB_OK|MB_ICONEXCLAMATION "Active Dossier Uploader is running. Please close it - You can find it as a green cirle icon in the task bar." /SD IDOK
-		Abort
-	notRunning:
 	File "ActiveDossierUploader.exe"
 	File /r res_mods
 	
@@ -149,6 +144,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\l10n\ru.xc
     Delete $INSTDIR\res_mods\xvm\l10n\ro.xc
     Delete $INSTDIR\res_mods\xvm\l10n\pt_BR.xc
+    Delete $INSTDIR\res_mods\xvm\l10n\pt.xc
     Delete $INSTDIR\res_mods\xvm\l10n\pl.xc
     Delete $INSTDIR\res_mods\xvm\l10n\no.xc
     Delete $INSTDIR\res_mods\xvm\l10n\nl.xc
@@ -340,6 +336,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\gui\mods\xvmstat\vehinfo_stat_avg.pyc
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\gui\mods\xvmstat\vehinfo_short.pyc
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\gui\mods\xvmstat\vehinfo.pyc
+    Delete $INSTDIR\res_mods\0.8.10\scripts\client\gui\mods\xvmstat\test.pyc
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\gui\mods\xvmstat\stats.pyc
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\gui\mods\xvmstat\pinger.pyc
     Delete $INSTDIR\res_mods\0.8.10\scripts\client\gui\mods\xvmstat\logger.pyc
@@ -385,6 +382,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.10\gui\flash\TankCarouselFilterControls.swf
     Delete $INSTDIR\res_mods\0.8.10\gui\flash\TankCarousel.swf
     Delete $INSTDIR\res_mods\0.8.10\gui\flash\TankCarousel.cfg
+    Delete $INSTDIR\res_mods\0.8.10\gui\flash\MyWindow.swf
+    Delete $INSTDIR\res_mods\0.8.10\gui\flash\CamoSelectorButton.swf
     Delete $INSTDIR\res_mods\0.8.10\gui\flash\Application.swf
     Delete $INSTDIR\res_mods\0.8.10\gui\avatar_input_handler.xml
     Delete $INSTDIR\res_mods\0.8.10\camo.cfg
@@ -426,6 +425,11 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.8.10\gui
     RMDir $INSTDIR\res_mods\0.8.10
     RMDir $INSTDIR\res_mods
+    Delete $INSTDIR\aos-wot-mods\xvm\readme-ru.txt
+    Delete $INSTDIR\aos-wot-mods\xvm\readme-pl.txt
+    Delete $INSTDIR\aos-wot-mods\xvm\readme-fr.txt
+    Delete $INSTDIR\aos-wot-mods\xvm\readme-en.txt
+    Delete $INSTDIR\aos-wot-mods\xvm\readme-cz.txt
     Delete $INSTDIR\aos-wot-mods\SessionStatistic\Readme.txt
     Delete $INSTDIR\aos-wot-mods\SafeShot\List_of_keyboard_shortcuts.txt
     Delete $INSTDIR\aos-wot-mods\RadialMenu\ReadMe.txt
@@ -436,6 +440,7 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\changelog.txt
     Delete $INSTDIR\aos-wot-mods\camo_fix_S0me0ne\Installation.txt
     Delete $INSTDIR\aos-wot-mods\aos-wot-mods.ico
+    RMDir $INSTDIR\aos-wot-mods\xvm
     RMDir $INSTDIR\aos-wot-mods\SessionStatistic
     RMDir $INSTDIR\aos-wot-mods\SafeShot
     RMDir $INSTDIR\aos-wot-mods\RadialMenu
