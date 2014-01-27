@@ -18,6 +18,6 @@
     "showTotals": true,
     // true - Enable display of "chance to win"
     // true - включить отображение шансов на победу
-    "showChances": true,
+    "showChances": true
   }
 }
