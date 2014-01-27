@@ -217,7 +217,7 @@
     ],
     // Dynamic color by WN6 rating
     // Динамический цвет по рейтингу WN6
-    "wn": [
+    "wn6": [
       { "value": 500,  "color": ${"def.colorRating.very_bad"     } },  //    0 - 500  - very bad
       { "value": 700,  "color": ${"def.colorRating.bad"          } },  //  501 - 700  - bad
       { "value": 900,  "color": ${"def.colorRating.poor"         } },  //  701 - 900  - poor

@@ -15,9 +15,9 @@
     // Win chance
     "Chance error": "Tikimybės klaida",
     "Chance to win": "Laimėjimo tikimybė",
-    "global": "globali",
-    "per-vehicle": "pagal tankus",
-    "chanceExperimental": "exp",
+    //"global": "globali",
+    //"per-vehicle": "pagal tankus",
+    "chanceLive": "Live",
     "chanceBattleTier": "T",
 
     // Hitlog
@@ -57,6 +57,7 @@
     "Summary": "Santrauka",
     "Avg level": "Vid lygis",
     "WN6": "WN6",
+    "WN8": "WN8",
     "EFF": "EFF",
     "updated": "atnaujinta",
     " to ": " iki ",

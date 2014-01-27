@@ -7,8 +7,8 @@
     // true - Disable display of tutorial icon
     // true - скрыть иконку обучения
     "hideTutorial": false,
-    // true - Show XWN instead of XEFF in company windows
-    // true - показывать XWN вместо XEFF в окнах рот
+    // true - Show XWN8 instead of XEFF in company windows
+    // true - показывать XWN8 вместо XEFF в окнах рот
     "xwnInCompany": true,
     // true - Show mastery mark in tank carousel
     // true - Показывать знак мастерства в карусели танков
@@ -16,9 +16,9 @@
     // true - Show mastery mark in tech tree
     // true - Показывать знак мастерства в дереве исследований
     "masteryMarkInTechTree": true,
-    // true - Show extra data in profile (experimental)
-    // true - Показывать расширенные данные в профиле (экспериментально)
-    "showExtraDataInProfile": true,
+    // true - Hide price button in tech tree
+    // true - Прятать кнопку с ценой в дереве исследований
+    "hidePricesInTechTree": false,
     // true - Enable widgets
     // true - включить виджеты
     "widgetsEnabled": false,
