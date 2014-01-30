@@ -35,7 +35,7 @@ The mods included are as following:
 [*] [url=http://mirtankov.net/mods/11557-mod-sluchainyi-ili-posotyannyi-camo-v-angare.html]Hangar Camouflage Fix[/url] (I'll change default camo according to season)
 [*] [url=http://mirtankov.net/mods/11709-mod-nevidimyi-vystrel-iz-kusta-radius-15m.html]Circle15mod[/url]
 [*] [url=http://wotmodz.com/safeshot.html]SafeShot[/url]
-[*] [url=http://www.koreanrandom.com/forum/index.php?app=core&module=attach&section=attach&attach_id=3936[/url]6thsense-audio[/list]
+[*] [url=http://www.koreanrandom.com/forum/index.php?app=core&module=attach&section=attach&attach_id=3936]6thsense-audio[/url][/list]
 
 The changes made to the XVM configuration is:
 [list][*] Enabled latency (ping) tests.
