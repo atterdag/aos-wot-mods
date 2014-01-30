@@ -4,7 +4,7 @@ if [ -f delme.txt ]; then
 	rm -f delme.txt
 fi
 
-for folder in {aos-wot-mods,res_mods}; do
+for folder in {aos-wot-mods,res_mods,res}; do
 	for d in $($USERPROFILE/bin/find.exe $folder -type d); do
 		echo "    RMDir \$INSTDIR\\$d" >> delme.txt
 	done
