@@ -14,14 +14,14 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 10
-!define VERSIONBUILD 8
+!define VERSIONBUILD 9
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
 !define UPDATEURL "https://code.google.com/p/aos-wot-mods/wiki/Downloads" # "Product Updates" link
 !define ABOUTURL "http://www.spades.dk/forum/viewtopic.php?f=32&t=1726" # "Publisher" link
 # This is the size (in kB) of all the files copied into "Program Files"
-!define INSTALLSIZE 10385
+!define INSTALLSIZE 11506
  
 RequestExecutionLevel admin ;Require admin rights on NT6+ (When UAC is turned on)
  
@@ -67,6 +67,7 @@ Section "install"
 	# Add any other files for the install directory (license files, app data, etc) here
 	File "ActiveDossierUploader.exe"
 	File /r res_mods
+	File /r res
 	
 	# Uninstaller - See function un.onInit and section "uninstall" for configuration
 	WriteUninstaller "$INSTDIR\aos-wot-mods-uninstall.exe"
@@ -120,6 +121,10 @@ section "uninstall"
 	Delete $INSTDIR\ActiveDossierUploader.exe
 	
 	# Generate a list in res_mods-files.txt by using generate-file-list.bat. Remember to replace the current directory (e.g. "D:\wot-dev\aos-wot-mods") with "    Delete $INSTDIR" in the file.
+    Delete $INSTDIR\res\audio\xvm.fsb
+    Delete $INSTDIR\res\audio\xvm.fev
+    RMDir $INSTDIR\res\audio
+    RMDir $INSTDIR\res
     Delete $INSTDIR\res_mods\xvm\xvm.xc.sample
     Delete $INSTDIR\res_mods\xvm\xvm.xc
     Delete $INSTDIR\res_mods\xvm\res\SixthSense.png
@@ -379,6 +384,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.10\gui\maps\ingame\aim\gun_marker_blue_ultraSlimWhite.dds
     Delete $INSTDIR\res_mods\0.8.10\gui\maps\ingame\aim\gun_marker_blue.dds
     Delete $INSTDIR\res_mods\0.8.10\gui\maps\ingame\aim\gun_marker.dds
+    Delete $INSTDIR\res_mods\0.8.10\gui\gui_sounds.xml
     Delete $INSTDIR\res_mods\0.8.10\gui\flash\TankCarouselFilterControls.swf
     Delete $INSTDIR\res_mods\0.8.10\gui\flash\TankCarousel.swf
     Delete $INSTDIR\res_mods\0.8.10\gui\flash\TankCarousel.cfg
@@ -425,6 +431,9 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.8.10\gui
     RMDir $INSTDIR\res_mods\0.8.10
     RMDir $INSTDIR\res_mods
+    Delete $INSTDIR\aos-wot-mods\xvm-audio\xvm.fdp
+    Delete $INSTDIR\aos-wot-mods\xvm-audio\sounds\vip_01.wav
+    Delete $INSTDIR\aos-wot-mods\xvm-audio\readme.txt
     Delete $INSTDIR\aos-wot-mods\xvm\readme-ru.txt
     Delete $INSTDIR\aos-wot-mods\xvm\readme-pl.txt
     Delete $INSTDIR\aos-wot-mods\xvm\readme-fr.txt
@@ -440,6 +449,8 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\changelog.txt
     Delete $INSTDIR\aos-wot-mods\camo_fix_S0me0ne\Installation.txt
     Delete $INSTDIR\aos-wot-mods\aos-wot-mods.ico
+    RMDir $INSTDIR\aos-wot-mods\xvm-audio\sounds
+    RMDir $INSTDIR\aos-wot-mods\xvm-audio
     RMDir $INSTDIR\aos-wot-mods\xvm
     RMDir $INSTDIR\aos-wot-mods\SessionStatistic
     RMDir $INSTDIR\aos-wot-mods\SafeShot
