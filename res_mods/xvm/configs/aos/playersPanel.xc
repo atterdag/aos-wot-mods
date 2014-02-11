@@ -70,10 +70,10 @@
       "width": 46,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatLeft": "<font color='{{c:wn6}}'>{{nick}}</font> (<font color='{{c:rating}}'>{{rating}}</font>)",
+      "formatLeft": "<font color='{{c:wn8}}'>{{nick}}</font> (<font color='{{c:rating}}'>{{rating}}</font>)",
       // Display format for the right panel (macros allowed, see readme-en.txt).
       // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatRight": "<font color='{{c:wn6}}'>{{nick}}</font> (<font color='{{c:rating}}'>{{rating}}</font>)"
+      "formatRight": "<font color='{{c:wn8}}'>{{nick}}</font> (<font color='{{c:rating}}'>{{rating}}</font>)"
     },
     // Options for the "medium2" panels - the second of the medium panels.
     // Режим ушей "medium2" - вторые средние уши в игре.
@@ -83,10 +83,10 @@
       "width": 65,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatLeft": "<font color='{{c:wn6}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)",
+      "formatLeft": "<font color='{{c:wn8}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)",
       // Display format for the right panel (macros allowed, see readme-en.txt).
       // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatRight": "<font color='{{c:wn6}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)"
+      "formatRight": "<font color='{{c:wn8}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)"
     },
     // Options for the "large" panels - the widest panels.
     // Режим ушей "large" - широкие уши в игре.
@@ -96,8 +96,8 @@
       "width": 170,
       // Display format for player nickname (macros allowed, see readme-en.txt).
       // Формат отображения имени игрока (допускаются макроподстановки, см. readme-ru.txt).
-      "nickFormatLeft": "<font color='{{c:wn6}}'>{{nick}}</font> (<font color='{{c:wn6}}'>{{wn6}}</font> / <font color='{{c:rating}}'>{{rating}}</font>)",
-      "nickFormatRight": "<font color='{{c:wn6}}'>{{nick}}</font> (<font color='{{c:wn6}}'>{{wn6}}</font> / <font color='{{c:rating}}'>{{rating}}</font>)",
+      "nickFormatLeft": "<font color='{{c:wn8}}'>{{nick}}</font> (<font color='{{c:wn8}}'>{{wn8}}</font> / <font color='{{c:rating}}'>{{rating}}</font>)",
+      "nickFormatRight": "<font color='{{c:wn8}}'>{{nick}}</font> (<font color='{{c:wn8}}'>{{wn8}}</font> / <font color='{{c:rating}}'>{{rating}}</font>)",
       // Display format for vehicle name (macros allowed, see readme-en.txt).
       // Формат отображения названия танка (допускаются макроподстановки, см. readme-ru.txt).
       "vehicleFormatLeft": "<font color='{{c:teff}}'>{{vehicle}}</font> (<font color='{{c:t-rating}}'>{{t-rating}}</font>)",

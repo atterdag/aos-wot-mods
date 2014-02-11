@@ -201,7 +201,7 @@
           "size": 6,                    //   размер
           "strength": 200               //   интенсивность
         },
-        "format": "<font color='{{c:wn6}}'>{{nick}}</font>"            // формат текста. См. описание макросов в readme-ru.txt
+        "format": "<font color='{{c:wn8}}'>{{nick}}</font>"            // формат текста. См. описание макросов в readme-ru.txt
       },
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
@@ -378,7 +378,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "<font color='{{c:wn6}}'>{{nick}}</font>"
+        "format": "<font color='{{c:wn8}}'>{{nick}}</font>"
       },
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
