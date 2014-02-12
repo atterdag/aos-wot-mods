@@ -145,6 +145,32 @@
         <zoomExposure>0.33</zoomExposure>
       </dynamics>
     </camera>
+    <gunMarker2>
+      <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
+      <size>64 64</size>
+      <elems>
+        <top>
+          <mapping>13 0 26 13</mapping>
+          <size>13 13</size>
+        </top>
+        <right>
+          <mapping>26 0 39 13</mapping>
+          <size>13 13</size>
+        </right>
+        <bottom>
+          <mapping>39 0 52 13</mapping>
+          <size>13 13</size>
+        </bottom>
+        <left>
+          <mapping>0 0 13 13</mapping>
+          <size>13 13</size>
+        </left>
+        <center>
+          <mapping>0 13 21 34</mapping>
+          <size>21 21</size>
+        </center>
+      </elems>
+    </gunMarker2>
   </arcadeMode>
   <strategicMode>
     <aim>strategic</aim>
@@ -184,6 +210,32 @@
         </noiseLimits>
       </dynamics>
     </camera>
+    <gunMarker2>
+      <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
+      <size>64 64</size>
+      <elems>
+        <top>
+          <mapping>13 0 26 13</mapping>
+          <size>13 13</size>
+        </top>
+        <right>
+          <mapping>26 0 39 13</mapping>
+          <size>13 13</size>
+        </right>
+        <bottom>
+          <mapping>39 0 52 13</mapping>
+          <size>13 13</size>
+        </bottom>
+        <left>
+          <mapping>0 0 13 13</mapping>
+          <size>13 13</size>
+        </left>
+        <center>
+          <mapping>0 13 21 34</mapping>
+          <size>21 21</size>
+        </center>
+      </elems>
+    </gunMarker2>
   </strategicMode>
   <sniperMode>
     <aim>sniper</aim>
@@ -249,6 +301,32 @@
         <zoomExposure>0.6 0.5 0.4</zoomExposure>
       </dynamics>
     </camera>
+    <gunMarker2>
+      <texture>gui/maps/ingame/aim/gun_marker_blue.dds</texture>
+      <size>64 64</size>
+      <elems>
+        <top>
+          <mapping>13 0 26 13</mapping>
+          <size>13 13</size>
+        </top>
+        <right>
+          <mapping>26 0 39 13</mapping>
+          <size>13 13</size>
+        </right>
+        <bottom>
+          <mapping>39 0 52 13</mapping>
+          <size>13 13</size>
+        </bottom>
+        <left>
+          <mapping>0 0 13 13</mapping>
+          <size>13 13</size>
+        </left>
+        <center>
+          <mapping>0 13 21 34</mapping>
+          <size>21 21</size>
+        </center>
+      </elems>
+    </gunMarker2>
   </sniperMode>
   <videoMode>
     <camera>

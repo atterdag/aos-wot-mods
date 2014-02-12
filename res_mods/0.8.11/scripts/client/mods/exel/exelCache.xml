@@ -3,151 +3,61 @@
 		<ExpDate>	2014.02.12.06.00,00	</ExpDate>
 		<variableValues>
 			<MultiXPTeam7x7>	0	</MultiXPTeam7x7>
-			<MultiXPTotal>	2464	</MultiXPTotal>
+			<MultiXPTotal>	6454	</MultiXPTotal>
 			<BattleCreditsTeam7x7>	0	</BattleCreditsTeam7x7>
-			<BattleCreditsRandom>	41075	</BattleCreditsRandom>
+			<BattleCreditsRandom>	155331	</BattleCreditsRandom>
 			<VehicleTierCompany>	0	</VehicleTierCompany>
 			<VehicleTierClan>	0	</VehicleTierClan>
-			<MultiXPRandom>	2464	</MultiXPRandom>
+			<MultiXPRandom>	6454	</MultiXPRandom>
 			<BattleCreditsCompany>	0	</BattleCreditsCompany>
-			<ServiceCostRandom>	39462	</ServiceCostRandom>
-			<VehicleTierRandom>	12	</VehicleTierRandom>
+			<ServiceCostRandom>	97705	</ServiceCostRandom>
+			<VehicleTierRandom>	37	</VehicleTierRandom>
 			<MultiXPCompany>	0	</MultiXPCompany>
-			<BattlesCountTotal>	17727	</BattlesCountTotal>
-			<BattleCreditsTotal>	41075	</BattleCreditsTotal>
+			<BattlesCountTotal>	17732	</BattlesCountTotal>
+			<BattleCreditsTotal>	155331	</BattleCreditsTotal>
 			<ServiceCostTeam7x7>	0	</ServiceCostTeam7x7>
 			<ServiceCostClan>	0	</ServiceCostClan>
-			<FreeXPTotal>	121	</FreeXPTotal>
+			<FreeXPTotal>	317	</FreeXPTotal>
 			<MultiXPClan>	0	</MultiXPClan>
 			<ServiceCostCompany>	0	</ServiceCostCompany>
-			<VehicleTierTotal>	12	</VehicleTierTotal>
+			<VehicleTierTotal>	37	</VehicleTierTotal>
 			<VehicleTierTeam7x7>	0	</VehicleTierTeam7x7>
 			<BattleCreditsClan>	0	</BattleCreditsClan>
-			<ServiceCostTotal>	39462	</ServiceCostTotal>
+			<ServiceCostTotal>	97705	</ServiceCostTotal>
 		</variableValues>
 		<PrimaryStat>
 			<FragsCountCompany>	83	</FragsCountCompany>
-			<DmgAssistedRadioRandom>	1166149	</DmgAssistedRadioRandom>
-			<FragsCountTotal>	20564	</FragsCountTotal>
+			<DmgAssistedRadioRandom>	1167773	</DmgAssistedRadioRandom>
+			<FragsCountTotal>	20568	</FragsCountTotal>
 			<gold>	556	</gold>
 			<PiercedCountClan>	133	</PiercedCountClan>
 			<DCapPointsCompany>	63	</DCapPointsCompany>
 			<BattlesCountCompany>	122	</BattlesCountCompany>
-			<DmgAssistedTrackRandom>	310637	</DmgAssistedTrackRandom>
+			<DmgAssistedTrackRandom>	310760	</DmgAssistedTrackRandom>
 			<DmgReceivedClan>	169811	</DmgReceivedClan>
 			<DmgAssistedRadioTeam7x7>	3134	</DmgAssistedRadioTeam7x7>
 			<HitsCountCompany>	520	</HitsCountCompany>
 			<DmgReceivedTeam7x7>	22005	</DmgReceivedTeam7x7>
 			<DmgDealtClan>	193656	</DmgDealtClan>
-			<DmgReceivedRandom>	15919455	</DmgReceivedRandom>
-			<DmgAssistedTrackTotal>	325756	</DmgAssistedTrackTotal>
-			<ShotsCountRandom>	183788	</ShotsCountRandom>
-			<BattlesCountRandom>	17418	</BattlesCountRandom>
-			<BattlesCountClan>	163	</BattlesCountClan>
-			<PiercedCountTotal>	20758	</PiercedCountTotal>
-			<FragsCountTeam7x7>	23	</FragsCountTeam7x7>
-			<HitsCountClan>	1238	</HitsCountClan>
-			<ShotsCountClan>	2157	</ShotsCountClan>
-			<DCapPointsTeam7x7>	3	</DCapPointsTeam7x7>
-			<PiercedCountRandom>	20411	</PiercedCountRandom>
-			<XPTotal>	12819529	</XPTotal>
-			<BattlesCountTotal>	17725	</BattlesCountTotal>
-			<WinsCountTeam7x7>	14	</WinsCountTeam7x7>
-			<DmgAssistedRadioClan>	24408	</DmgAssistedRadioClan>
-			<WinsCountClan>	100	</WinsCountClan>
-			<ShotsCountCompany>	808	</ShotsCountCompany>
-			<DmgReceivedCompany>	78313	</DmgReceivedCompany>
-			<credits>	1623365	</credits>
-			<SpottedCountTeam7x7>	12	</SpottedCountTeam7x7>
-			<OriginalXPCompany>	11484	</OriginalXPCompany>
-			<PiercedCountTeam7x7>	98	</PiercedCountTeam7x7>
-			<OriginalXPClan>	19474	</OriginalXPClan>
-			<HitsCountRandom>	129050	</HitsCountRandom>
-			<WinsCountTotal>	10063	</WinsCountTotal>
-			<DmgAssistedRadioCompany>	15344	</DmgAssistedRadioCompany>
-			<SpottedCountTotal>	21267	</SpottedCountTotal>
-			<DeathsCountTotal>	12001	</DeathsCountTotal>
-			<DmgDealtRandom>	22607876	</DmgDealtRandom>
-			<DeathsCountCompany>	80	</DeathsCountCompany>
-			<DmgAssistedTrackTeam7x7>	1329	</DmgAssistedTrackTeam7x7>
-			<OriginalXPTotal>	1800233	</OriginalXPTotal>
-			<HitsCountTotal>	130922	</HitsCountTotal>
-			<BattlesCountTeam7x7>	22	</BattlesCountTeam7x7>
-			<CapPointsClan>	359	</CapPointsClan>
-			<freeXP>	10474	</freeXP>
-			<DmgAssistedRadioTotal>	1209035	</DmgAssistedRadioTotal>
-			<LossesClan>	53	</LossesClan>
-			<SpottedCountCompany>	126	</SpottedCountCompany>
-			<CapPointsTotal>	30888	</CapPointsTotal>
-			<DeathsCountRandom>	11827	</DeathsCountRandom>
-			<ShotsCountTotal>	186892	</ShotsCountTotal>
-			<DmgReceivedTotal>	16189584	</DmgReceivedTotal>
-			<DmgDealtTotal>	22929376	</DmgDealtTotal>
-			<WinsCountCompany>	60	</WinsCountCompany>
-			<XPRandom>	12624364	</XPRandom>
-			<HitsCountTeam7x7>	114	</HitsCountTeam7x7>
-			<PiercedCountCompany>	116	</PiercedCountCompany>
-			<DCapPointsRandom>	11859	</DCapPointsRandom>
-			<DCapPointsTotal>	12097	</DCapPointsTotal>
-			<SpottedCountClan>	219	</SpottedCountClan>
-			<LossesRandom>	7259	</LossesRandom>
-			<CapPointsRandom>	30453	</CapPointsRandom>
-			<DCapPointsClan>	172	</DCapPointsClan>
-			<ShotsCountTeam7x7>	139	</ShotsCountTeam7x7>
-			<SpottedCountRandom>	20910	</SpottedCountRandom>
-			<FragsCountClan>	124	</FragsCountClan>
-			<DeathsCountTeam7x7>	10	</DeathsCountTeam7x7>
-			<OriginalXPRandom>	1758253	</OriginalXPRandom>
-			<XPClan>	116120	</XPClan>
-			<DmgAssistedTrackClan>	7945	</DmgAssistedTrackClan>
-			<XPTeam7x7>	16530	</XPTeam7x7>
-			<DmgDealtCompany>	104411	</DmgDealtCompany>
-			<LossesTeam7x7>	7	</LossesTeam7x7>
-			<LossesTotal>	7380	</LossesTotal>
-			<CapPointsTeam7x7>	28	</CapPointsTeam7x7>
-			<WinsCountRandom>	9889	</WinsCountRandom>
-			<LossesCompany>	61	</LossesCompany>
-			<DmgDealtTeam7x7>	23433	</DmgDealtTeam7x7>
-			<FragsCountRandom>	20334	</FragsCountRandom>
-			<DmgAssistedTrackCompany>	5845	</DmgAssistedTrackCompany>
-			<CapPointsCompany>	48	</CapPointsCompany>
-			<OriginalXPTeam7x7>	11022	</OriginalXPTeam7x7>
-			<XPCompany>	62515	</XPCompany>
-			<DeathsCountClan>	84	</DeathsCountClan>
-		</PrimaryStat>
-		<SecondaryStat>
-			<FragsCountCompany>	83	</FragsCountCompany>
-			<DmgAssistedRadioRandom>	1166810	</DmgAssistedRadioRandom>
-			<FragsCountTotal>	20565	</FragsCountTotal>
-			<gold>	556	</gold>
-			<PiercedCountClan>	133	</PiercedCountClan>
-			<DCapPointsCompany>	63	</DCapPointsCompany>
-			<BattlesCountCompany>	122	</BattlesCountCompany>
-			<DmgAssistedTrackRandom>	311364	</DmgAssistedTrackRandom>
-			<DmgReceivedClan>	169811	</DmgReceivedClan>
-			<DmgAssistedRadioTeam7x7>	3134	</DmgAssistedRadioTeam7x7>
-			<HitsCountCompany>	520	</HitsCountCompany>
-			<DmgReceivedTeam7x7>	22005	</DmgReceivedTeam7x7>
-			<DmgDealtClan>	193656	</DmgDealtClan>
-			<DmgReceivedRandom>	15920595	</DmgReceivedRandom>
-			<DmgAssistedTrackTotal>	326483	</DmgAssistedTrackTotal>
-			<ShotsCountRandom>	183805	</ShotsCountRandom>
+			<DmgReceivedRandom>	15921578	</DmgReceivedRandom>
+			<DmgAssistedTrackTotal>	325879	</DmgAssistedTrackTotal>
+			<ShotsCountRandom>	183806	</ShotsCountRandom>
 			<BattlesCountRandom>	17420	</BattlesCountRandom>
 			<BattlesCountClan>	163	</BattlesCountClan>
-			<PiercedCountTotal>	20768	</PiercedCountTotal>
+			<PiercedCountTotal>	20772	</PiercedCountTotal>
 			<FragsCountTeam7x7>	23	</FragsCountTeam7x7>
 			<HitsCountClan>	1238	</HitsCountClan>
 			<ShotsCountClan>	2157	</ShotsCountClan>
 			<DCapPointsTeam7x7>	3	</DCapPointsTeam7x7>
-			<PiercedCountRandom>	20421	</PiercedCountRandom>
-			<XPTotal>	12820838	</XPTotal>
+			<PiercedCountRandom>	20425	</PiercedCountRandom>
+			<XPTotal>	12821300	</XPTotal>
 			<BattlesCountTotal>	17727	</BattlesCountTotal>
 			<WinsCountTeam7x7>	14	</WinsCountTeam7x7>
 			<DmgAssistedRadioClan>	24408	</DmgAssistedRadioClan>
 			<WinsCountClan>	100	</WinsCountClan>
 			<ShotsCountCompany>	808	</ShotsCountCompany>
 			<DmgReceivedCompany>	78313	</DmgReceivedCompany>
-			<credits>	1624978	</credits>
+			<credits>	1604158	</credits>
 			<SpottedCountTeam7x7>	12	</SpottedCountTeam7x7>
 			<OriginalXPCompany>	11484	</OriginalXPCompany>
 			<PiercedCountTeam7x7>	98	</PiercedCountTeam7x7>
@@ -155,26 +65,26 @@
 			<HitsCountRandom>	129064	</HitsCountRandom>
 			<WinsCountTotal>	10064	</WinsCountTotal>
 			<DmgAssistedRadioCompany>	15344	</DmgAssistedRadioCompany>
-			<SpottedCountTotal>	21272	</SpottedCountTotal>
-			<DeathsCountTotal>	12003	</DeathsCountTotal>
-			<DmgDealtRandom>	22609526	</DmgDealtRandom>
+			<SpottedCountTotal>	21269	</SpottedCountTotal>
+			<DeathsCountTotal>	12002	</DeathsCountTotal>
+			<DmgDealtRandom>	22612758	</DmgDealtRandom>
 			<DeathsCountCompany>	80	</DeathsCountCompany>
 			<DmgAssistedTrackTeam7x7>	1329	</DmgAssistedTrackTeam7x7>
-			<OriginalXPTotal>	1801106	</OriginalXPTotal>
+			<OriginalXPTotal>	1801414	</OriginalXPTotal>
 			<HitsCountTotal>	130936	</HitsCountTotal>
 			<BattlesCountTeam7x7>	22	</BattlesCountTeam7x7>
 			<CapPointsClan>	359	</CapPointsClan>
-			<freeXP>	10595	</freeXP>
-			<DmgAssistedRadioTotal>	1209696	</DmgAssistedRadioTotal>
+			<freeXP>	10630	</freeXP>
+			<DmgAssistedRadioTotal>	1210659	</DmgAssistedRadioTotal>
 			<LossesClan>	53	</LossesClan>
 			<SpottedCountCompany>	126	</SpottedCountCompany>
 			<CapPointsTotal>	30888	</CapPointsTotal>
-			<DeathsCountRandom>	11829	</DeathsCountRandom>
-			<ShotsCountTotal>	186909	</ShotsCountTotal>
-			<DmgReceivedTotal>	16190724	</DmgReceivedTotal>
-			<DmgDealtTotal>	22931026	</DmgDealtTotal>
+			<DeathsCountRandom>	11828	</DeathsCountRandom>
+			<ShotsCountTotal>	186910	</ShotsCountTotal>
+			<DmgReceivedTotal>	16191707	</DmgReceivedTotal>
+			<DmgDealtTotal>	22934258	</DmgDealtTotal>
 			<WinsCountCompany>	60	</WinsCountCompany>
-			<XPRandom>	12625673	</XPRandom>
+			<XPRandom>	12626135	</XPRandom>
 			<HitsCountTeam7x7>	114	</HitsCountTeam7x7>
 			<PiercedCountCompany>	116	</PiercedCountCompany>
 			<DCapPointsRandom>	11859	</DCapPointsRandom>
@@ -184,10 +94,10 @@
 			<CapPointsRandom>	30453	</CapPointsRandom>
 			<DCapPointsClan>	172	</DCapPointsClan>
 			<ShotsCountTeam7x7>	139	</ShotsCountTeam7x7>
-			<SpottedCountRandom>	20915	</SpottedCountRandom>
+			<SpottedCountRandom>	20912	</SpottedCountRandom>
 			<FragsCountClan>	124	</FragsCountClan>
 			<DeathsCountTeam7x7>	10	</DeathsCountTeam7x7>
-			<OriginalXPRandom>	1759126	</OriginalXPRandom>
+			<OriginalXPRandom>	1759434	</OriginalXPRandom>
 			<XPClan>	116120	</XPClan>
 			<DmgAssistedTrackClan>	7945	</DmgAssistedTrackClan>
 			<XPTeam7x7>	16530	</XPTeam7x7>
@@ -198,7 +108,97 @@
 			<WinsCountRandom>	9890	</WinsCountRandom>
 			<LossesCompany>	61	</LossesCompany>
 			<DmgDealtTeam7x7>	23433	</DmgDealtTeam7x7>
-			<FragsCountRandom>	20335	</FragsCountRandom>
+			<FragsCountRandom>	20338	</FragsCountRandom>
+			<DmgAssistedTrackCompany>	5845	</DmgAssistedTrackCompany>
+			<CapPointsCompany>	48	</CapPointsCompany>
+			<OriginalXPTeam7x7>	11022	</OriginalXPTeam7x7>
+			<XPCompany>	62515	</XPCompany>
+			<DeathsCountClan>	84	</DeathsCountClan>
+		</PrimaryStat>
+		<SecondaryStat>
+			<FragsCountCompany>	83	</FragsCountCompany>
+			<DmgAssistedRadioRandom>	1169154	</DmgAssistedRadioRandom>
+			<FragsCountTotal>	20576	</FragsCountTotal>
+			<gold>	556	</gold>
+			<PiercedCountClan>	133	</PiercedCountClan>
+			<DCapPointsCompany>	63	</DCapPointsCompany>
+			<BattlesCountCompany>	122	</BattlesCountCompany>
+			<DmgAssistedTrackRandom>	312115	</DmgAssistedTrackRandom>
+			<DmgReceivedClan>	169811	</DmgReceivedClan>
+			<DmgAssistedRadioTeam7x7>	3134	</DmgAssistedRadioTeam7x7>
+			<HitsCountCompany>	520	</HitsCountCompany>
+			<DmgReceivedTeam7x7>	22005	</DmgReceivedTeam7x7>
+			<DmgDealtClan>	193656	</DmgDealtClan>
+			<DmgReceivedRandom>	15926588	</DmgReceivedRandom>
+			<DmgAssistedTrackTotal>	327234	</DmgAssistedTrackTotal>
+			<ShotsCountRandom>	183854	</ShotsCountRandom>
+			<BattlesCountRandom>	17425	</BattlesCountRandom>
+			<BattlesCountClan>	163	</BattlesCountClan>
+			<PiercedCountTotal>	20804	</PiercedCountTotal>
+			<FragsCountTeam7x7>	23	</FragsCountTeam7x7>
+			<HitsCountClan>	1238	</HitsCountClan>
+			<ShotsCountClan>	2157	</ShotsCountClan>
+			<DCapPointsTeam7x7>	3	</DCapPointsTeam7x7>
+			<PiercedCountRandom>	20457	</PiercedCountRandom>
+			<XPTotal>	12825017	</XPTotal>
+			<BattlesCountTotal>	17732	</BattlesCountTotal>
+			<WinsCountTeam7x7>	14	</WinsCountTeam7x7>
+			<DmgAssistedRadioClan>	24408	</DmgAssistedRadioClan>
+			<WinsCountClan>	100	</WinsCountClan>
+			<ShotsCountCompany>	808	</ShotsCountCompany>
+			<DmgReceivedCompany>	78313	</DmgReceivedCompany>
+			<credits>	1641824	</credits>
+			<SpottedCountTeam7x7>	12	</SpottedCountTeam7x7>
+			<OriginalXPCompany>	11484	</OriginalXPCompany>
+			<PiercedCountTeam7x7>	98	</PiercedCountTeam7x7>
+			<OriginalXPClan>	19474	</OriginalXPClan>
+			<HitsCountRandom>	129102	</HitsCountRandom>
+			<WinsCountTotal>	10067	</WinsCountTotal>
+			<DmgAssistedRadioCompany>	15344	</DmgAssistedRadioCompany>
+			<SpottedCountTotal>	21276	</SpottedCountTotal>
+			<DeathsCountTotal>	12005	</DeathsCountTotal>
+			<DmgDealtRandom>	22622131	</DmgDealtRandom>
+			<DeathsCountCompany>	80	</DeathsCountCompany>
+			<DmgAssistedTrackTeam7x7>	1329	</DmgAssistedTrackTeam7x7>
+			<OriginalXPTotal>	1803893	</OriginalXPTotal>
+			<HitsCountTotal>	130974	</HitsCountTotal>
+			<BattlesCountTeam7x7>	22	</BattlesCountTeam7x7>
+			<CapPointsClan>	359	</CapPointsClan>
+			<freeXP>	10947	</freeXP>
+			<DmgAssistedRadioTotal>	1212040	</DmgAssistedRadioTotal>
+			<LossesClan>	53	</LossesClan>
+			<SpottedCountCompany>	126	</SpottedCountCompany>
+			<CapPointsTotal>	30888	</CapPointsTotal>
+			<DeathsCountRandom>	11831	</DeathsCountRandom>
+			<ShotsCountTotal>	186958	</ShotsCountTotal>
+			<DmgReceivedTotal>	16196717	</DmgReceivedTotal>
+			<DmgDealtTotal>	22943631	</DmgDealtTotal>
+			<WinsCountCompany>	60	</WinsCountCompany>
+			<XPRandom>	12629852	</XPRandom>
+			<HitsCountTeam7x7>	114	</HitsCountTeam7x7>
+			<PiercedCountCompany>	116	</PiercedCountCompany>
+			<DCapPointsRandom>	11859	</DCapPointsRandom>
+			<DCapPointsTotal>	12097	</DCapPointsTotal>
+			<SpottedCountClan>	219	</SpottedCountClan>
+			<LossesRandom>	7261	</LossesRandom>
+			<CapPointsRandom>	30453	</CapPointsRandom>
+			<DCapPointsClan>	172	</DCapPointsClan>
+			<ShotsCountTeam7x7>	139	</ShotsCountTeam7x7>
+			<SpottedCountRandom>	20919	</SpottedCountRandom>
+			<FragsCountClan>	124	</FragsCountClan>
+			<DeathsCountTeam7x7>	10	</DeathsCountTeam7x7>
+			<OriginalXPRandom>	1761913	</OriginalXPRandom>
+			<XPClan>	116120	</XPClan>
+			<DmgAssistedTrackClan>	7945	</DmgAssistedTrackClan>
+			<XPTeam7x7>	16530	</XPTeam7x7>
+			<DmgDealtCompany>	104411	</DmgDealtCompany>
+			<LossesTeam7x7>	7	</LossesTeam7x7>
+			<LossesTotal>	7382	</LossesTotal>
+			<CapPointsTeam7x7>	28	</CapPointsTeam7x7>
+			<WinsCountRandom>	9893	</WinsCountRandom>
+			<LossesCompany>	61	</LossesCompany>
+			<DmgDealtTeam7x7>	23433	</DmgDealtTeam7x7>
+			<FragsCountRandom>	20346	</FragsCountRandom>
 			<DmgAssistedTrackCompany>	5845	</DmgAssistedTrackCompany>
 			<CapPointsCompany>	48	</CapPointsCompany>
 			<OriginalXPTeam7x7>	11022	</OriginalXPTeam7x7>

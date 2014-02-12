@@ -11,6 +11,9 @@
     // true - Enable display of "chance to win". Read more: http://www.koreanrandom.com/forum/topic/1663-/
     // true - включить отображение шансов на победу. Прочитать подробней: http://www.koreanrandom.com/forum/topic/1663-/
     "showChances": false,
+    // true - Enable display of battle tier.
+    // true - включить отображение уровня боя.
+    "showBattleTier": false,
     // true - Disable Platoon icons. This blank space can house, for example, clan logos.
     // true - убрать отображение иконки взвода. На пустое поле можно вывести, например, иконку клана.
     "removeSquadIcon": false,
@@ -21,10 +24,10 @@
       // false - не отображать иконки игрока/клана в окне загрузки боя.
       "show": true,
       // Position on the X axis, relative to the vehicle icon.
-      // Положение по оси X оносительно иконки танка.
+      // Положение по оси X относительно иконки танка.
       "x": 0,
       // Position on the Y axis, relative to the vehicle icon.
-      // Положение по оси Y оносительно иконки танка.
+      // Положение по оси Y относительно иконки танка.
       "y": 6,
       // Position on the X axis for right side (positive values run to the *inside* of the table).
       // Положение по оси X для правых ушей (положительные значения поместят иконку *внутрь* панели).
@@ -50,9 +53,9 @@
     "formatRightNick": "{{name}}{{clan}}",
     // Display format for the left panel (macros allowed, see readme-en.txt).
     // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatLeftVehicle": "{{vehicle}}<font face='Lucida Console' size='12'> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:xwn6}}'>{{xwn6}}</font> <font color='{{c:rating}}'>{{rating:3}}</font></font>",
+    "formatLeftVehicle": "{{vehicle}}<font face='Lucida Console' size='12'> <font color='{{c:kb}}'>{{kb:3}}</font> <font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:rating}}'>{{rating:3}}</font></font>",
     // Display format for the right panel (macros allowed, see readme-en.txt).
     // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-    "formatRightVehicle": "<font face='Lucida Console' size='12'><font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:xwn6}}'>{{xwn6}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> </font>{{vehicle}}"
+    "formatRightVehicle": "<font face='Lucida Console' size='12'><font color='{{c:rating}}'>{{rating:3}}</font> <font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb:3}}</font> </font>{{vehicle}}"
   }
 }

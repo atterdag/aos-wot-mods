@@ -42,7 +42,7 @@
         // Never seen this enemy.
         // Этот враг никогда не светился.
         "neverSeen": "<font face='$FieldFont' size='24' color='#DEDEDE'>*</font>",
-        // This enemy was seen atleast once.
+        // This enemy was seen at least once.
         // Этот враг светился хотя бы один раз и отмечен на миникарте как потерянный.
         "lost": "",
         // Enemy currently revealed at minimap.
@@ -69,10 +69,10 @@
       "width": 46,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatLeft": "<font color='{{c:xwn6}}'>{{nick}}</font>",
+      "formatLeft": "<font color='{{c:xwn8}}'>{{nick}}</font>",
       // Display format for the right panel (macros allowed, see readme-en.txt).
       // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatRight": "<font color='{{c:xwn6}}'>{{nick}}</font>"
+      "formatRight": "<font color='{{c:xwn8}}'>{{nick}}</font>"
     },
     // Options for the "medium2" panels - the second of the medium panels.
     // Режим ушей "medium2" - вторые средние уши в игре.
@@ -82,10 +82,10 @@
       "width": 65,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatLeft": "<font color='{{c:xwn6}}'>{{vehicle}}</font>",
+      "formatLeft": "<font color='{{c:xwn8}}'>{{vehicle}}</font>",
       // Display format for the right panel (macros allowed, see readme-en.txt).
       // Формат отображения для правой панели (допускаются макроподстановки, см. readme-ru.txt).
-      "formatRight": "<font color='{{c:xwn6}}'>{{vehicle}}</font>"
+      "formatRight": "<font color='{{c:xwn8}}'>{{vehicle}}</font>"
     },
     // Options for the "large" panels - the widest panels.
     // Режим ушей "large" - широкие уши в игре.
@@ -95,8 +95,8 @@
       "width": 170,
       // Display format for player nickname (macros allowed, see readme-en.txt).
       // Формат отображения имени игрока (допускаются макроподстановки, см. readme-ru.txt).
-      "nickFormatLeft": "<font color='{{c:xwn6}}'>{{xwn6}}</font> {{nick}}",
-      "nickFormatRight": "{{nick}} <font color='{{c:xwn6}}'>{{xwn6}}</font>",
+      "nickFormatLeft": "<font color='{{c:xwn8}}'>{{xwn8}}</font> {{nick}}",
+      "nickFormatRight": "{{nick}} <font color='{{c:xwn8}}'>{{xwn8}}</font>",
       // Display format for vehicle name (macros allowed, see readme-en.txt).
       // Формат отображения названия танка (допускаются макроподстановки, см. readme-ru.txt).
       "vehicleFormatLeft": "{{vehicle}}",

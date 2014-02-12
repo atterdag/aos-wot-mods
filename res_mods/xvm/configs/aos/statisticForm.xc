@@ -9,8 +9,11 @@
     "showChances": true,
     // true - Show "chance to win" only for live tanks.
     // true - Показывать шансы только для живых танков.
-    "showChancesLive": false,
-    // true - Disable Platoon icons.
+    "showChancesLive": true,
+    // true - Enable display of battle tier.
+    // true - включить отображение уровня боя.
+    "showBattleTier": true,
+	// true - Disable Platoon icons.
     // true - убрать отображение иконки взвода.
     "removeSquadIcon": false,
     // Display options for Team/Clan logos (see battleLoading.xc).

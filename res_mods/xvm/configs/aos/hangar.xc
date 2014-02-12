@@ -35,10 +35,10 @@
       // Положение поля по осям
       "x": 170,
       "y": 35,
-      // Transparecy
+      // Transparency
       // Прозрачность от 0 до 100
       "alpha": 80,
-      // Server to responce time text delimiter
+      // Server to response time text delimiter
       // Разделитель сервера от времени отклика
       "delimiter": ": ",
       // Maximum number of column rows
@@ -56,8 +56,8 @@
         "size": 12, // Размер
         "bold": true,  // Жирный
         "italic": false, // Курсив
-        // Different colors depending on server responce time
-        // Разные цвета в зависимости от времени отклика сервера
+        // Different colors depending on server response time
+        // Пороговые значения, определяющие качество отклика
         "color": {
           "great": "0xFFCC66", // Отличный
           "good": "0xE5E4E1",  // Хороший
@@ -65,19 +65,19 @@
           "bad": "0xD64D4D"    // Плохой
         }
       },
-      // Threshold values defining responce quality
+      // Below this value response is great
       // Пороговые значения, определеяющие качество отклика
       "threshold": {
         // Below this value responce is great
         // До этого значения отклик отличный
         "great": 35,
-        // Below this value responce is good
+        // Below this value response is good
         // До этого значения отклик хороший
         "good": 60,
         // Below this value responce is poor
         // До этого значения отклик так себе
         "poor": 100
-        // Values above define bad responce
+        // Values above define bad response
         // Значения более считаются плохим откликом
       },
       // Параметры тени
