@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 11
-!define VERSIONBUILD 4
+!define VERSIONBUILD 5
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -128,6 +128,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\xvm.xc.sample
     Delete $INSTDIR\res_mods\xvm\xvm.xc
     Delete $INSTDIR\res_mods\xvm\res\SixthSense.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\BOT!.png
     Delete $INSTDIR\res_mods\xvm\mods\xvm.swf
     Delete $INSTDIR\res_mods\xvm\mods\xvm-techtree.swf
     Delete $INSTDIR\res_mods\xvm\mods\xvm-tcarousel.swf
@@ -240,6 +241,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\configs\@Default\battle.xc
     Delete $INSTDIR\res_mods\xvm\configs\@Default\alpha.xc
     Delete $INSTDIR\res_mods\xvm\configs\@Default\@xvm.xc
+    Delete $INSTDIR\res_mods\botdata.json
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\waiting.mo
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\vehicle_customization_cn.mo
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\vehicle_customization.mo
@@ -331,6 +333,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\Circle15.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\Circle15.cfg
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\BRR.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\botdetect.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\ATS.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\RadialMenu.xml
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\RadialMenu.pyc
@@ -360,12 +363,14 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\CameraNode.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\DynamicCameras\SniperCamera.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\DynamicCameras\ArcadeCamera.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\control_modes.pyc
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.visual
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.primitives
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.model
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.dds.orig
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.dds
     Delete $INSTDIR\res_mods\0.8.11\gui\ZoomX.xml
+    Delete $INSTDIR\res_mods\0.8.11\gui\ServerCross.xml
     Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\xvm.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\VehicleMarkersManager.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\TeamBasesPanel.swf
@@ -384,6 +389,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\CDPData.xml
     Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\battle.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\messenger.xml
+    Delete $INSTDIR\res_mods\0.8.11\gui\maps\ingame\aim\gun_marker_blue.dds
+    Delete $INSTDIR\res_mods\0.8.11\gui\maps\ingame\aim\gun_marker.dds
     Delete $INSTDIR\res_mods\0.8.11\gui\gui_sounds.xml
     Delete $INSTDIR\res_mods\0.8.11\gui\flash\TankCarouselFilterControls.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\flash\TankCarousel.swf
@@ -391,6 +398,9 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\gui\flash\battle.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\flash\Application.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\avatar_input_handler.xml
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\EU\clan
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\EU
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons
     RMDir $INSTDIR\res_mods\xvm\res
     RMDir $INSTDIR\res_mods\xvm\mods
     RMDir $INSTDIR\res_mods\xvm\l10n
@@ -423,10 +433,14 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.8.11\objects
     RMDir $INSTDIR\res_mods\0.8.11\gui\scaleform\DM
     RMDir $INSTDIR\res_mods\0.8.11\gui\scaleform
+    RMDir $INSTDIR\res_mods\0.8.11\gui\maps\ingame\aim
+    RMDir $INSTDIR\res_mods\0.8.11\gui\maps\ingame
+    RMDir $INSTDIR\res_mods\0.8.11\gui\maps
     RMDir $INSTDIR\res_mods\0.8.11\gui\flash
     RMDir $INSTDIR\res_mods\0.8.11\gui
     RMDir $INSTDIR\res_mods\0.8.11
     RMDir $INSTDIR\res_mods
+    Delete $INSTDIR\aos-wot-mods\zoom-mod-dlja-pricela-x-128\installation.txt
     Delete $INSTDIR\aos-wot-mods\xvm-audio\xvm.fdp
     Delete $INSTDIR\aos-wot-mods\xvm-audio\sounds\vip_01.wav
     Delete $INSTDIR\aos-wot-mods\xvm-audio\readme.txt
@@ -444,7 +458,10 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\Circle15mod\Instructions.txt
     Delete $INSTDIR\aos-wot-mods\changelog.txt
     Delete $INSTDIR\aos-wot-mods\camo_fix_S0me0ne\Installation.txt
+    Delete $INSTDIR\aos-wot-mods\botdetect_report\proofofconcept.jpg
+    Delete $INSTDIR\aos-wot-mods\botdetect_report\botdetect_ReadMe.txt
     Delete $INSTDIR\aos-wot-mods\aos-wot-mods.ico
+    RMDir $INSTDIR\aos-wot-mods\zoom-mod-dlja-pricela-x-128
     RMDir $INSTDIR\aos-wot-mods\xvm-audio\sounds
     RMDir $INSTDIR\aos-wot-mods\xvm-audio
     RMDir $INSTDIR\aos-wot-mods\xvm
@@ -454,6 +471,7 @@ section "uninstall"
     RMDir $INSTDIR\aos-wot-mods\cmsg
     RMDir $INSTDIR\aos-wot-mods\Circle15mod
     RMDir $INSTDIR\aos-wot-mods\camo_fix_S0me0ne
+    RMDir $INSTDIR\aos-wot-mods\botdetect_report
     RMDir $INSTDIR\aos-wot-mods
 
 	# Always delete uninstaller as the last action
