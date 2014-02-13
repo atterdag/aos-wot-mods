@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 11
-!define VERSIONBUILD 3
+!define VERSIONBUILD 4
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -358,11 +358,14 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\kwg_waiting_fix\__version__.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\kwg_waiting_fix\__init__.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\CameraNode.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\DynamicCameras\SniperCamera.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\DynamicCameras\ArcadeCamera.pyc
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.visual
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.primitives
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.model
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.dds.orig
     Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.dds
+    Delete $INSTDIR\res_mods\0.8.11\gui\ZoomX.xml
     Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\xvm.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\VehicleMarkersManager.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\TeamBasesPanel.swf
@@ -413,6 +416,8 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\kwg_waiting_fix
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\DynamicCameras
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client
     RMDir $INSTDIR\res_mods\0.8.11\scripts
     RMDir $INSTDIR\res_mods\0.8.11\objects
