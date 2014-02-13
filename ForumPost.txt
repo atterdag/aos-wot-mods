@@ -30,7 +30,7 @@ The mods included are as following:
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/295772-088-permanent-serverside-reticle-mod/]Permanent Serverside Reticle mod[/url] *CURRENTLY NOT WORKING WITH 0.8.11*
 [*] Serverside Reticle mod - gun_marker_blue_ultraSlimWhite.dds
 [*] [url=http://drongo-lab.ru/staryj-servernyj-pricel-dlya-0-8-4-i-ne-tolko-zoom-mod/]ZoomX[/url] *CURRENTLY NOT WORKING WITH 0.8.11*
-[*] [url=http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/]Received Damage Announcer[/url] *CURRENTLY NOT WORKING WITH 0.8.11*
+[*] [url=http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/]Received Damage Announcer[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/184767-0810-radial-menu-v257-ut-announcer-pack/]Radial Menu[/url]
 [*] [url=http://mirtankov.net/mods/11557-mod-sluchainyi-ili-posotyannyi-camo-v-angare.html]Hangar Camouflage Fix[/url] (I'll change default camo according to season) *CURRENTLY NOT WORKING WITH 0.8.11*
 [*] [url=http://mirtankov.net/mods/11709-mod-nevidimyi-vystrel-iz-kusta-radius-15m.html]Circle15mod[/url]
