@@ -10,11 +10,11 @@ Here's a zip file for those that does not like an installer.
 
 Pog's contour icons for those who are in to these:
 
-[size=150][url=https://dl.dropboxusercontent.com/u/11915528/wot/pogs-wot-icons-mod-0.8.10.2.exe]pogs-wot-icons-mod-0.8.10.2.exe[/url][/size]
+[size=150][url=https://dl.dropboxusercontent.com/u/11915528/wot/pogs-wot-icons-mod-0.8.11.1.exe]pogs-wot-icons-mod-0.8.11.1.exe[/url][/size]
 
 I've also created an installer for Gnome Fathers sound mods (both engine and guns):
 
-[size=150][url=https://dl.dropboxusercontent.com/u/11915528/wot/gnomefathers-wot-sound-mods-0.8.10.1.exe]gnomefathers-wot-sound-mods-0.8.10.1.exe[/url][/size]
+[size=150][url=https://dl.dropboxusercontent.com/u/11915528/wot/gnomefathers-wot-sound-mods-0.8.11.1.exe]gnomefathers-wot-sound-mods-0.8.11.1.exe[/url][/size]
 
 Its kinda fun, and easy to use NSIS, so if anyone wants some advise, then I'll be happy to help.
 
