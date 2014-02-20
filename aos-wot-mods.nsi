@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 11
-!define VERSIONBUILD 6
+!define VERSIONBUILD 7
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -453,6 +453,8 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\SafeShot\List_of_keyboard_shortcuts.txt
     Delete $INSTDIR\aos-wot-mods\SafeShot\How_can_I_thank_the_author.txt
     Delete $INSTDIR\aos-wot-mods\RadialMenu\ReadMe.txt
+    Delete $INSTDIR\aos-wot-mods\J1mB0s_Crosshair_Mod\ReadMe.pdf
+    Delete $INSTDIR\aos-wot-mods\J1mB0s_Crosshair_Mod\Changelog.txt
     Delete $INSTDIR\aos-wot-mods\disclaimer.txt
     Delete $INSTDIR\aos-wot-mods\cmsg\readme.txt
     Delete $INSTDIR\aos-wot-mods\Circle15mod\Keys.txt
@@ -462,6 +464,7 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\botdetect_report\proofofconcept.jpg
     Delete $INSTDIR\aos-wot-mods\botdetect_report\botdetect_ReadMe.txt
     Delete $INSTDIR\aos-wot-mods\aos-wot-mods.ico
+    Delete $INSTDIR\aos-wot-mods\ADU-install.bat
     RMDir $INSTDIR\aos-wot-mods\zoom-mod-dlja-pricela-x-128
     RMDir $INSTDIR\aos-wot-mods\xvm-audio\sounds
     RMDir $INSTDIR\aos-wot-mods\xvm-audio
@@ -469,6 +472,7 @@ section "uninstall"
     RMDir $INSTDIR\aos-wot-mods\SessionStatistic
     RMDir $INSTDIR\aos-wot-mods\SafeShot
     RMDir $INSTDIR\aos-wot-mods\RadialMenu
+    RMDir $INSTDIR\aos-wot-mods\J1mB0s_Crosshair_Mod
     RMDir $INSTDIR\aos-wot-mods\cmsg
     RMDir $INSTDIR\aos-wot-mods\Circle15mod
     RMDir $INSTDIR\aos-wot-mods\camo_fix_S0me0ne
