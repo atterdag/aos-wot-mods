@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 11
-!define VERSIONBUILD 5
+!define VERSIONBUILD 6
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -451,6 +451,7 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\xvm\readme-cz.txt
     Delete $INSTDIR\aos-wot-mods\SessionStatistic\Readme.txt
     Delete $INSTDIR\aos-wot-mods\SafeShot\List_of_keyboard_shortcuts.txt
+    Delete $INSTDIR\aos-wot-mods\SafeShot\How_can_I_thank_the_author.txt
     Delete $INSTDIR\aos-wot-mods\RadialMenu\ReadMe.txt
     Delete $INSTDIR\aos-wot-mods\disclaimer.txt
     Delete $INSTDIR\aos-wot-mods\cmsg\readme.txt
