@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 11
-!define VERSIONBUILD 8
+!define VERSIONBUILD 9
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -128,6 +128,13 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\xvm.xc.sample
     Delete $INSTDIR\res_mods\xvm\xvm.xc
     Delete $INSTDIR\res_mods\xvm\res\SixthSense.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\SEA\clan\WIPE!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\SEA\clan\BOT!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\WIPE!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\BOT!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\WIPE!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\BOT!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\WIPE!.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\BOT!.png
     Delete $INSTDIR\res_mods\xvm\mods\xvm.swf
     Delete $INSTDIR\res_mods\xvm\mods\xvm-techtree.swf
@@ -241,7 +248,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\configs\@Default\battle.xc
     Delete $INSTDIR\res_mods\xvm\configs\@Default\alpha.xc
     Delete $INSTDIR\res_mods\xvm\configs\@Default\@xvm.xc
-    Delete $INSTDIR\res_mods\botdata.json
+    Delete $INSTDIR\res_mods\ids_wipe.json
+    Delete $INSTDIR\res_mods\ids_bots.json
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\waiting.mo
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\vehicle_customization_cn.mo
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\vehicle_customization.mo
@@ -463,6 +471,12 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\gui\flash\battle.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\flash\Application.swf
     Delete $INSTDIR\res_mods\0.8.11\gui\avatar_input_handler.xml
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\SEA\clan
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\SEA
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\RU\clan
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\RU
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\NA\clan
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\NA
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\EU\clan
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\EU
     RMDir $INSTDIR\res_mods\xvm\res\clanicons
@@ -533,7 +547,10 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\Circle15mod\Instructions.txt
     Delete $INSTDIR\aos-wot-mods\changelog.txt
     Delete $INSTDIR\aos-wot-mods\camo_fix_S0me0ne\Installation.txt
-    Delete $INSTDIR\aos-wot-mods\botdetect_report\proofofconcept.jpg
+    Delete $INSTDIR\account.jpg
+    Delete $INSTDIR\aos-wot-mods\botdetect_report\wiped
+    Delete $INSTDIR\aos-wot-mods\botdetect_report\report_battle.jpg
+    Delete $INSTDIR\aos-wot-mods\botdetect_report\botuser.jpg
     Delete $INSTDIR\aos-wot-mods\botdetect_report\botdetect_ReadMe.txt
     Delete $INSTDIR\aos-wot-mods\aos-wot-mods.ico
     Delete $INSTDIR\aos-wot-mods\ADU-install.bat

@@ -1,13 +1,13 @@
 URL: http://www.spades.dk/forum/viewtopic.php?f=32&t=1726
-Title: atterdag's mod pack installer (now with AoS logo) - 0.8.11.8
+Title: atterdag's mod pack installer (now with AoS logo) - 0.8.11.9
 Text:
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.8.exe]aos-wot-mods-0.8.11.8.exe[/url][/size]
+[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.9.exe]aos-wot-mods-0.8.11.9.exe[/url][/size]
 
 Here's a zip file for those that don't like an installer.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.8.zip]aos-wot-mods-0.8.11.8.zip[/url][/size]
+[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.9.zip]aos-wot-mods-0.8.11.9.zip[/url][/size]
 
 Pog's contour icons for those who are in to these:
 
