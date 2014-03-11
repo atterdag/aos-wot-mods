@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 11
-!define VERSIONBUILD 7
+!define VERSIONBUILD 8
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -326,8 +326,73 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\MS.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\GunConstraints.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\sysMsg_ru.json
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\sysMsg.json
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\exelCache.xml
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\macros.txt
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#FFA462.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#FFA362.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#FF6262.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#fc6060.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#EEFF62.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#EEFE62.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#BE62FF.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#BE61FF.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#62FF78.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#62FE78.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#62BEFF.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#62BDFF.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#FFA462.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#FFA362.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#FF6262.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#FC6060.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#EEFF62.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#EEFE62.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#BE62FF.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#BE61FF.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#62FF78.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#62FE78.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#62BEFF.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#62BDFF.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\wins40x32.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\win.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\TankGrey.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\survival40x32.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\shells.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\Repair.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000011.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000010.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000009.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000008.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000007.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000006.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000005.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000004.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000003.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000002.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000001.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\maxExp40x32.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\invader.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\Image01.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\hits40x32.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\Equipment.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\draw.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\defender.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\damage.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\battles40x32.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\avgExp40x32.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\avgDamage40x32.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#FFCC00.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#FE7903.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#FE0E00.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#FE0000.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#F8F400.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#EE0001.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#EE0000.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#D042F3.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#60FF00.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#02C9B3.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#00EE00.png
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\expected_tank_values_latest.json
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\exel.cfg
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\colors.json
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\Circle15.pyc
@@ -413,6 +478,10 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.8.11\text
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\locale
@@ -449,7 +518,10 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\xvm\readme-fr.txt
     Delete $INSTDIR\aos-wot-mods\xvm\readme-en.txt
     Delete $INSTDIR\aos-wot-mods\xvm\readme-cz.txt
-    Delete $INSTDIR\aos-wot-mods\SessionStatistic\Readme.txt
+    Delete $INSTDIR\aos-wot-mods\SessionStatistic\sstatpage2.jpg
+    Delete $INSTDIR\aos-wot-mods\SessionStatistic\sstatpage1.jpg
+    Delete $INSTDIR\aos-wot-mods\SessionStatistic\Macros.txt
+    Delete $INSTDIR\aos-wot-mods\SessionStatistic\btlmsg811.jpg
     Delete $INSTDIR\aos-wot-mods\SafeShot\List_of_keyboard_shortcuts.txt
     Delete $INSTDIR\aos-wot-mods\SafeShot\How_can_I_thank_the_author.txt
     Delete $INSTDIR\aos-wot-mods\RadialMenu\ReadMe.txt

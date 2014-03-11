@@ -1,13 +1,13 @@
 URL: http://www.spades.dk/forum/viewtopic.php?f=32&t=1726
-Title: atterdag's mod pack installer (now with AoS logo) - 0.8.11.7
+Title: atterdag's mod pack installer (now with AoS logo) - 0.8.11.8
 Text:
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.7.exe]aos-wot-mods-0.8.11.7.exe[/url][/size]
+[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.8.exe]aos-wot-mods-0.8.11.8.exe[/url][/size]
 
 Here's a zip file for those that don't like an installer.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.7.zip]aos-wot-mods-0.8.11.7.zip[/url][/size]
+[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.8.zip]aos-wot-mods-0.8.11.8.zip[/url][/size]
 
 Pog's contour icons for those who are in to these:
 
@@ -34,7 +34,7 @@ The mods included are as following:
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/]Received Damage Announcer[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/184767-0810-radial-menu-v257-ut-announcer-pack/]Radial Menu[/url]
 [*] [url=http://mirtankov.net/mods/11557-mod-sluchainyi-ili-posotyannyi-camo-v-angare.html]Hangar Camouflage Fix[/url] (I'll change default camo according to season) *CURRENTLY NOT WORKING WITH 0.8.11*
-[*] [url=http://mirtankov.net/mods/11709-mod-nevidimyi-vystrel-iz-kusta-radius-15m.html]Circle15mod[/url]
+[*] [url=http://mirtankov.net/mods/11709-mod-nevidimyi-vystrel-iz-kusta-radius-15m.html]Circle15mod[/url] *CURRENTLY NOT WORKING WITH 0.8.11*
 [*] [url=http://forum.worldoftanks.ru/index.php?/topic/1075087-]SafeShot[/url]
 [*] [url=http://www.koreanrandom.com/forum/index.php?app=core&module=attach&section=attach&attach_id=3936]6thsense-audio[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect/]Botdetect[/url]
