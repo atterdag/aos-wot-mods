@@ -14,5 +14,5 @@
         Possible to install non-integer. for example 0.5, 0.7, 2.8, etc. 
         <zooms> Parameter in this file only works with <zoomX>True</zoomX>
     -->
-    <zooms>1.6 3.2 4.8 8 12.8 20.8 33.6 54.4 88 142</zooms>
+    <zooms>2 4 8 16</zooms>
 </ZoomX.xml>
