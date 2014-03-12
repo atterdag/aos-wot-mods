@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 11
-!define VERSIONBUILD 9
+!define VERSIONBUILD 10
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -301,8 +301,6 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\arenas.mo
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\AOGAS.mo
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\achievements.mo
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\vehicle_damage.json
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\vehicle.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\__init__.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\VehicleEliteIcon.png
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#FE7903.png
