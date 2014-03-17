@@ -177,13 +177,13 @@ Supported macros in chat text:
    %(ammo)s     - displays your remaining ammo in AUTOLOADER CLIP
    
 XVM stat depending chat command macros:
-   %(winrate)s%% -- targets global winrate
-   %(eff)s -- targets efficiency rating
-   %(kbattles)s -- targets total battles in thousands
-   %(avglvl)s -- targets average tier played
-   %(twr)s -- targets Tourist efficiency factor
-   %(tankDamage)s -- targets avg. damage with the current tank (usually incorrect!)
-   %(tankWinrate)s%% -- targets winrate with the current tank
+   %(winrate)s%% - targets global winrate
+   %(eff)s - targets efficiency rating
+   %(kbattles)s - targets total battles in thousands
+   %(avglvl)s - targets average tier played
+   %(twr)s - targets Tourist efficiency factor
+   %(tankDamage)s - targets avg. damage with the current tank (usually incorrect!)
+   %(tankWinrate)s%% - targets winrate with the current tank
    
   The macros "%(vehicle)s", "%(clan)s", "%(name)s", "%(winrate)s%%", "%(eff)s",
 "%(kbattles)s", "%(avglvl)s", "%(twr)s", "%(tankDamage)s", "%(tankWinrate)s%%"
