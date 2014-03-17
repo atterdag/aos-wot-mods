@@ -195,15 +195,15 @@
     // Динамический цвет по шкале XVM
     // http://www.koreanrandom.com/forum/topic/2625-/
     "x": [
-      { "value": 0,    "color": ${"def.colorRating.very_bad"     } },   //  0 -  4 - very bad
-      { "value": 5,    "color": ${"def.colorRating.bad"          } },   //  5 - 30 - bad             (better than 5% of players)
-      { "value": 30,   "color": ${"def.colorRating.poor"         } },   // 30 - 50 - poor            (better than 30% of players)
-      { "value": 50,   "color": ${"def.colorRating.average"      } },   // 51 - 75 - average         (better then 50% of players)
-      { "value": 75,   "color": ${"def.colorRating.good"         } },   // 75 - 90 - good            (better then 75% of players)
-      { "value": 90,   "color": ${"def.colorRating.very_good"    } },   // 91 - 95 - very_good       (better then 90% of players)
-      { "value": 95,   "color": ${"def.colorRating.excellent"    } },   // 96 - 99 - excellent       (better then 95% of players)
-      { "value": 99,   "color": ${"def.colorRating.unicum"       } },   // 99 - 99.75 - unicum       (better then 99% of players)
-      { "value": 9975, "color": ${"def.colorRating.super_unicum" } }    // 99.75 - XX - super unicum (better then 99.75% of players)
+      { "value": 0,   "color": ${"def.colorRating.very_bad"     } },   //  0 -  4 - very bad
+      { "value": 5,   "color": ${"def.colorRating.bad"          } },   //  5 - 30 - bad             (better than 5% of players)
+      { "value": 30,  "color": ${"def.colorRating.poor"         } },   // 30 - 50 - poor            (better than 30% of players)
+      { "value": 50,  "color": ${"def.colorRating.average"      } },   // 51 - 75 - average         (better then 50% of players)
+      { "value": 75,  "color": ${"def.colorRating.good"         } },   // 75 - 90 - good            (better then 75% of players)
+      { "value": 90,  "color": ${"def.colorRating.very_good"    } },   // 91 - 95 - very_good       (better then 90% of players)
+      { "value": 95,  "color": ${"def.colorRating.excellent"    } },   // 96 - 99 - excellent       (better then 95% of players)
+      { "value": 99,  "color": ${"def.colorRating.unicum"       } },   // 99 - 99.75 - unicum       (better then 99% of players)
+      { "value": 999, "color": ${"def.colorRating.super_unicum" } }    // 99.75 - XX - super unicum (better then 99.75% of players)
     ],
     // Dynamic color by efficiency
     // Динамический цвет по эффективности
@@ -223,9 +223,9 @@
       { "value": 900,  "color": ${"def.colorRating.poor"         } },  //  701 - 900  - poor
       { "value": 1100, "color": ${"def.colorRating.average"      } },  //  901 - 1100 - average
       { "value": 1350, "color": ${"def.colorRating.good"         } },  // 1101 - 1350 - good
-      { "value": 1500, "color": ${"def.colorRating.very_good"    } },  // 1351 - 1500 - very good
-      { "value": 1700, "color": ${"def.colorRating.excellent"    } },  // 1501 - 1700 - excellent
-      { "value": 2000, "color": ${"def.colorRating.unicum"       } },  // 1701 - 2000 - unicum
+      { "value": 1550, "color": ${"def.colorRating.very_good"    } },  // 1351 - 1500 - very good
+      { "value": 1850, "color": ${"def.colorRating.excellent"    } },  // 1501 - 1700 - excellent
+      { "value": 2050, "color": ${"def.colorRating.unicum"       } },  // 1701 - 2000 - unicum
       { "value": 9999, "color": ${"def.colorRating.super_unicum" } }   // 2001 - *    - super unicum
     ],
     // Dynamic color by WN8 rating
@@ -253,13 +253,15 @@
     // Dynamic color by win percent
     // Динамический цвет по проценту побед
     "rating": [
-      { "value": 46,  "color": ${"def.colorRating.bad"          } },   //  0 - 46  - bad
-      { "value": 48,  "color": ${"def.colorRating.poor"         } },   // 46 - 48  - poor
-      { "value": 51,  "color": ${"def.colorRating.average"      } },   // 48 - 51  - average
-      { "value": 54,  "color": ${"def.colorRating.good"         } },   // 51 - 56  - good
-      { "value": 60,  "color": ${"def.colorRating.excellent"    } },   // 56 - 63  - excellent
-	  { "value": 70,  "color": ${"def.colorRating.unicum"       } },   // 63 - 100   - unicum
-      { "value": 101, "color": ${"def.colorRating.super_unicum" } }    // 100 -  xxx   - super unicum
+      { "value": 45,  "color": ${"def.colorRating.very_bad"     } },   //  0 - 45  - very bad
+	  { "value": 47,  "color": ${"def.colorRating.bad"          } },   // 45 - 47  - bad
+      { "value": 49,  "color": ${"def.colorRating.poor"         } },   // 47 - 49  - poor
+      { "value": 52,  "color": ${"def.colorRating.average"      } },   // 49 - 52  - average
+      { "value": 54,  "color": ${"def.colorRating.good"         } },   // 52 - 54  - good
+	  { "value": 56,  "color": ${"def.colorRating.very_good"    } },   // 54 - 56  - very good
+      { "value": 60,  "color": ${"def.colorRating.excellent"    } },   // 56 - 60  - excellent
+	  { "value": 65,  "color": ${"def.colorRating.unicum"       } },   // 60 - 65  - unicum
+      { "value": 101, "color": ${"def.colorRating.super_unicum" } }    // 65 - xxx - super unicum
     ],
     // Dynamic color by kilo-battles
     // Динамический цвет по количеству кило-боев
