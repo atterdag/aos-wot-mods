@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 8
 !define VERSIONPATCH 11
-!define VERSIONBUILD 11
+!define VERSIONBUILD 12
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -301,7 +301,12 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\arenas.mo
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\AOGAS.mo
     Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\achievements.mo
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\__init__.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\spotMessanger\__init__.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\spotMessanger\SpotMessanger.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\spotMessanger\config.xml
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\__init__.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SpotMessangerLoader.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\VehicleEliteIcon.png
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#FE7903.png
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#FE7803.png
@@ -406,6 +411,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\BRR.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\botdetect.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\ATS.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui\scaleform\view\battlechannelview.pyc
+    Delete $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui\messengerDispatcher.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\RadialMenu.xml
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\RadialMenu.pyc
     Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\locale\__init__.pyc
@@ -488,6 +495,8 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\xvm
     RMDir $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES
     RMDir $INSTDIR\res_mods\0.8.11\text
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\spotMessanger
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1
@@ -496,6 +505,10 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui\scaleform\view
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui\scaleform
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui
+    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\messenger
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\locale
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi\view\meta
     RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi\view\lobby\hangar
