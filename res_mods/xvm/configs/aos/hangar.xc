@@ -57,7 +57,7 @@
         "bold": true,  // Жирный
         "italic": false, // Курсив
         // Different colors depending on server response time
-        // Пороговые значения, определяющие качество отклика
+        // Разные цвета в зависимости от времени отклика сервера
         "color": {
           "great": "0xFFCC66", // Отличный
           "good": "0xE5E4E1",  // Хороший
@@ -65,16 +65,16 @@
           "bad": "0xD64D4D"    // Плохой
         }
       },
-      // Below this value response is great
-      // Пороговые значения, определеяющие качество отклика
+      // Threshold values defining response quality
+      // Пороговые значения, определяющие качество отклика
       "threshold": {
-        // Below this value responce is great
+        // Below this value response is great
         // До этого значения отклик отличный
         "great": 35,
         // Below this value response is good
         // До этого значения отклик хороший
         "good": 60,
-        // Below this value responce is poor
+        // Below this value response is poor
         // До этого значения отклик так себе
         "poor": 100
         // Values above define bad response

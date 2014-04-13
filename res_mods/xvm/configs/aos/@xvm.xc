@@ -23,7 +23,7 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "5.0.2-test1",
+  "configVersion": "0.8.11.13",
 
   // Version of the editor.
   // Версия редактора.
@@ -58,19 +58,19 @@
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
-    "url": "https://code.google.com/p/aos-wot-mods/",
+    "url": "http://www.modxvm.com/",
 
     // Config last modified.
     // Дата последней модификации конфига.
-    "date": "2013-12-23",
+    "date": "2014-04-13",
 
     // Supported version of the game.
     // Поддерживаемая версия игры.
-    "gameVersion": "0.8.10",
+    "gameVersion": "0.8.11",
 
     // The minimum required version of the XVM mod.
     // Минимально необходимая версия мода XVM.
-    "modMinVersion": "5.0.1-test3"
+    "modMinVersion": "5.2.0-test1"
   },
 
   // Parameters for login screen.

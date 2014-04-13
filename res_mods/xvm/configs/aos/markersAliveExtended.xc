@@ -30,7 +30,7 @@
     "shadow": {
       "alpha": 100,                   // Opacity          / Прозрачность.
       "color": "0x000000",            //                    Цвет.
-      "angle": 90,                    // Offset angle     / Угол смещения.
+      "angle": 45,                    // Offset angle     / Угол смещения.
       "distance": 0,                  // Offset distance  / Дистанция смещения.
       "size": 6,                      //                    Размер.
       "strength": 200                 // Intensity        / Интенсивность.
@@ -81,7 +81,7 @@
       "shadow": {
         "alpha": 100,                   // Opacity          / Прозрачность.
         "color": "0x000000",            //                    Цвет.
-        "angle": 90,                    // Offset angle     / Угол смещения.
+        "angle": 45,                    // Offset angle     / Угол смещения.
         "distance": 0,                  // Offset distance  / Дистанция смещения.
         "size": 6,                      //                    Размер.
         "strength": 200                 // Intensity        / Интенсивность.
@@ -178,7 +178,7 @@
       // Text field with the name of the player.
       // Текстовое поле с именем игрока.
       {
-        "name": "Player Name",          // название текстового поля, ни на что не влияет
+        "name": "Player name",          // название текстового поля, ни на что не влияет
         "visible": true,                // false - не отображать
         "x": 0,                         // положение по оси X
         "y": -36,                       // положение по оси Y
@@ -196,7 +196,7 @@
         "shadow": {
           "alpha": 100,                 //   прозрачность
           "color": "0x000000",          //   цвет
-          "angle": 90,                  //   угол смещения
+          "angle": 45,                  //   угол смещения
           "distance": 0,                //   дистанция смещение
           "size": 6,                    //   размер
           "strength": 200               //   интенсивность
@@ -206,7 +206,7 @@
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
       {
-        "name": "Health Ratio",
+        "name": "Percent of HP",
         "visible": true,
         "x": 0,
         "y": -20,
@@ -222,17 +222,17 @@
         "shadow": {
           "alpha": 100,
           "color": "0x000000",
-          "angle": 90,
+          "angle": 45,
           "distance": 0,
           "size": 4,
-          "strength": 150
+          "strength": 100
         },
         "format": "{{hp-ratio}}\u0025" // \u0025 - percent symbol / символ процента
       },
       // Text field with win ratio.
       // Текстовое поле с процентом побед.
       {
-        "name": "Rating",
+        "name": "Win Rate",
         "visible": true,
         "x": 0,
         "y": -46,
@@ -248,10 +248,10 @@
         "shadow": {
           "alpha": 100,
           "color": "0x000000",
-          "angle": 90,
+          "angle": 45,
           "distance": 0,
-          "size": 4,
-          "strength": 150
+          "size": 6,
+          "strength": 200
         },
         "format": "{{rating}}"
       }
@@ -274,7 +274,7 @@
       "shadow": {
         "alpha": 100,
         "color": "0x000000",
-        "angle": 90,
+        "angle": 45,
         "distance": 0,
         "size": 6,
         "strength": 200
@@ -357,7 +357,7 @@
       // Text field with the name of the player.
       // Текстовое поле с именем игрока.
       {
-        "name": "Player Name",
+        "name": "Player name",
         "visible": true,
         "x": 0,
         "y": -36,
@@ -373,7 +373,7 @@
         "shadow": {
           "alpha": 100,
           "color": "0x000000",
-          "angle": 90,
+          "angle": 45,
           "distance": 0,
           "size": 6,
           "strength": 200
@@ -383,7 +383,7 @@
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
       {
-        "name": "Health Ratio",
+        "name": "Win Rate",
         "visible": true,
         "x": 0,
         "y": -20,
@@ -399,17 +399,17 @@
         "shadow": {
           "alpha": 100,
           "color": "0x000000",
-          "angle": 90,
+          "angle": 45,
           "distance": 0,
           "size": 4,
-          "strength": 150
+          "strength": 100
         },
         "format": "{{hp-ratio}}\u0025"
       },
       // Text field with win ratio.
       // Текстовое поле с процентом побед.
       {
-        "name": "Rating",
+        "name": "Процент побед",
         "visible": true,
         "x": 0,
         "y": -46,
@@ -425,10 +425,10 @@
         "shadow": {
           "alpha": 100,
           "color": "0x000000",
-          "angle": 90,
+          "angle": 45,
           "distance": 0,
-          "size": 4,
-          "strength": 150
+          "size": 6,
+          "strength": 200
         },
         "format": "{{rating}}"
       }

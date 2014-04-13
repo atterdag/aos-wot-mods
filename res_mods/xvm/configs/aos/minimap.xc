@@ -9,7 +9,7 @@
     "enabled": true,
     // Map image transparency.
     // Прозрачность изображения карты.
-    "mapBackgroundImageAlpha": 90,
+    "mapBackgroundImageAlpha": 100,
     // Self icon transparency. White pointing arrow.
     // Прозрачность своей иконки. Белая стрелка.
     "selfIconAlpha": 100,

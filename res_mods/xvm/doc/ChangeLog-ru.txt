@@ -1,3 +1,31 @@
+XVM-5.2.0-test1:
+  [ВАЖНОЕ ИЗМЕНЕНИЕ]
+  * Статистика должна быть включена в личном кабинете на сайте http://www.modxvm.com/
+
+  [НОВЫЕ ФУНКЦИИ]
+  * локализация: добавлен китайский(упрощенный)
+  * stat: использование шифрованного соединения.
+  * добавлено специальное название схемы для тега <img>: xvm:// - путь относительно папки res_mods/xvm
+      например: <img src='xvm://configs/my/icons/foo.png'>
+
+  [ДРУГОЕ]
+  * stat: изменен адрес сервера статистики (теперь https://stat.modxvm.com/ )
+  * основной файл конфига (xvm.xc) перемещен в res_mods/xvm/configs
+  * опция battle/useStandardMarkers перенесена в markers/useStandardMarkers
+  * опция battle/removePanelsModeSwitcher перенесена в playersPanel/removePanelsModeSwitcher
+  * версия конфига увеличена до 5.0.2
+
+XVM-5.1.0:
+  * адаптация к WoT 0.8.11
+
+  [НОВЫЕ ФУНКЦИИ]
+  * новые опции:
+      (battleLoading|battleResults|statisticForm)/showBattleTier - показывать уровень боя
+
+  [ДРУГОЕ]
+  * рейтинг WN по умолчанию изменен на WN8
+  * опция statisticForm/showChancesExp переименована в showChancesLive
+
 XVM-5.0.2:
   * адаптация к WoT 0.8.10
 

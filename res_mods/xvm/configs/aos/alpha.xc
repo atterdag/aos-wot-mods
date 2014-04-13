@@ -56,11 +56,11 @@
     // Dynamic transparency by efficiency
     // Динамическая прозрачность по эффективности
     "eff": [
-      { "value": 630,  "alpha": ${"alphaRating.bad" } },
-      { "value": 860,  "alpha": ${"alphaRating.poor"      } },
-      { "value": 1140, "alpha": ${"alphaRating.average"     } },
-      { "value": 1460, "alpha": ${"alphaRating.good"     } },
-      { "value": 1735, "alpha": ${"alphaRating.excellent"} },
+      { "value": 610,  "alpha": ${"alphaRating.bad" } },
+      { "value": 850,  "alpha": ${"alphaRating.poor"      } },
+      { "value": 1145, "alpha": ${"alphaRating.average"     } },
+      { "value": 1475, "alpha": ${"alphaRating.good"     } },
+      { "value": 1775, "alpha": ${"alphaRating.excellent"} },
       { "value": 9999, "alpha": ${"alphaRating.unicum"   } }
     ],
     // Dynamic transparency by WN6 rating

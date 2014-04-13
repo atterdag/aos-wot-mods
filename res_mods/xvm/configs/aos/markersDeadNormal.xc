@@ -30,7 +30,7 @@
     "shadow": {
       "alpha": 100,                   // Opacity          / Прозрачность.
       "color": "0x000000",            //                    Цвет.
-      "angle": 90,                    // Offset angle     / Угол смещения.
+      "angle": 45,                    // Offset angle     / Угол смещения.
       "distance": 0,                  // Offset distance  / Дистанция смещения.
       "size": 6,                      //                    Размер.
       "strength": 200                 // Intensity        / Интенсивность.
@@ -81,7 +81,7 @@
       "shadow": {
         "alpha": 100,                   // Opacity          / Прозрачность.
         "color": "0x000000",            //                    Цвет.
-        "angle": 90,                    // Offset angle     / Угол смещения.
+        "angle": 45,                    // Offset angle     / Угол смещения.
         "distance": 0,                  // Offset distance  / Дистанция смещения.
         "size": 6,                      //                    Размер.
         "strength": 200                 // Intensity        / Интенсивность.
@@ -193,7 +193,7 @@
       "shadow": {
         "alpha": 100,
         "color": "0x000000",
-        "angle": 90,
+        "angle": 45,
         "distance": 0,
         "size": 6,
         "strength": 200

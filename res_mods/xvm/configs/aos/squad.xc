@@ -13,8 +13,5 @@
     // Формат поля информации о танке.
     // Format of vehicle info field.
     "formatInfoField": "{{rlevel}}"
-//    "leftLvlBorder": "",
-//    "rightLvlBorder": "",
-//    "romanNumbers": true,
   }
 }

@@ -23,7 +23,7 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "5.0.0",
+  "configVersion": "5.0.2",
 
   // Version of the editor.
   // Версия редактора.
@@ -58,7 +58,7 @@
 
     // Address to config updates.
     // Адрес, где выкладываются обновления конфига.
-    "url": "http://code.google.com/p/wot-xvm/",
+    "url": "http://www.modxvm.com/",
 
     // Config last modified.
     // Дата последней модификации конфига.

@@ -30,7 +30,7 @@
     "shadow": {
       "alpha": 100,                   // Opacity          / Прозрачность.
       "color": "0x000000",            //                    Цвет.
-      "angle": 90,                    // Offset angle     / Угол смещения.
+      "angle": 45,                    // Offset angle     / Угол смещения.
       "distance": 0,                  // Offset distance  / Дистанция смещения.
       "size": 6,                      //                    Размер.
       "strength": 200                 // Intensity        / Интенсивность.
@@ -81,7 +81,7 @@
       "shadow": {
         "alpha": 100,                   // Opacity          / Прозрачность.
         "color": "0x000000",            //                    Цвет.
-        "angle": 90,                    // Offset angle     / Угол смещения.
+        "angle": 45,                    // Offset angle     / Угол смещения.
         "distance": 0,                  // Offset distance  / Дистанция смещения.
         "size": 6,                      //                    Размер.
         "strength": 200                 // Intensity        / Интенсивность.
@@ -177,7 +177,7 @@
     "textFields": [
       // Имя игрока
       {
-        "name": "Player Name",           // название текстового поля, ни на что не влияет
+        "name": "Имя игрока",           // название текстового поля, ни на что не влияет
         "visible": true,                // false - не отображать
         "x": 0,                         // положение по оси X
         "y": -34,                       // положение по оси Y
@@ -193,7 +193,7 @@
         "shadow": {                     // параметры тени
           "alpha": 100,                 //   прозрачность
           "color": "0x000000",          //   цвет
-          "angle": 90,                  //   угол смещения
+          "angle": 45,                  //   угол смещения
           "distance": 0,                //   дистанция смещение
           "size": 6,                    //   размер
           "strength": 200               //   интенсивность
@@ -202,7 +202,7 @@
       },
       // Текстовое поле с названием танка
       {
-        "name": "Vehicle Name",       // название текстового поля, ни на что не влияет
+        "name": "Название танка",       // название текстового поля, ни на что не влияет
         "visible": true,                // false - не отображать
         "x": 0,                         // положение по оси X
         "y": -20,                       // положение по оси Y
@@ -218,7 +218,7 @@
         "shadow": {                     // параметры тени
           "alpha": 100,                 //   прозрачность
           "color": "0x000000",          //   цвет
-          "angle": 90,                  //   угол смещения
+          "angle": 45,                  //   угол смещения
           "distance": 0,                //   дистанция смещение
           "size": 6,                    //   размер
           "strength": 200               //   интенсивность
@@ -244,7 +244,7 @@
       "shadow": {
         "alpha": 100,
         "color": "0x000000",
-        "angle": 90,
+        "angle": 45,
         "distance": 0,
         "size": 6,
         "strength": 200
@@ -327,7 +327,7 @@
       // Text field with the player name.
       // Текстовое поле с именем игрока.
       {
-        "name": "Player Name",
+        "name": "Player name",
         "visible": true,
         "x": 0,
         "y": -34,
@@ -343,7 +343,7 @@
         "shadow": {
           "alpha": 100,
           "color": "0x000000",
-          "angle": 90,
+          "angle": 45,
           "distance": 0,
           "size": 6,
           "strength": 200
@@ -353,7 +353,7 @@
       // Text field with the name of the tank.
       // Текстовое поле с названием танка.
       {
-        "name": "Vehicle Name",
+        "name": "Название танка",
         "visible": true,
         "x": 0,
         "y": -20,
@@ -369,7 +369,7 @@
         "shadow": {
           "alpha": 100,
           "color": "0x000000",
-          "angle": 90,
+          "angle": 45,
           "distance": 0,
           "size": 6,
           "strength": 200
