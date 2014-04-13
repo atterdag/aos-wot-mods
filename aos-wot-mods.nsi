@@ -62,12 +62,15 @@ Section "install"
 	SetOutPath $INSTDIR
 	
 	# Files added here should be removed by the uninstaller (see section "uninstall")
-	File /r aos-wot-mods
-	
-	# Add any other files for the install directory (license files, app data, etc) here
 	File "ActiveDossierUploader.exe"
+
+	# Add any other files for the install directory (license files, app data, etc) here
+	File /r aos-wot-mods
 	File /r res_mods
 	File /r res
+	
+	# For some reason NSIS won't include res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\modsOOP\spotMessanger\__init__.pyc is not included, so I'll copy it from 
+	CopyFiles res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\modsOOP\__init__.pyc res_mods\${VERSIONMAJOR}.${VERSIONMINOR}.${VERSIONPATCH}\scripts\client\modsOOP\spotMessanger\__init__.pyc
 	
 	# Uninstaller - See function un.onInit and section "uninstall" for configuration
 	WriteUninstaller "$INSTDIR\aos-wot-mods-uninstall.exe"
