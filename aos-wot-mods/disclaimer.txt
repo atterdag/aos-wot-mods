@@ -2,19 +2,21 @@ I didn't make any of the mods included in the pack!
 
 The mods included are as following:
 
-* J1mB0's Crosshair Mod & XVM Config - http://forum.worldoftanks.eu/index.php?/topic/56831-089-j1mb0s-crosshair-mod-xvm-config/
-* Color Messages and Session Stats - http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/
-* Damage Panel int centered and vanilla - http://forum.worldoftanks.eu/index.php?/topic/89516-089-damage-panel-134-int-centered-and-vanilla/
+* J1mB0's Crosshair Mod & XVM Config - http://forum.worldoftanks.eu/index.php?/topic/56831-089-j1mb0s-crosshair-mod-xvm-config
+* Color Messages and Session Stats - http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats
+* Damage Panel int centered and vanilla - http://forum.worldoftanks.eu/index.php?/topic/89516-089-damage-panel-134-int-centered-and-vanilla
 * XVM Mod - http://www.modxvm.com
 * Active Dossier Uploader - http://www.vbaddict.net
-* Multilined TankCarousel for 0.8.9 by 4lCapwn and CS2001 - http://forum.worldoftanks.com/index.php?/topic/281624-089-multilined-tankcarousel-locastans-mod-for-89-v10/
-* Permanent Serverside Reticle mod - http://forum.worldoftanks.eu/index.php?/topic/295772-088-permanent-serverside-reticle-mod/
+* Multilined TankCarousel for 0.8.9 by 4lCapwn and CS2001 - http://forum.worldoftanks.com/index.php?/topic/281624-089-multilined-tankcarousel-locastans-mod-for-89-v10
+* Permanent Serverside Reticle mod - http://forum.worldoftanks.eu/index.php?/topic/295772-088-permanent-serverside-reticle-mod
 * Serverside Reticle mod - gun_marker_blue_ultraSlimWhite.dds
-* ZoomX - http://drongo-lab.ru/staryj-servernyj-pricel-dlya-0-8-4-i-ne-tolko-zoom-mod/
-* Radial Menu - http://forum.worldoftanks.eu/index.php?/topic/184767-0810-radial-menu-v257-ut-announcer-pack/
+* ZoomX - http://drongo-lab.ru/staryj-servernyj-pricel-dlya-0-8-4-i-ne-tolko-zoom-mod
+* Radial Menu - http://forum.worldoftanks.eu/index.php?/topic/184767-0810-radial-menu-v257-ut-announcer-pack
 * SafeShot - http://wotmodz.com/safeshot.html
 * 6thsense-audio - http://www.koreanrandom.com/forum/index.php?app=core&module=attach&section=attach&attach_id=3936]6thsense-audio
 * Botdetect - http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect
+* SpotMessanger- http://forum.worldoftanks.eu/index.php?/topic/353419-0811spotmessanger
+* Permanent channels - http://forum.worldoftanks.eu/index.php?/topic/377290-0811-permanent-channels
 
 The only thing I've done is to create my own XVM configuration, 6th sense icon, remove a lot of XVM default crap, and wrap an installer around the whole thing to make it easier for others to install the mods.
 

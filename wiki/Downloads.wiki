@@ -3,9 +3,11 @@
 
 == Latest version ==
 
- * *[https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.11.exe 0.8.11.11]*
+ * *[https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.13.exe 0.8.11.13]*
 
 == Previous versions ==
+  * [https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.12.exe 0.8.11.12]
+  * [https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.11.exe 0.8.11.11]
   * [https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.10.exe 0.8.11.10]
   * [https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.9.exe 0.8.11.9]
   * [https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.8.exe 0.8.11.8]
