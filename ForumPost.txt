@@ -1,13 +1,13 @@
 URL: http://www.spades.dk/forum/viewtopic.php?f=32&t=1726
-Title: atterdag's mod pack installer (now with AoS logo) - 0.8.11.13
+Title: AoS' mod pack installer - 0.8.11.14
 Text:
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.13.exe]aos-wot-mods-0.8.11.13.exe[/url][/size]
+[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.14.exe]aos-wot-mods-0.8.11.14.exe[/url][/size]
 
 Here's a zip file for those that don't like an installer.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.13.zip]aos-wot-mods-0.8.11.13.zip[/url][/size]
+[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.8.11.14.zip]aos-wot-mods-0.8.11.14.zip[/url][/size]
 
 I also made a few other installers:
 [list]
@@ -45,7 +45,6 @@ The mods included are as following:
 [*] [url=http://www.koreanrandom.com/forum/index.php?app=core&module=attach&section=attach&attach_id=3936]6thsense-audio[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect/]Botdetect[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353419-0811spotmessanger/]SpotMessanger[/url]
-[*] [url=http://forum.worldoftanks.eu/index.php?/topic/377290-0811-permanent-channels/]Permanent channels[/url]
 [/list]
 
 The changes made to the XVM configuration are:
@@ -66,7 +65,7 @@ The changes made to the XVM configuration are:
 
 The changes made to Color Messages and Session Stats are:
 [list]
-[*]Colors are based on WotLabs.net thresholds
+[*]WR, WN6, and WN8 colors are based on WotLabs.net thresholds
 [/list]
 
 The installer will also add a link to ADU to your Start Menu\Programs\Startup folder.
