@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 9
 !define VERSIONPATCH 0
-!define VERSIONBUILD 0
+!define VERSIONBUILD 1
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -897,6 +897,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.xml
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\MS.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\GunConstraints.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\expected_tank_values.json
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\RadialMenu.xml
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\RadialMenu.pyc
@@ -975,7 +977,15 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\StatisticForm.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\PlayersPanel.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\Minimap.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\GunConstraints.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\DM\DM_ugn.xml
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\DamagePanel.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\crosshair_strategic.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\crosshair_sniper.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\crosshair_panel_strategic.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\crosshair_panel_sniper.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\crosshair_panel_postmortem.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\crosshair_panel_arcade.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\CDPData.xml
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\battle.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\gui_sounds.xml
@@ -984,6 +994,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarousel.cfg
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\battle.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\Application.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\avatar_input_handler.xml
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\SEA\clan
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\SEA
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\RU\nick
@@ -1025,6 +1036,7 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client
     RMDir $INSTDIR\res_mods\0.9.0\scripts
+    RMDir $INSTDIR\res_mods\0.9.0\gui\scaleform\DM
     RMDir $INSTDIR\res_mods\0.9.0\gui\scaleform
     RMDir $INSTDIR\res_mods\0.9.0\gui\flash
     RMDir $INSTDIR\res_mods\0.9.0\gui

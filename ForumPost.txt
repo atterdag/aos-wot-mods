@@ -28,17 +28,19 @@ Here's some details of my mod pack:
 
 The mods included are as following:
 [list]
+[*] [url=http://forum.worldoftanks.eu/index.php?/topic/56831-089-j1mb0s-crosshair-mod-xvm-config/]J1mB0's Crosshair Mod & XVM Config[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/]Session Stats[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/89516-089-damage-panel-134-int-centered-and-vanilla/]Damage Panel int centered and vanilla[/url]
 [*] [url=http://www.modxvm.com]XVM Mod[/url]
 [*] [url=http://www.vbaddict.net]Active Dossier Uploader[/url]
-[*] [url=http://forum.worldoftanks.com/index.php?/topic/281624-089-multilined-tankcarousel-locastans-mod-for-89-v10/]Multilined TankCarousel for 0.8.9 by 4lCapwn and CS2001[/url]
+[*] [url=http://forum.worldoftanks.com/index.php?/topic/281624-089-multilined-tankcarousel-locastans-mod-for-89-v10/]Multilined TankCarousel by 4lCapwn and CS2001[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/184767-0810-radial-menu-v257-ut-announcer-pack/]Radial Menu[/url]
 [*] [url=http://forum.worldoftanks.ru/index.php?/topic/1075087-]SafeShot[/url]
 [*] [url=http://www.koreanrandom.com/forum/index.php?app=core&module=attach&section=attach&attach_id=3936]6thsense-audio[/url]
 [/list]
 
 What is not yet included:
+[list]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/]Color Messages[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/295772-088-permanent-serverside-reticle-mod/]Permanent Serverside Reticle mod[/url]
 [*] Serverside Reticle mod - gun_marker_blue_ultraSlimWhite.dds
