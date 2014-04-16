@@ -1,26 +1,12 @@
-/**
- * Estonian translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "jyrka98, Mikk Kiilaspää",
-
-    // Ping
     "Initialization": "Käivitumine",
-
-    // BattleLoading
     "New version available": "Uus versioon saadaval",
-
-    // Win chance
     "Chance error": "Tõenäosuse viga",
     "Chance to win": "Võidu tõenäosus",
-    //"global": "üldine",
-    //"per-vehicle": "masinapõhine",
     "chanceLive": "Live",
     "chanceBattleTier": "T",
-
-    // Hitlog
     "attack": "mürsk",
     "fire": "tuli",
     "ramming": "rammimine",
@@ -28,23 +14,15 @@
     "Hits": "Tabamusi",
     "Total": "Kokku",
     "Last": "Viimane",
-
-    // Hp Left
     "hpLeftTitle": "Elusid alles:",
-
-    // Capture
     "enemyBaseCapture": "Vaenlaste baasi vallutus!",
     "enemyBaseCaptured": "Vaenlaste baas on vallutatud!",
     "allyBaseCapture": "Sinu baasi vallutus!",
     "allyBaseCaptured": "Sinu baas on vallutatud!",
     "Timeleft": "Aega jäänud",
     "Capturers": "Vallutajaid",
-
-    // BattleResults
     "Hit percent": "Tabamus",
     "Damage (assisted / own)": "Kahju (abistatud / enda)",
-
-    // TeamRenderers
     "Friend": "Sõber",
     "Ignored": "Ignoreeritud",
     "unknown": "tundmatu",
@@ -52,8 +30,6 @@
     "Wins": "Võite",
     "Data was updated at": "Andmed uuendatud",
     "Load statistics": "Lae statistika",
-
-    // UserInfo
     "General stats": "Üldine statistika",
     "Summary": "Kokkuvõte",
     "Avg level": "Keskmine järk",
@@ -87,13 +63,9 @@
     "Average hits received": "Keskmine saadud tabamuste arv",
     "Average penetrations received": "Keskmine saadud läbistamiste arv",
     "Average ricochets received": "Keskmine saadud rikošettide arv",
-
-    // Crew
     "PutOwnCrew": "Pane oma meeskond",
     "PutBestCrew": "Pane parim meeskond",
     "PutClassCrew": "Pane sama klassi meeskond",
-
-    // Squad
     "Vehicle": "Masin",
     "Battle tiers": "Lahingu järgud",
     "Type": "Tüüp",
@@ -110,8 +82,6 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-
-    // VehicleMarkersManager
     "blownUp": "Plahvatas!"
   }
 }

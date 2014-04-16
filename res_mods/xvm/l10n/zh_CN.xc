@@ -1,26 +1,12 @@
-﻿/**
- * Chinese(simplified) translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "Rick Chen  陈郭",
-
-    // Ping
     "Initialization": "初始化",
-
-    // BattleLoading
     "New version available": "有新版本可以更新",
-
-    // Win chance
     "Chance error": "失败概率",
     "Chance to win": "胜利概率",
-    //"global": "全局",
-    //"per-vehicle": "单车",
     "chanceLive": "存活率",
     "chanceBattleTier": "战斗分级",
-
-    // Hitlog
     "attack": "攻击",
     "fire": "起火",
     "ramming": "撞击",
@@ -28,23 +14,15 @@
     "Hits": "命中",
     "Total": "总共",
     "Last": "最后",
-
-    // Hp Left
     "hpLeftTitle": "剩余生命值:",
-
-    // Capture
     "enemyBaseCapture": "我军正攻占敌军基地!",
     "enemyBaseCaptured": "敌军基地已被我军拿下!",
     "allyBaseCapture": "敌军正在攻占我军基地!",
     "allyBaseCaptured": "我军基地已被敌军占领!",
     "Timeleft": "剩余时间",
     "Capturers": "入侵人数",
-
-    // BattleResults
     "Hit percent": "命中率",
     "Damage (assisted / own)": "伤害 (助攻 / 主攻)",
-
-    // TeamRenderers
     "Friend": "好友",
     "Ignored": "忽略",
     "unknown": "未知",
@@ -52,8 +30,6 @@
     "Wins": "胜利",
     "Data was updated at": "数据被更新到",
     "Load statistics": "加载统计信息",
-
-    // UserInfo
     "General stats": "综合统计",
     "Summary": "总结",
     "Avg level": "平均等级",
@@ -87,13 +63,9 @@
     "Average hits received": "平均承受伤害",
     "Average penetrations received": "平均被击穿数",
     "Average ricochets received": "平均跳弹数",
-
-    // Crew
     "PutOwnCrew": "使用本车乘员",
     "PutBestCrew": "使用最佳乘员",
     "PutClassCrew": "使用同类乘员",
-
-    // Squad
     "Vehicle": "车辆",
     "Battle tiers": "战斗等级",
     "Type": "类别",
@@ -105,13 +77,11 @@
     "uk": "英国",
     "china": "中国",
     "japan": "日本",
-    "HT": "重型坦克",  
+    "HT": "重型坦克",
     "MT": "中型坦克",
     "LT": "轻型坦克",
     "TD": "反坦克歼击车",
     "SPG": "自行火炮",
-
-    // VehicleMarkersManager
     "blownUp": "击毁弹药架!"
   }
 }

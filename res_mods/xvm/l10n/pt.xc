@@ -1,26 +1,12 @@
-﻿/**
- * Portuguese_PT translation file
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "Xft",
-
-    // Ping
     "Initialization": "Inicialização",
-
-    // BattleLoading
     "New version available": "Nova versão disponível",
-
-    // Win chance
     "Chance error": "Margem de erro",
     "Chance to win": "Probabilidade de vitória",
-    //"global": "global",
-    //"per-vehicle": "por veículo",
     "chanceLive": "Em combate",
     "chanceBattleTier": "nível",
-
-    // Hitlog
     "attack": "ataque",
     "fire": "fogo",
     "ramming": "colisão",
@@ -28,23 +14,15 @@
     "Hits": "Impactos",
     "Total": "Total",
     "Last": "Último",
-
-    // Hp Left
     "hpLeftTitle": "Pontos de dano disponiveis:",
-
-    // Capture
     "enemyBaseCapture": "Captura da base inimiga!",
     "enemyBaseCaptured": "Base inimiga capturada!",
     "allyBaseCapture": "Captura da base aliada!",
     "allyBaseCaptured": "Base aliada capturada!",
     "Timeleft": "Tempo restante",
     "Capturers": "Captores",
-
-    // BattleResults
     "Hit percent": "Taxa de impactos",
     "Damage (assisted / own)": "Dano (assistido / próprio)",
-
-    // TeamRenderers
     "Friend": "Amigo",
     "Ignored": "Ignorado",
     "unknown": "desconhecido",
@@ -52,8 +30,6 @@
     "Wins": "Vitórias",
     "Data was updated at": "Última actualização de dados em",
     "Load statistics": "Carregar estatísticas",
-
-    // UserInfo
     "General stats": "Estatísticas gerais",
     "Summary": "Resumo",
     "Avg level": "Nivel méd",
@@ -87,13 +63,9 @@
     "Average hits received": "Média de impactos recebidos",
     "Average penetrations received": "Média de penetrações recebidas",
     "Average ricochets received": "Média de ricochetes recebidos",
-
-    // Crew
     "PutOwnCrew": "Colocar a própria tripulação",
     "PutBestCrew": "Colocar a melhor tripulação",
     "PutClassCrew": "Colocar tripulação da mesma classe",
-
-    // Squad
     "Vehicle": "Veículo",
     "Battle tiers": "Níveis de batalha",
     "Type": "Tipo",
@@ -110,8 +82,6 @@
     "LT": "TL",
     "TD": "AT",
     "SPG": "ART",
-
-    // VehicleMarkersManager
     "blownUp": "Explodido!"
   }
 }

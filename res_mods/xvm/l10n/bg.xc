@@ -1,26 +1,12 @@
-﻿/**
- * Bulgarian translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "Георги Шарапанов/Georgi Sharapanov",
-
-    // Ping
     "Initialization": "Започване",
-
-    // BattleLoading
     "New version available": "Налична е нова версия",
-
-    // Win chance
     "Chance error": "Възможност за грешка",
     "Chance to win": "Възможност за победа",
-    //"global": "световен",
-    //"per-vehicle": "по машина",
     "chanceLive": "Live",
     "chanceBattleTier": "Т",
-
-    // Hitlog
     "attack": "изстрел",
     "fire": "огън",
     "ramming": "зблъсък",
@@ -28,23 +14,15 @@
     "Hits": "Удари",
     "Total": "Общо",
     "Last": "Последен",
-
-    // Hp Left
     "hpLeftTitle": "Оставащ живот:",
-
-    // Capture
     "enemyBaseCapture": "Завладяване на вражата база!",
     "enemyBaseCaptured": "Вражата база е завладяна!",
     "allyBaseCapture": "Завладяване на базата ни!",
     "allyBaseCaptured": "Базата ни е завладяна!",
     "Timeleft": "Оставащо време",
     "Capturers": "Завладяващи",
-
-    // BattleResults
     "Hit percent": "Процент удари",
     "Damage (assisted / own)": "Щети (спомогнати / свои)",
-
-    // TeamRenderers
     "Friend": "Приятел",
     "Ignored": "Игнориран",
     "unknown": "unknown",
@@ -52,8 +30,6 @@
     "Wins": "Победи",
     "Data was updated at": "Данните са обновени на",
     "Load statistics": "Зареди статистика",
-
-    // UserInfo
     "General stats": "Главни статистики",
     "Summary": "Обобщение",
     "Avg level": "Средно ниво",
@@ -87,13 +63,9 @@
     "Average hits received": "Средни получени удари",
     "Average penetrations received": "Средни получени пробивания",
     "Average ricochets received": "Средни получени отскоци",
-
-    // Crew
     "PutOwnCrew": "Постави роден екипаж",
     "PutBestCrew": "Постави най-добрия екипаж",
     "PutClassCrew": "Постави екипаж от същият клас",
-
-    // Squad
     "Vehicle": "Машина",
     "Battle tiers": "Бойни нива",
     "Type": "Вид",
@@ -110,8 +82,6 @@
     "LT": "ЛТ",
     "TD": "ПТ-СаУ",
     "SPG": "СаУ",
-
-    // VehicleMarkersManager
     "blownUp": "Взривен!"
   }
 }

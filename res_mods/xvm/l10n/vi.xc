@@ -1,26 +1,12 @@
-﻿/**
- * Vietnamese translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "3ar0n - VNFS",
-
-    // Ping
     "Initialization": "Đang khởi tạo",
-
-    // BattleLoading
     "New version available": "Đã có phiên bản mới",
-
-    // Win chance
     "Chance error": "Sai sót",
     "Chance to win": "Cơ hội chiến thắng",
-    //"global": "tổng thể",
-    //"per-vehicle": "cá nhân",
     "chanceLive": "Live",
     "chanceBattleTier": "T",
-
-    // Hitlog
     "attack": "bắn",
     "fire": "cháy",
     "ramming": "húc",
@@ -28,23 +14,15 @@
     "Hits": "Trúng",
     "Total": "Tổng",
     "Last": "Cuối",
-
-    // Hp Left
     "hpLeftTitle": "HP địch còn lại:",
-
-    // Capture
     "enemyBaseCapture": "Đang chiếm cứ điểm địch!",
     "enemyBaseCaptured": "Hoàn thành chiếm cứ điểm!",
     "allyBaseCapture": "Đang bị chiếm cứ điểm!",
     "allyBaseCaptured": "Cứ điểm đã bị chiếm!",
     "Timeleft": "Còn lại",
     "Capturers": "Xe chiếm",
-
-    // BattleResults
     "Hit percent": "Tỉ lệ trúng",
     "Damage (assisted / own)": "Sát thương (hỗ trợ / bản thân)",
-
-    // TeamRenderers
     "Friend": "Bạn bè",
     "Ignored": "Bỏ qua",
     "unknown": "không rõ",
@@ -52,8 +30,6 @@
     "Wins": "Thắng",
     "Data was updated at": "Dữ liệu được cập nhật lúc",
     "Load statistics": "Tải thống kê",
-
-    // UserInfo
     "General stats": "Thông số chung",
     "Summary": "Tổng",
     "Avg level": "Cấp độ trung bình",
@@ -87,13 +63,9 @@
     "Average hits received": "Bị bắn trúng mỗi trận",
     "Average penetrations received": "Bị bắn xuyên giáp mỗi trận",
     "Average ricochets received": "Bị bắn không xuyên giáp mỗi trận",
-
-    // Crew
     "PutOwnCrew": "Dùng kíp lái của xe",
     "PutBestCrew": "Dùng kíp lái tốt nhất",
     "PutClassCrew": "Dùng kíp lái cùng loại",
-
-    // Squad
     "Vehicle": "Xe",
     "Battle tiers": "Cấp độ trận đấu",
     "Type": "Kiểu",
@@ -110,8 +82,6 @@
     "LT": "Tăng hạng nhẹ",
     "TD": "Pháo chống tăng",
     "SPG": "Pháo tự hành",
-
-    // VehicleMarkersManager
     "blownUp": "Phát nổ!"
   }
 }

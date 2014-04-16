@@ -1,26 +1,12 @@
-﻿/**
- * Japanese translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "naokii",
-
-    // Ping
     "Initialization": "初期化中",
-
-    // BattleLoading
     "New version available": "新しいバージョンがあります",
-
-    // Win chance
     "Chance error": "誤差",
     "Chance to win": "勝利予想",
-    //"global": "総合",
-    //"per-vehicle": "対車両",
     "chanceLive": "Live",
     "chanceBattleTier": "戦闘Tier",
-
-    // Hitlog
     "attack": "攻撃",
     "fire": "火災",
     "ramming": "体当たり",
@@ -28,23 +14,15 @@
     "Hits": "命中",
     "Total": "総ダメージ",
     "Last": "直近",
-
-    // Hp Left
     "hpLeftTitle": "残HP:",
-
-    // Capture
     "enemyBaseCapture": "敵陣地を占領中!",
     "enemyBaseCaptured": "敵陣地の占領を完了!",
     "allyBaseCapture": "味方陣地が敵により占領中!",
     "allyBaseCaptured": "味方陣地が敵により占領!",
     "Timeleft": "残り時間",
     "Capturers": "車両数",
-
-    // BattleResults
     "Hit percent": "命中率",
     "Damage (assisted / own)": "ダメージ (アシスト / 直接)",
-
-    // TeamRenderers
     "Friend": "僚機",
     "Ignored": "拒否",
     "unknown": "不明",
@@ -52,8 +30,6 @@
     "Wins": "勝利数",
     "Data was updated at": "によりデータを更新",
     "Load statistics": "統計情報を読み込み",
-
-    // UserInfo
     "General stats": "統計情報",
     "Summary": "サマリー",
     "Avg level": "平均レベル",
@@ -69,13 +45,9 @@
     "Capture points": "占領ポイント",
     "Defence points": "防御ポイント",
     "Filter": "フィルター",
-
-    // Crew
     "PutOwnCrew": "元のクルーを搭乗",
     "PutBestCrew": "最適なクルーを搭乗",
     "PutClassCrew": "同クラスのクルーを搭乗",
-
-    // Squad
     "Vehicle": "車両",
     "Battle tiers": "戦闘対象Tier",
     "Type": "タイプ",
@@ -92,8 +64,6 @@
     "LT": "軽戦車",
     "TD": "駆逐戦車",
     "SPG": "自走砲",
-
-    // VehicleMarkersManager
     "blownUp": "爆散!"
   }
 }

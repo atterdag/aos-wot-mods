@@ -1,52 +1,28 @@
-﻿/**
- * Chinese Traditional[Taiwan] translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "(SG)LiNcUtT[507SW]",
-
-    // Ping
     "Initialization": "初始化中",
-
-    // BattleLoading
     "New version available": "新版已出!",
-
-    // Win chance
     "Chance error": "失敗率",
     "Chance to win": "獲勝率",
-    //"global": "總勝率",
-    //"per-vehicle": "車輛勝率",
     "chanceLive": "存活率",
     "chanceBattleTier": "分房階級",
-
-    // Hitlog
     "attack": "射擊",
     "fire": "火災",
     "ramming": "撞擊",
     "world_collision": "墜落",
     "Hits": "擊中數",
     "Total": "總傷害",
-    "AvgDmg": "平均傷害",
     "Last": "前次傷害",
-
-    // Hp Left
     "hpLeftTitle": "敵軍剩餘血量:",
-
-    // Capture
     "enemyBaseCapture": "佔領敵軍基地中!",
     "enemyBaseCaptured": "勝利! 已攻陷敵軍基地!",
     "allyBaseCapture": "敵軍佔領基地中!",
     "allyBaseCaptured": "失敗! 自軍基地已淪陷!",
     "Timeleft": "剩餘時間",
     "Capturers": "佔領人數",
-    "CapProgress": "佔領進度",
-
-    // BattleResults
     "Hit percent": "命中率",
     "Damage (assisted / own)": "傷害 (輔助 / 輸出)",
-
-    // TeamRenderers
     "Friend": "好友",
     "Ignored": "黑名單",
     "unknown": "未知",
@@ -54,8 +30,6 @@
     "Wins": "勝場數",
     "Data was updated at": "資料更新於",
     "Load statistics": "讀取數據中",
-
-    // UserInfo
     "General stats": "統計",
     "Summary": "總計",
     "Avg level": "平均車輛階級",
@@ -72,8 +46,6 @@
     "Capture points": "基地佔領點數",
     "Defence points": "基地防禦點數",
     "Filter": "篩選器",
-
-    // Extra data (Experimental)
     "Extra data (WoT 0.8.8+)": "額外數據 (WoT 0.8.8+)",
     "Average battle time": "平均每場戰鬥時間",
     "Average battle time per day": "平均每日戰鬥時間",
@@ -91,13 +63,9 @@
     "Average hits received": "平均被擊中數",
     "Average penetrations received": "平均被擊中穿透數",
     "Average ricochets received": "平均被擊中未穿透數",
-
-    // Crew
     "PutOwnCrew": "使用本車成員",
     "PutBestCrew": "使用最佳乘員",
     "PutClassCrew": "使用同類型成員",
-
-    // Squad
     "Vehicle": "車輛名稱",
     "Battle tiers": "分房階級",
     "Type": "車輛類型",
@@ -114,8 +82,6 @@
     "LT": "輕型戰車",
     "TD": "驅逐戰車",
     "SPG": "自走炮",
-
-    // VehicleMarkersManager
     "blownUp": "彈藥架殉爆!"
   }
 }

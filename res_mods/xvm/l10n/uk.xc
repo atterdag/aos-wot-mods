@@ -1,26 +1,12 @@
-﻿/**
- * Ukrainian translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "RedMor, Vlad VirusX",
-
-    // Ping
     "Initialization": "Ініціалізація",
-
-    // BattleLoading
     "New version available": "Доступна нова версія",
-
-    // Win chance
     "Chance error": "Помилка розрахунку шансів",
     "Chance to win": "Шанси на перемогу",
-    //"global": "загальний",
-    //"per-vehicle": "по техніці",
     "chanceLive": "Живі",
     "chanceBattleTier": "T",
-
-    // Hitlog
     "attack": "атака",
     "fire": "пожежа",
     "ramming": "таран",
@@ -28,23 +14,15 @@
     "Hits": "Пробито",
     "Total": "Всього",
     "Last": "Останній",
-
-    // Hp Left
     "hpLeftTitle": "Залишилось HP:",
-
-    // Capture
     "enemyBaseCapture": "Захоплення бази союзниками!",
     "enemyBaseCaptured": "База захоплена союзниками!",
     "allyBaseCapture": "Захоплення бази ворогами!",
     "allyBaseCaptured": "База захоплена ворогами!",
     "Timeleft": "Залишилось",
     "Capturers": "Загарбників",
-
-    // BattleResults
     "Hit percent": "Відсоток влучень",
     "Damage (assisted / own)": "Пошкодження (з вашою допомогою / свої)",
-
-    // TeamRenderers
     "Friend": "Друг",
     "Ignored": "Ігнор",
     "unknown": "невідомо",
@@ -52,8 +30,6 @@
     "Wins": "Перемог",
     "Data was updated at": "Дані були оновлені",
     "Load statistics": "Завантажити статистику",
-
-    // UserInfo
     "General stats": "Загальна статистика",
     "Summary": "Загальні результати",
     "Avg level": "Середній рівень",
@@ -87,13 +63,9 @@
     "Average hits received": "У середньому отримано влучень",
     "Average penetrations received": "У середньому отримано пробить",
     "Average ricochets received": "У середньому отримано рикошетів",
-
-    // Crew
     "PutOwnCrew": "Рідний екіпаж",
     "PutBestCrew": "Кращий екіпаж",
     "PutClassCrew": "Екіпаж того ж класу",
-
-    // Squad
     "Vehicle": "Танк",
     "Battle tiers": "Рівень боїв",
     "Type": "Тип",
@@ -110,8 +82,9 @@
     "LT": "ЛТ",
     "TD": "ПТ",
     "SPG": "САУ",
-
-    // VehicleMarkersManager
-    "blownUp": "Вибух БК!"
+    "blownUp": "Вибух БК!",
+    "token/blocked": "Статус: <font color='#FF0000'>Заблокован</font>\n{{l10n:token/notify_xvm_site}}",
+    "token/days_left": "Залишилось днiв:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/hours_left": "Залишилось годин:<tab/><font color='#ffff00'>{0}</font>"
   }
 }

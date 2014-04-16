@@ -1,26 +1,12 @@
-﻿/**
- * Polish translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "XVM Team, wRR, shogomad, jerry1333",
-
-    // Ping
     "Initialization": "Inicjalizacja",
-
-    // BattleLoading
     "New version available": "Nowa wersja dostępna",
-
-    // Win chance
     "Chance error": "Szansa (błąd)",
     "Chance to win": "Szansa na wygraną",
-    //"global": "globalnie",
-    //"per-vehicle": "per-pojazd",
     "chanceLive": "Szansa na wygraną (na żywo)",
     "chanceBattleTier": "Tier",
-
-    // Hitlog
     "attack": "atak",
     "fire": "ogień",
     "ramming": "taranowanie",
@@ -28,23 +14,15 @@
     "Hits": "Trafienia",
     "Total": "Łącznie",
     "Last": "Ostatnie",
-
-    // Hp Left
     "hpLeftTitle": "Pozostałe punkty życia:",
-
-    // Capture
     "enemyBaseCapture": "Okupacja bazy przeciwnika!",
     "enemyBaseCaptured": "Baza przeciwnika opanowana!",
     "allyBaseCapture": "Okupacja naszej bazy!",
     "allyBaseCaptured": "Zdobyto naszą bazę!",
     "Timeleft": "Pozostało czasu",
     "Capturers": "Okupantów",
-
-    // BattleResults
     "Hit percent": "Procent trafień",
     "Damage (assisted / own)": "Obrażenia (asysta / własne)",
-
-    // TeamRenderers
     "Friend": "Przyjaciel",
     "Ignored": "Ignorowany",
     "unknown": "nieznany",
@@ -52,8 +30,6 @@
     "Wins": "Wygrane",
     "Data was updated at": "Dane zaktualizowano",
     "Load statistics": "Pokaż statystyki",
-
-    // UserInfo
     "General stats": "Ogólne statystyki",
     "Summary": "Podsumowanie",
     "Avg level": "Śr. poziom",
@@ -87,13 +63,9 @@
     "Average hits received": "Śr. otrzymanych trafień",
     "Average penetrations received": "Śr. otrzymanych trafień penetrujących",
     "Average ricochets received": "Śr. otrzymanych rykoszetów",
-
-    // Crew
     "PutOwnCrew": "Obsadź załogę (własna)",
     "PutBestCrew": "Obsadź załogę (najlepsza)",
     "PutClassCrew": "Obsadź członka załogi tej samej klasy",
-    
-    // Squad
     "Vehicle": "Pojazd",
     "Battle tiers": "Poziom pojazdów w bitwie",
     "Type": "Typ",
@@ -110,11 +82,7 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-
-    // VehicleMarkersManager
     "blownUp": "Zniszczony!",
-
-    // Token
     "token/network_error": "Błąd sieci. Statystyki XVM sa niedostępne, spróbuj ponownie później.",
     "token/bad_token": "Błędny token.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Stan: <font color='#FF0000'>Zablokowany</font><br>{{l10n:token/notify_xvm_site}}",

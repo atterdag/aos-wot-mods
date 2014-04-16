@@ -1,26 +1,12 @@
-﻿/**
- * Lithuanian translation file.
- */
 {
   "locale": {
-    // Author of translation
     "XVM_translator": "Miega",
-
-    // Ping
     "Initialization": "Pasiruošimas",
-
-    // BattleLoading
     "New version available": "Yra nauja versija!",
-
-    // Win chance
     "Chance error": "Tikimybės klaida",
     "Chance to win": "Laimėjimo tikimybė",
-    //"global": "globali",
-    //"per-vehicle": "pagal tankus",
     "chanceLive": "Live",
     "chanceBattleTier": "T",
-
-    // Hitlog
     "attack": "šūvis",
     "fire": "ugnis",
     "ramming": "raminimas",
@@ -28,23 +14,15 @@
     "Hits": "Pataikymai",
     "Total": "Viso",
     "Last": "Paskutinis",
-
-    // Hp Left
     "hpLeftTitle": "Liko gyvybės:",
-
-    // Capture
     "enemyBaseCapture": "Saviškiai puola bazę!",
     "enemyBaseCaptured": "Saviškiai paimė bazę!",
     "allyBaseCapture": "Priešai puola bazę!",
     "allyBaseCaptured": "Priešai paimė bazę!",
     "Timeleft": "Liko laiko",
     "Capturers": "Puolėjų",
-
-    // BattleResults
     "Hit percent": "Pataikymo procentas",
     "Damage (assisted / own)": "Žala (pagalbinė / sava)",
-
-    // TeamRenderers
     "Friend": "Draugas",
     "Ignored": "Ignoruojamas",
     "unknown": "nežinomas",
@@ -52,8 +30,6 @@
     "Wins": "Laimėjimai",
     "Data was updated at": "Duomenys atnaujinti",
     "Load statistics": "Užkrauti statistiką",
-
-    // UserInfo
     "Summary": "Santrauka",
     "Avg level": "Vid lygis",
     "WN6": "WN6",
@@ -68,13 +44,9 @@
     "Capture points": "Puolimo taškai",
     "Defence points": "Gynybos taškai",
     "Filter": "Filtras",
-
-    // Crew
     "PutOwnCrew": "Įdėti savą įgulą",
     "PutBestCrew": "Įdėti geriausią įgulą",
     "PutClassCrew": "Įdėti tos pačios klasės įgulą",
-
-    // Squad
     "Vehicle": "Mašina",
     "Battle tiers": "Kovos lygiai",
     "Type": "Tipas",
@@ -91,8 +63,6 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-
-    // VehicleMarkersManager
     "blownUp": "Sprogo!"
   }
 }
