@@ -1,27 +1,14 @@
 URL: http://www.spades.dk/forum/viewtopic.php?f=32&t=1726
-Title: AoS' mod pack installer - 0.9.0.0
+Title: AoS' mod pack installer - 0.9.0.1
 Text:
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.0.exe]aos-wot-mods-0.9.0.0.exe[/url][/size]
+[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.1.exe]aos-wot-mods-0.9.0.1.exe[/url][/size]
 
 Here's a zip file for those that don't like an installer.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.0.zip]aos-wot-mods-0.9.0.0.zip[/url][/size]
+[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.1.zip]aos-wot-mods-0.9.0.1.zip[/url][/size]
 
-I also made a few other installers:
-[list]
-[*] Pog's contour icons for those who are in to them
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/pogs-wot-icons-mod-0.8.11.1.exe]pogs-wot-icons-mod-0.8.11.1.exe[/url]
-[*] Gnome Fathers sound mods (both engine and guns)
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/gnomefathers-wot-sound-mods-0.8.11.1.exe]gnomefathers-wot-sound-mods-0.8.11.1.exe[/url]
-[*] XVM Full Clan Icons for EU
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/clanicons-full-eu-0.8.11.1.exe]clanicons-full-eu-0.8.11.1.exe[/url]
-[*] Hangar "Victory Day" for World of Tanks
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/Prem_Angar-051-0.8.11.1.exe]Prem_Angar-051-0.8.11.1.exe[/url] - [i]If used with GnomeFather' sound mods, then you MUST install GnomeFather's sound mods BEFORE installing this.[/i]
-[*] Hangar "Workshop WG" for World of Tanks
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/Prem_Angar-070-0.8.11.1.exe]Prem_Angar-070-0.8.11.1.exe[/url]
-[/list]
 Its kinda fun, and easy to use NSIS, so if anyone wants some advise, then I'll be happy to help.
 
 Here's some details of my mod pack:
