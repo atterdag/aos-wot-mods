@@ -12,9 +12,9 @@
 !define DESCRIPTION "A compilation of mods used by Ace of Spades"
 # These three must be integers
 !define VERSIONMAJOR 0
-!define VERSIONMINOR 8
-!define VERSIONPATCH 11
-!define VERSIONBUILD 14
+!define VERSIONMINOR 9
+!define VERSIONPATCH 0
+!define VERSIONBUILD 0
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -171,6 +171,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\WG-VK.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\WG-TV.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\WG-TM.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\WG-TG.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\WG-P.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\WG-M.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\WG-B.png
@@ -780,6 +781,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\l10n\vi.xc
     Delete $INSTDIR\res_mods\xvm\l10n\uk.xc
     Delete $INSTDIR\res_mods\xvm\l10n\tr.xc
+    Delete $INSTDIR\res_mods\xvm\l10n\th.xc
     Delete $INSTDIR\res_mods\xvm\l10n\sv.xc
     Delete $INSTDIR\res_mods\xvm\l10n\sr.xc
     Delete $INSTDIR\res_mods\xvm\l10n\sk.xc
@@ -796,8 +798,11 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\l10n\ko.xc
     Delete $INSTDIR\res_mods\xvm\l10n\ja.xc
     Delete $INSTDIR\res_mods\xvm\l10n\it.xc
+    Delete $INSTDIR\res_mods\xvm\l10n\id.xc
     Delete $INSTDIR\res_mods\xvm\l10n\hu.xc
+    Delete $INSTDIR\res_mods\xvm\l10n\hr.xc
     Delete $INSTDIR\res_mods\xvm\l10n\fr.xc
+    Delete $INSTDIR\res_mods\xvm\l10n\fil.xc
     Delete $INSTDIR\res_mods\xvm\l10n\fi.xc
     Delete $INSTDIR\res_mods\xvm\l10n\et.xc
     Delete $INSTDIR\res_mods\xvm\l10n\es.xc
@@ -886,271 +891,99 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\configs\@Default\@xvm.xc
     Delete $INSTDIR\res_mods\ids_wipe.json
     Delete $INSTDIR\res_mods\ids_bots.json
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\waiting.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\vehicle_customization_cn.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\vehicle_customization.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\ussr_vehicles.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\ussr_tankmen.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\usa_vehicles.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\usa_tankmen.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\tutorial.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\tooltips.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\tips.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\system_messages.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\settings.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\retrain_crew.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\recaptcha.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\quests.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\profile.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\prebattle.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\nations.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\messenger.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\menu.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\lobby_help.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\kong_captcha.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\japan_vehicles.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\japan_tankmen.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\item_types.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\invites.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\ingame_help.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\ingame_gui.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\germany_vehicles.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\germany_tankmen.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\gb_vehicles.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\gb_tankmen.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\france_vehicles.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\france_tankmen.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\faq.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\dialogs.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\development.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\cybersport.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\crew_operations.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\controls.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\china_vehicles.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\china_tankmen.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\chat.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\captcha.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\battle_tutorial.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\battle_results.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\ban_reason.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\artefacts.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\arenas.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\AOGAS.mo
-    Delete $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES\achievements.mo
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\spotMessanger\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\spotMessanger\SpotMessanger.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\spotMessanger\config.xml
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SpotMessangerLoader.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\VehicleEliteIcon.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#FE7903.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#FE7803.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#F11503.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#EEFE62.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#EEFD62.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#EEDC82.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#EEDB82.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#BE62FF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#34D800.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#029615.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier\#029515.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\spotted40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\service40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Line.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\GoldIcon-1-20x16.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\CreditsIconBig-1-20x16.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\#FFCC00.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\#FE7903.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\#EE0001.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\#EE0000.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\#D042F3.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\#02C9B3.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\#00EE00.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\!Hits.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SafeShot.xml
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\SafeShot.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\MS.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\GunConstraints.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\sysMsg_ru.json
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\sysMsg.json
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\macros.txt
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#FFA462.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#FFA362.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#FF6262.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#fc6060.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#EEFF62.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#EEFE62.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#BE62FF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#BE61FF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#62FF78.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#62FE78.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#62BEFF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1\#62BDFF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#FFA462.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#FFA362.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#FF6262.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#FC6060.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#EEFF62.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#EEFE62.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#BE62FF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#BE61FF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#62FF78.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#62FE78.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#62BEFF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon\#62BDFF.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\wins40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\win.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\TankGrey.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\survival40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\shells.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\Repair.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000011.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000010.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000009.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000008.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000007.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000006.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000005.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000004.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000003.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000002.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks\#000001.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\maxExp40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\invader.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\Image01.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\hits40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\Equipment.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\draw.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\defender.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\damage.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\battles40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\avgExp40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\avgDamage40x32.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#FFCC00.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#FE7903.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#FE0E00.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#FE0000.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#F8F400.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#EE0001.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#EE0000.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#D042F3.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#60FF00.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#02C9B3.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\#00EE00.png
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\expected_tank_values_latest.json
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\exel.cfg
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\colors.json
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\Circle15.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\Circle15.cfg
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\BRR.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\botdetect.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\mods\ATS.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui\scaleform\view\battlechannelview.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui\messengerDispatcher.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\RadialMenu.xml
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\RadialMenu.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\locale\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi\view\meta\tankcarouselmeta.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi\view\lobby\hangar\tankcarousel.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\__version__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\xvm.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\wn8.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\websocket.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\websock.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\vehinfo_tiers.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\vehinfo_stat_top.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\vehinfo_stat_avg.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\vehinfo_short.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\vehinfo.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\utils.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\token.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\x509certchain.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\x509.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\tackwrapper.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\rsakey.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\rijndael.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\rc4.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\python_rsakey.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\python_rc4.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\python_aes.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\pem.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\keyfactory.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\cryptomath.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\compat.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\codec.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\cipherfactory.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\asn1parser.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils\aes.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\tlsrecordlayer.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\tlsconnection.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\session.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\messages.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\mathtls.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\integration\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\integration\httptlsconnection.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\integration\clienthelper.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\handshakesettings.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\errors.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\constants.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\checker.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\api.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\test.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\stats.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\pinger.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\logger.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\loadurl.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\gameregion.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\dossier.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\db.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\constants.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\appstart.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xpm.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\kwg_waiting_fix\__version__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\kwg_waiting_fix\__init__.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\CameraNode.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\DynamicCameras\SniperCamera.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\DynamicCameras\ArcadeCamera.pyc
-    Delete $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\control_modes.pyc
-    Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.visual
-    Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.primitives
-    Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.model
-    Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.dds.orig
-    Delete $INSTDIR\res_mods\0.8.11\objects\Circle15.dds
-    Delete $INSTDIR\res_mods\0.8.11\gui\ZoomX.xml
-    Delete $INSTDIR\res_mods\0.8.11\gui\ServerCross.xml
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\xvm.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\VehicleMarkersManager.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\TeamBasesPanel.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\StatisticForm.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\PlayersPanel.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\Minimap.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\GunConstraints.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\DM\DM_ugn.xml
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\DamagePanel.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\crosshair_strategic.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\crosshair_sniper.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\crosshair_panel_strategic.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\crosshair_panel_sniper.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\crosshair_panel_postmortem.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\crosshair_panel_arcade.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\CDPData.xml
-    Delete $INSTDIR\res_mods\0.8.11\gui\scaleform\battle.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\messenger.xml
-    Delete $INSTDIR\res_mods\0.8.11\gui\maps\ingame\aim\gun_marker_blue.dds
-    Delete $INSTDIR\res_mods\0.8.11\gui\maps\ingame\aim\gun_marker.dds
-    Delete $INSTDIR\res_mods\0.8.11\gui\gui_sounds.xml
-    Delete $INSTDIR\res_mods\0.8.11\gui\flash\TankCarouselFilterControls.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\flash\TankCarousel.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\flash\TankCarousel.cfg
-    Delete $INSTDIR\res_mods\0.8.11\gui\flash\battle.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\flash\Application.swf
-    Delete $INSTDIR\res_mods\0.8.11\gui\avatar_input_handler.xml
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\trata_stat.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat_config.json
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.xml
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\expected_tank_values.json
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\RadialMenu.xml
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\RadialMenu.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\locale\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby\hangar\tankcarousel.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\__version__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\xvm.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\wn8.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\websock.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehinfo_tiers.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehinfo_stat_top.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehinfo_stat_avg.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehinfo_short.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehinfo.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\utils.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\token.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\test.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\stats.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\pinger.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\logger.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\loadurl.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\gameregion.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\dossier.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\db.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\constants.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\appstart.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\xpm.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\websocket.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\x509certchain.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\x509.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\tackwrapper.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\rsakey.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\rijndael.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\rc4.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\python_rsakey.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\python_rc4.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\python_aes.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\pem.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\keyfactory.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\cryptomath.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\compat.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\codec.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\cipherfactory.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\asn1parser.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils\aes.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\tlsrecordlayer.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\tlsconnection.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\session.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\messages.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\mathtls.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\integration\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\integration\httptlsconnection.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\integration\clienthelper.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\handshakesettings.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\errors.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\constants.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\checker.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\api.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\simplejson\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\simplejson\tool.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\simplejson\scanner.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\simplejson\ordered_dict.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\simplejson\encoder.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\simplejson\decoder.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\simplejson\compat.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\kwg_waiting_fix\__version__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\kwg_waiting_fix\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\CameraNode.pyc
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\xvm.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\VehicleMarkersManager.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\TeamBasesPanel.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\StatisticForm.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\PlayersPanel.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\Minimap.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\DamagePanel.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\CDPData.xml
+    Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\battle.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\gui_sounds.xml
+    Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarouselFilterControls.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarousel.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarousel.cfg
+    Delete $INSTDIR\res_mods\0.9.0\gui\flash\battle.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\flash\Application.swf
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\SEA\clan
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\SEA
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\RU\nick
@@ -1174,49 +1007,28 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\xvm\configs\@Default
     RMDir $INSTDIR\res_mods\xvm\configs
     RMDir $INSTDIR\res_mods\xvm
-    RMDir $INSTDIR\res_mods\0.8.11\text\LC_MESSAGES
-    RMDir $INSTDIR\res_mods\0.8.11\text
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP\spotMessanger
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\modsOOP
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat\Tier
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\SessionStat
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon1
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\XpIcon
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons\ranks
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel\icons
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods\exel
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\mods
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui\scaleform\view
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui\scaleform
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\messenger\gui
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\messenger
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\locale
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi\view\meta
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi\view\lobby\hangar
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi\view\lobby
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi\view
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform\daapi
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\scaleform
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\utils
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite\integration
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat\tlslite
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\xvmstat
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods\kwg_waiting_fix
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui\mods
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\gui
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler\DynamicCameras
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client\AvatarInputHandler
-    RMDir $INSTDIR\res_mods\0.8.11\scripts\client
-    RMDir $INSTDIR\res_mods\0.8.11\scripts
-    RMDir $INSTDIR\res_mods\0.8.11\objects
-    RMDir $INSTDIR\res_mods\0.8.11\gui\scaleform\DM
-    RMDir $INSTDIR\res_mods\0.8.11\gui\scaleform
-    RMDir $INSTDIR\res_mods\0.8.11\gui\maps\ingame\aim
-    RMDir $INSTDIR\res_mods\0.8.11\gui\maps\ingame
-    RMDir $INSTDIR\res_mods\0.8.11\gui\maps
-    RMDir $INSTDIR\res_mods\0.8.11\gui\flash
-    RMDir $INSTDIR\res_mods\0.8.11\gui
-    RMDir $INSTDIR\res_mods\0.8.11
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\mods
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\locale
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby\hangar
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\utils
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite\integration
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\tlslite
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib\simplejson
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\lib
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\kwg_waiting_fix
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client
+    RMDir $INSTDIR\res_mods\0.9.0\scripts
+    RMDir $INSTDIR\res_mods\0.9.0\gui\scaleform
+    RMDir $INSTDIR\res_mods\0.9.0\gui\flash
+    RMDir $INSTDIR\res_mods\0.9.0\gui
+    RMDir $INSTDIR\res_mods\0.9.0
     RMDir $INSTDIR\res_mods
     Delete $INSTDIR\aos-wot-mods\zoom-mod-dlja-pricela-x-128\installation.txt
     Delete $INSTDIR\aos-wot-mods\xvm-audio\xvm.fdp
@@ -1261,7 +1073,7 @@ section "uninstall"
     RMDir $INSTDIR\aos-wot-mods\camo_fix_S0me0ne
     RMDir $INSTDIR\aos-wot-mods\botdetect_report
     RMDir $INSTDIR\aos-wot-mods
-
+    
 	# Always delete uninstaller as the last action
 	Delete $INSTDIR\aos-wot-mods-uninstall.exe
 
