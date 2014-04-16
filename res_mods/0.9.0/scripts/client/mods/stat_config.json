@@ -24,15 +24,15 @@
     ],
     "colors": {
         "WN8": [
-			{"value":  300, "color": "#990000"},
-			{"value":  600, "color": "#FE0E00"},
-			{"value":  900, "color": "#FE7903"},
-			{"value": 1250, "color": "#F8F400"},
-			{"value": 1600, "color": "#60FF00"},
-			{"value": 1900, "color": "#00CC00"},
-			{"value": 2350, "color": "#02C9B3"},
-			{"value": 2900, "color": "#D042F3"},
-			{"value": 9999, "color": "#9900FF"}
+			{"value":    0, "color": "#990000"},
+			{"value":  300, "color": "#FE0E00"},
+			{"value":  600, "color": "#FE7903"},
+			{"value":  900, "color": "#F8F400"},
+			{"value": 1250, "color": "#60FF00"},
+			{"value": 1600, "color": "#00CC00"},
+			{"value": 1900, "color": "#02C9B3"},
+			{"value": 2350, "color": "#D042F3"},
+			{"value": 2900, "color": "#9900FF"}
         ],
         "rWIN": [
 			{"value": 0.00, "color": "#990000"},
