@@ -1,0 +1,90 @@
+{
+    "showStatForBattle": true,
+    "battleStatText": "WN8: <font color='{{c:WN8}}'><b>{{WN8}} ({{XWN8}})</font>",
+    "hideMessagePatterns": [
+        "Welcome",
+        "password"
+    ],
+    "ignoreBattleType": [2, 4],
+    "showResetButton": false,
+    "textResetButton": "Сброс",
+    "dailyAutoReset": true,
+    "battleEndedMessageDefeat": "<font color='#FE0E00'>Defeat {{map}} - {{vehicle}}</font>",
+    "battleEndedMessageDraw": "<font color='#FE7903'>Draw {{map}} - {{vehicle}}</font>",
+    "battleEndedMessageWin": "<font color='#60FF00'>Victory {{map}} - {{vehicle}}</font>",
+    "template": [
+        "<font size='12'><textformat leading='-4' tabstops='[50,130]'><font color='#FFCC66'>WN8:</font><tab><font color='{{c:WN8}}'><b>{{WN8}} ({{XWN8}})</b></font><tab><font color='#FFCC66'><b>{{avgTier}} (+{{avgBattleTierDiff}}) </b>Tier</font></textformat>",
+        "<textformat leading='-4' tabstops='[50,130,190]'><font color='#FFCC66'>Battles:</font><tab><font color='{{c:rWIN}}'><b>{{winsCount}}/{{battlesCount}}<tab>{{avgWinRate}}%<tab>{{rWIN}}</b></font>",
+        "<font color='#FFCC66'>Dmg:</font><tab><font color='{{c:rDAMAGE}}'><b>{{totalDmg}}<tab>{{avgDamage}}<tab>{{rDAMAGE}}</b></font>",
+        "<font color='#FFCC66'>Frags:</font><tab><font color='{{c:rFRAG}}'><b>{{totalFrag}}<tab>{{avgFrag}}<tab>{{rFRAG}}</b></font>",
+        "<font color='#FFCC66'>Spot:</font><tab><font color='{{c:rSPOT}}'><b>{{totalSpot}}<tab>{{avgSpot}}<tab>{{rSPOT}}</b></font>",
+        "<font color='#FFCC66'>Def:</font><tab><font color='{{c:rDEF}}'><b>{{totalDef}}<tab>{{avgDef}}<tab>{{rDEF}}</b></font>",
+        "<font color='#FFCC66'>Exp:</font><tab><font color='{{c:avgXP}}'><b>{{totalXP}}<tab>{{avgXP}}</b></font>",
+        "<font color='#FFCC66'>Credits:</font><tab><font color='{{c:credits}}'><b>{{credits}} <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='11' height='11' align='baseline' vspace='-2'><tab>{{avgCredits}} <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='11' height='11' align='baseline' vspace='-2'></b></font></textformat><font>"
+    ],
+    "colors": {
+        "WN8": [
+			{ "value":  300, "color": "#990000" },	
+			{ "value":  600, "color": "#FE0E00" },	
+			{ "value":  900, "color": "#FE7903" },	
+			{ "value": 1250, "color": "#F8F400" },	
+			{ "value": 1600, "color": "#60FF00" },	
+			{ "value": 1900, "color": "#00CC00" },	
+			{ "value": 2350, "color": "#02C9B3" },	
+			{ "value": 2900, "color": "#D042F3" },	
+			{ "value": 9999, "color": "#9900FF" }	
+        ],
+        "rWIN": [
+            {"value": 0.34, "color": "#FE0E00"},
+            {"value": 0.57, "color": "#FE7903"},
+            {"value": 0.81, "color": "#F8F400"},
+            {"value": 1.03, "color": "#60FF00"},
+            {"value": 1.22, "color": "#02C9B3"},
+            {"value": 1.57, "color": "#D042F3"}
+        ],
+        "rDAMAGE": [
+            {"value": 0.34, "color": "#FE0E00"},
+            {"value": 0.57, "color": "#FE7903"},
+            {"value": 0.81, "color": "#F8F400"},
+            {"value": 1.03, "color": "#60FF00"},
+            {"value": 1.22, "color": "#02C9B3"},
+            {"value": 1.57, "color": "#D042F3"}
+        ],
+        "rFRAG": [
+            {"value": 0.34, "color": "#FE0E00"},
+            {"value": 0.57, "color": "#FE7903"},
+            {"value": 0.81, "color": "#F8F400"},
+            {"value": 1.03, "color": "#60FF00"},
+            {"value": 1.22, "color": "#02C9B3"},
+            {"value": 1.57, "color": "#D042F3"}
+        ],
+        "rSPOT": [
+            {"value": 0.34, "color": "#FE0E00"},
+            {"value": 0.57, "color": "#FE7903"},
+            {"value": 0.81, "color": "#F8F400"},
+            {"value": 1.03, "color": "#60FF00"},
+            {"value": 1.22, "color": "#02C9B3"},
+            {"value": 1.57, "color": "#D042F3"}
+        ],
+        "rDEF": [
+            {"value": 0.34, "color": "#FE0E00"},
+            {"value": 0.57, "color": "#FE7903"},
+            {"value": 0.81, "color": "#F8F400"},
+            {"value": 1.03, "color": "#60FF00"},
+            {"value": 1.22, "color": "#02C9B3"},
+            {"value": 1.57, "color": "#D042F3"}
+        ],
+        "avgXP": [
+            {"value": 0, "color": "#FE0E00"},
+            {"value": 120, "color": "#FE7903"},
+            {"value": 280, "color": "#F8F400"},
+            {"value": 500, "color": "#60FF00"},
+            {"value": 800, "color": "#02C9B3"},
+            {"value": 1000, "color": "#D042F3"}
+        ],
+        "credits": [
+            {"value": -1, "color": "#FE0E00"},
+            {"value": 1, "color": "#60FF00"}
+        ]
+    }
+}
