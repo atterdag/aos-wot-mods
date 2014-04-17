@@ -10,7 +10,7 @@
 
 <!-- View Range Circle Settings-->
 <circlealpha>100</circlealpha><!-- circle alpha value, put 0 to remove circle -->
-<circlecolor>0</circlecolor><!-- circle color, write 0 for default, 0xFFFFFF for white -->
+<circlecolor>0x96FF00</circlecolor><!-- circle color, write 0 for default, 0xFFFFFF for white -->
 <circlesize>viewrange</circlesize><!-- circle size, any meter range as number or viewrange -->
 <circlestyle>dashed</circlestyle><!-- style of the view range circle, valid values: line, dots and dashed-->
 
@@ -21,14 +21,14 @@
 <artycursorcolor>0x40FF00</artycursorcolor><!-- artillery aim cursor color, write 0 for default, 0xFFFFFF for white -->
 
 <!-- View Direction Laser Settings-->
-<laseralpha>100</laseralpha><!-- laser alpha value, put 0 to remove laser line -->
-<lasercolor>0</lasercolor><!-- laser color, write 0 for default, 0x000000 for black -->
-<laserstyle>line</laserstyle><!-- style of the laser line, valid values: line, dots and dashed-->
+<laseralpha>150</laseralpha><!-- laser alpha value, put 0 to remove laser line -->
+<lasercolor>0xF50800</lasercolor><!-- laser color, write 0 for default, 0x000000 for black -->
+<laserstyle>dots</laserstyle><!-- style of the laser line, valid values: line, dots and dashed-->
 
 <!-- Tank Hull Direction Laser Settings-->
-<hlaseralpha>50</hlaseralpha><!-- hull direction laser alpha value, put 0 to remove hull laser line-->
+<hlaseralpha>100</hlaseralpha><!-- hull direction laser alpha value, put 0 to remove hull laser line-->
 <hlaserstyle>line</hlaserstyle><!-- style of the hull laser line, valid values: line, dots and dashed-->
-<hlasercolor>0xFFFFFF</hlasercolor><!-- hull laser color, write 0 for default, 0xFFFFFF for white -->
+<hlasercolor>0xFFCC66</hlasercolor><!-- hull laser color, write 0 for default, 0xFFFFFF for white -->
 
 <!-- Minimap Vehicle Icon Descriptor Text Settings-->
 <fontsize>6</fontsize><!-- fontsize of tanknames on map-->
@@ -36,20 +36,20 @@
 <allytextcolor>0x9FF781</allytextcolor><!-- ally tankname text color, default 0x9FF781 -->
 <enemytextcolor>0xF78181</enemytextcolor><!-- enemy tankname text color, default 0xF78181 -->
 <squadtextcolor>0xFE9A2E</squadtextcolor><!-- platoon buddy tankname text color, default 0xFE9A2E -->
-<textshadow>15</textshadow><!-- tankname textshadow strength -->
+<textshadow>5</textshadow><!-- tankname textshadow strength -->
 <allynamecontent>tank</allynamecontent><!-- set content for ally tank textfields, Valid values: player, tank, tankplayer, playertank -->
 <enemynamecontent>tank</enemynamecontent><!-- set content for enemy tank textfields, Valid values: player, tank, tankplayer, playertank -->
 <squadnamecontent>player</squadnamecontent><!-- set content for your platoon buddy textfields, Valid values: player, tank, tankplayer, playertank -->
 <marklastpos>true</marklastpos><!-- toggle lost/ghost/last known position markers for enemy tanks, boolean true/false -->
-<lastposalpha>50</lastposalpha><!-- alpha value setting for last known position icons -->
-<lastposcolor>0xFF0000</lastposcolor><!-- last known position marker color, i.e. 0xFFFFFF for white -->
+<lastposalpha>90</lastposalpha><!-- alpha value setting for last known position icons -->
+<lastposcolor>0xFFFFFF</lastposcolor><!-- last known position marker color, i.e. 0xFFFFFF for white -->
 
 <!-- 50m X-Ray Spotting Circle Settings-->
 <fiftymalpha>25</fiftymalpha><!-- set alpha for 50m X-ray spotting circle, 0 to disable -->
-<fiftymcolor>0</fiftymcolor><!-- set color for 50m X-ray spotting circle (i.e. 0xFF0000 for red), 0 for default white -->
+<fiftymcolor>0x96FF00</fiftymcolor><!-- set color for 50m X-ray spotting circle (i.e. 0xFF0000 for red), 0 for default white -->
 
 <!-- Game Engine Dynamic Drawbox Settings-->
-<drawboxcolor>0xFF0000</drawboxcolor><!-- color of the dynamic drawing distance box-->
+<drawboxcolor>0xFFFFFF</drawboxcolor><!-- color of the dynamic drawing distance box-->
 <drawboxalpha>90</drawboxalpha><!-- alpha of the dynamic drawing distance box, 0 removes the box-->
 <drawboxstyle>line</drawboxstyle><!-- style of the dynamic drawing distance box, valid values: line, dots, mask and dashed-->
 
