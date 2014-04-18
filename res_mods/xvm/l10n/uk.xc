@@ -83,8 +83,10 @@
     "TD": "ПТ",
     "SPG": "САУ",
     "blownUp": "Вибух БК!",
+    "token/bad_token": "Невiрный токен.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Статус: <font color='#FF0000'>Заблокован</font>\n{{l10n:token/notify_xvm_site}}",
     "token/days_left": "Залишилось днiв:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Залишилось годин:<tab/><font color='#ffff00'>{0}</font>"
+    "token/hours_left": "Залишилось годин:<tab/><font color='#ffff00'>{0}</font>",
+    "token/cnt": "Кiлькiсть запросiв:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

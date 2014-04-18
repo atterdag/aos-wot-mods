@@ -3,6 +3,8 @@ Title: AoS' mod pack installer - 0.9.0.2
 Text:
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
+The 6th sense icon is the AoS logo, and Ephex was kind enough to help with AoS branding the game start logo, and the data synchronization icon.
+
 [size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.2.exe]aos-wot-mods-0.9.0.2.exe[/url][/size]
 
 Here's a zip file for those that don't like an installer.

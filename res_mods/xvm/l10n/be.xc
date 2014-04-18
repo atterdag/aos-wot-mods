@@ -83,11 +83,15 @@
     "TD": "СТ-САУ",
     "SPG": "САУ",
     "blownUp": "Выбух ладунку!",
+    "token/network_error": "Памылка сеткі. Статыстыка XVM недаступная, паспрабуйце пазней.",
+    "token/bad_token": "Некарэктны токен.\n{{l10n:token/notify_xvm_site}}",
+    "token/blocked": "Стан: <font color='#FF0000'>Заблакаваны</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Стан: <font color='#FFFF00'>Неактыўны</font><br>{{l10n:token/notify_xvm_site}}",
     "token/active": "Стан:<font color='#00FF00'>Актыўны</font>",
     "token/days_left": "Засталося дзён:<tab/><font color='#eeeeee'>{0}</font>",
     "token/hours_left": "Засталося гадзін:<tab/><font color='#ffff00'>{0}</font>",
     "token/cnt": "Колькасць запытаў:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/unknown_status": "Невядомы стан"
+    "token/unknown_status": "Невядомы стан",
+    "token/notify_xvm_site": "Калі ласка, перайдзіце на <a href='#XVM_SITE#'> сайт XVM</a> і актывуйце статыстыку ў персанальным кабінеце."
   }
 }

@@ -82,6 +82,16 @@
     "LT": "LP",
     "TD": "JP",
     "SPG": "SFL",
-    "blownUp": "Munitionsexplosion!"
+    "blownUp": "Munitionsexplosion!",
+    "token/network_error": "Netzwerkfehler, XVM Statistiken derzeit nicht verfügbar, bitte versuche es später noch einmal.",
+    "token/bad_token": "Ungültiges Token.\n{{l10n:token/notify_xvm_site}}",
+    "token/blocked": "Status: <font color='#FF0000'>Blockiert</font><br>{{l10n:token/notify_xvm_site}}",
+    "token/inactive": "Status: <font color='#FFFF00'>Inaktiv</font><br>{{l10n:token/notify_xvm_site}}",
+    "token/active": "Status: <font color='#00FF00'>Aktiv</font>",
+    "token/days_left": "Verbleibende Tage:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/hours_left": "Verbleibende Stunden:<tab/><font color='#ffff00'>{0}</font>",
+    "token/cnt": "Abrufe:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/unknown_status": "Unbekannter Status",
+    "token/notify_xvm_site": "Bitte besuche die <a href='#XVM_SITE#'>XVM Webseite</a> und aktiviere die Statistiken für deinen Account."
   }
 }
