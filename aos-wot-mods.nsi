@@ -14,14 +14,14 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 9
 !define VERSIONPATCH 0
-!define VERSIONBUILD 2
+!define VERSIONBUILD 3
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
 !define UPDATEURL "https://code.google.com/p/aos-wot-mods/wiki/Downloads" # "Product Updates" link
 !define ABOUTURL "http://www.spades.dk/forum/viewtopic.php?f=32&t=1726" # "Publisher" link
 # This is the size (in kB) of all the files copied into "Program Files"
-!define INSTALLSIZE 44588
+!define INSTALLSIZE 18596
  
 RequestExecutionLevel admin ;Require admin rights on NT6+ (When UAC is turned on)
  
@@ -190,9 +190,11 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\T1NC0.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\T-MAN.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\S_O_R.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\STEHA.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\STD_1.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SP_DV.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SPOOK.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SLVER.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SKI1L.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SB_K.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SB_F.png
@@ -216,6 +218,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\RAKU.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\RAGOO.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\RA1Z.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\QLEWI.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\P_SPB.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\P_BY.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\P_BR.png
@@ -226,6 +229,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\PR0_Z.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\PATTE.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\OOPS2.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\OOPS.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\ONE_T.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\ONE-T.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\OLYMP.png
@@ -889,52 +893,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\configs\@Default\battle.xc
     Delete $INSTDIR\res_mods\xvm\configs\@Default\alpha.xc
     Delete $INSTDIR\res_mods\xvm\configs\@Default\@xvm.xc
-    Delete $INSTDIR\res_mods\viewrange.xml
-    Delete $INSTDIR\res_mods\Mmap.xml
     Delete $INSTDIR\res_mods\ids_wipe.json
     Delete $INSTDIR\res_mods\ids_bots.json
-    Delete $INSTDIR\res_mods\0.9.0\spaces\87_ruinberg_on_fire\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\86_himmelsdorf_winter\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\85_winter\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\84_winter\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\73_asia_korea\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\63_tundra\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\60_asia_miao\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\53_japan\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\51_asia\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\47_canada_a\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\45_north_america\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\44_north_america\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\43_north_america\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\42_north_america\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\39_crimea\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\38_mannerheim_line\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\37_caucasus\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\36_fishing_bay\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\35_steppes\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\34_redshire\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\33_fjord\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\31_airfield\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\29_el_hallouf\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\28_desert\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\23_westfeld\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\22_slough\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\19_monastery\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\18_cliff\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\17_munchen\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\15_komarin\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\14_siegfried_line\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\13_erlenberg\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\11_murovanka\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\10_hills\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\08_ruinberg\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\07_lakeville\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\06_ensk\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\05_prohorovka\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\04_himmelsdorf\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\03_campania\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\02_malinovka\mmap.dds
-    Delete $INSTDIR\res_mods\0.9.0\spaces\01_karelia\mmap.dds
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\__init__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\spotMessanger\__init__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\spotMessanger\SpotMessanger.pyc
@@ -947,14 +907,14 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.xml
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\MS.pyc
-    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\minimap_helper.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\GunConstraints.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\expected_tank_values.json
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\BRR.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\ATS.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\messenger\gui\scaleform\view\battlechannelview.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\messenger\gui\messengerDispatcher.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\RadialMenu.xml
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\RadialMenu.pyc
-    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\Minimap.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\locale\__init__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby\hangar\tankcarousel.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\__init__.pyc
@@ -1073,49 +1033,6 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\xvm\configs\@Default
     RMDir $INSTDIR\res_mods\xvm\configs
     RMDir $INSTDIR\res_mods\xvm
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\87_ruinberg_on_fire
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\86_himmelsdorf_winter
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\85_winter
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\84_winter
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\73_asia_korea
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\63_tundra
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\60_asia_miao
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\53_japan
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\51_asia
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\47_canada_a
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\45_north_america
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\44_north_america
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\43_north_america
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\42_north_america
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\39_crimea
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\38_mannerheim_line
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\37_caucasus
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\36_fishing_bay
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\35_steppes
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\34_redshire
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\33_fjord
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\31_airfield
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\29_el_hallouf
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\28_desert
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\23_westfeld
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\22_slough
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\19_monastery
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\18_cliff
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\17_munchen
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\15_komarin
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\14_siegfried_line
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\13_erlenberg
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\11_murovanka
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\10_hills
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\08_ruinberg
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\07_lakeville
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\06_ensk
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\05_prohorovka
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\04_himmelsdorf
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\03_campania
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\02_malinovka
-    RMDir $INSTDIR\res_mods\0.9.0\spaces\01_karelia
-    RMDir $INSTDIR\res_mods\0.9.0\spaces
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\spotMessanger
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\mods
@@ -1162,8 +1079,6 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\SafeShot\List_of_keyboard_shortcuts.txt
     Delete $INSTDIR\aos-wot-mods\SafeShot\How_can_I_thank_the_author.txt
     Delete $INSTDIR\aos-wot-mods\RadialMenu\ReadMe.txt
-    Delete $INSTDIR\Minimap\MinimapReadMe.txt
-    Delete $INSTDIR\aos-wot-mods\locastans
     Delete $INSTDIR\aos-wot-mods\J1mB0s_Crosshair_Mod\ReadMe.pdf
     Delete $INSTDIR\aos-wot-mods\J1mB0s_Crosshair_Mod\Changelog.txt
     Delete $INSTDIR\aos-wot-mods\disclaimer.txt
@@ -1185,8 +1100,6 @@ section "uninstall"
     RMDir $INSTDIR\aos-wot-mods\SessionStatistic
     RMDir $INSTDIR\aos-wot-mods\SafeShot
     RMDir $INSTDIR\aos-wot-mods\RadialMenu
-    RMDir $INSTDIR\Minimap
-    RMDir $INSTDIR\aos-wot-mods\locastans
     RMDir $INSTDIR\aos-wot-mods\J1mB0s_Crosshair_Mod
     RMDir $INSTDIR\aos-wot-mods\cmsg
     RMDir $INSTDIR\aos-wot-mods\Circle15mod
