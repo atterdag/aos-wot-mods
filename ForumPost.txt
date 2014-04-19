@@ -1,19 +1,17 @@
-URL: http://www.spades.dk/forum/viewtopic.php?f=32&t=1726
-Title: AoS' mod pack installer - 0.9.0.3
-Text:
-I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
-
+[size=200]AoS branding[/size]
 The 6th sense icon is the AoS logo, and Ephex was kind enough to help with AoS branding the game start logo, and the data synchronization icon.
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.3.exe]aos-wot-mods-0.9.0.3.exe[/url][/size]
+[size=200]Installation[/size]
+I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
+
+[size=200]Download[/size]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.3.exe]aos-wot-mods-0.9.0.3.exe[/url]
 
 Here's a zip file for those that don't like an installer.
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.3.zip]aos-wot-mods-0.9.0.3.zip[/url]
 
-[size=150]-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.3.zip]aos-wot-mods-0.9.0.3.zip[/url][/size]
-
-Its kinda fun, and easy to use NSIS, so if anyone wants some advise, then I'll be happy to help.
-
-Here's some details of my mod pack:
+[size=200]Mods included[/size]
+Some details of my mod pack:
 
 The mods included are as following:
 [list]
@@ -29,7 +27,7 @@ The mods included are as following:
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353419-0811spotmessanger/]SpotMessanger[/url]
 [/list]
 
-What is not yet included:
+What is not yet included yet:
 [list]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/]Color Messages[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/295772-088-permanent-serverside-reticle-mod/]Permanent Serverside Reticle mod[/url]
@@ -40,8 +38,10 @@ What is not yet included:
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect/]Botdetect[/url]
 [/list]
 
-The Spot Messenger mod is disabled by default, and you enable it by pression F11. (Which is helpful at CW)
+[size=200]Mods configuration[/size]
+I've changed a lot of the default configurations of the various mods, so this is sort of an overview of those changes.
 
+[size=150]XVM[/size]
 The changes made to the XVM configuration are:
 [list]
 [*]Enabled latency (ping) tests.
@@ -49,7 +49,7 @@ The changes made to the XVM configuration are:
 [*]Reformatted player lists to put emphasis on players' WN8 rather than EFF. (EFF is so 2012).
 [*]Enabled hit log
 [*]Enabled win chance
-[*]Redefined colors such as WR, WN & EFF so that the color codes are based on the thresholds from WotLabs, and WOT-News respectively.
+[*]Redefined colors such as WR, WN & EFF so that the color codes are based on the thresholds from [url=http://wiki.wnefficiency.net/pages/Color_Scale]wiki.wnefficiency.net Color scale[/url], and WOT-News respectively.
 [*]When you press ALT you see the name of the player in the color of the players WN8 rating.
 [*]Platoon mates damage to enemies is colored yellow, and when they receive damage it's colored magenta (because real men don't say 'pink'!).
 [*]Minimap shows a red line with dots where the camera points to.
@@ -58,15 +58,21 @@ The changes made to the XVM configuration are:
 [*]Preconfigured contour icons to use two different directories (under res_mods\xvm\res\contours\ you have ally, and enemy)
 [/list]
 
-Currently minimap doesn't draw any lines. Its properly because its still a test version of XVM.
+[size=150]SpotMessanger[/size] [i](yeah I know its spelled wrong, but it is done so by the author)[/i]
+The SpotMessanger mod is disabled by default, so that you don't spam the chat in random battles. You enable it by pressing F11. (Which is helpful at CW)
 
-The changes made to Color Messages and Session Stats are:
-[list]
-[*]WR, WN6, and WN8 colors are based on WotLabs.net thresholds
-[/list]
+[size=150]Session Stats[/size]
+The colors (WR, WN8 etc) are based on [url=http://wiki.wnefficiency.net/pages/Color_Scale]wiki.wnefficiency.net Color scale[/url]. 
 
-The installer will also add a link to ADU to your Start Menu\Programs\Startup folder.
+[size=150]ADU (ActiveDossierUploader)[/size]
+The installer will add a link to ADU to your Start Menu\Programs\Startup folder.
 
-[size=150][b]NB. If the installer complains that its not able to overwrite [i]C:\Games\World_of_Tanks\ActiveDossierUploader.exe[/i], then just close ADU in your task bar (its the icon with the green circle next to the clock), and click on "Try Again".[/b][/size]
+[size=125]A plea for vBAddict[/size]
+I want to encourage people to use [url=http://www.vbaddict.net/wot.php]vBAddict[/url] as it analyses your replays, and WoT dossier, thus generating a WN8D (WN8 dossier) rating rather than a WN8A (WN8 API) rating which is less detailed than WN8D. Also it allows you to share the individual WN8 rating for each tank, that you've driven, and how its configured in regards to equipment, and crew skills etc. This means that you can also compare this with how other people configure their tanks, and how unicums configure their tanks. So its a very useful sites with far more informations that the ones that I've just highlighted here.
 
-I've made a [url=https://code.google.com/p/aos-wot-mods/]Google Code Project[/url] to share the sources for this mod pack installer with whom it might interest.
+[size=200]Common problems[/size]
+If the installer complains that its not able to overwrite C:\Games\World_of_Tanks\ActiveDossierUploader.exe, then just close ADU in your task bar (its the icon with the green circle next to the clock), and click on 'Try Again'. Or you can just click on 'Ignore';
+
+[size=200]Sharing and contributing[/size]
+I've created a [url=https://code.google.com/p/aos-wot-mods/]Google project[/url] where I share 'source' files for the installer, if anyone is interested in either contributing, or just taking a look at the NSIS file.
+Its kinda fun, and easy to use NSIS, so if anyone wants some advise, then I'll be happy to help.
