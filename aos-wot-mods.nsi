@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 9
 !define VERSIONPATCH 0
-!define VERSIONBUILD 3
+!define VERSIONBUILD 4
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -984,6 +984,13 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\kwg_waiting_fix\__version__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\kwg_waiting_fix\__init__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\CameraNode.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\AvatarInputHandler\DynamicCameras\StrategicCamera.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\AvatarInputHandler\DynamicCameras\SniperCamera.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\AvatarInputHandler\DynamicCameras\ArcadeCamera.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\AvatarInputHandler\control_modes.pyc
+    Delete $INSTDIR\res_mods\0.9.0\gui\ZoomX.xml
+    Delete $INSTDIR\res_mods\0.9.0\gui\ZoomIndicator.xml
+    Delete $INSTDIR\res_mods\0.9.0\gui\ServerCross.xml
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\xvm.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\VehicleMarkersManager.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\TeamBasesPanel.swf
@@ -1001,6 +1008,9 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\crosshair_panel_arcade.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\CDPData.xml
     Delete $INSTDIR\res_mods\0.9.0\gui\scaleform\battle.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\NoScroll.xml
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\ingame\aim\gun_marker_blue.dds
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\ingame\aim\gun_marker.dds
     Delete $INSTDIR\res_mods\0.9.0\gui\gui_sounds.xml
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\waiting.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarouselFilterControls.swf
@@ -1055,10 +1065,15 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\kwg_waiting_fix
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\AvatarInputHandler\DynamicCameras
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\AvatarInputHandler
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client
     RMDir $INSTDIR\res_mods\0.9.0\scripts
     RMDir $INSTDIR\res_mods\0.9.0\gui\scaleform\DM
     RMDir $INSTDIR\res_mods\0.9.0\gui\scaleform
+    RMDir $INSTDIR\res_mods\0.9.0\gui\maps\ingame\aim
+    RMDir $INSTDIR\res_mods\0.9.0\gui\maps\ingame
+    RMDir $INSTDIR\res_mods\0.9.0\gui\maps
     RMDir $INSTDIR\res_mods\0.9.0\gui\flash
     RMDir $INSTDIR\res_mods\0.9.0\gui
     RMDir $INSTDIR\res_mods\0.9.0

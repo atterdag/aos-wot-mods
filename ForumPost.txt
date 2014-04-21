@@ -25,6 +25,7 @@ The mods included are as following:
 [*] [url=http://forum.worldoftanks.ru/index.php?/topic/1075087-]SafeShot[/url]
 [*] [url=http://www.koreanrandom.com/forum/index.php?app=core&module=attach&section=attach&attach_id=3936]6thsense-audio[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353419-0811spotmessanger/]SpotMessanger[/url]
+[*] [url=http://worldof-tanks.com/0-8-7-working-zoom-in-out-server-reticle/]zoom-mod-128[/url] (Server reticle isn't working yet)
 [/list]
 
 What is not yet included yet:
@@ -32,7 +33,6 @@ What is not yet included yet:
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/]Color Messages[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/295772-088-permanent-serverside-reticle-mod/]Permanent Serverside Reticle mod[/url]
 [*] Serverside Reticle mod - gun_marker_blue_ultraSlimWhite.dds
-[*] [url=http://worldof-tanks.com/0-8-7-working-zoom-in-out-server-reticle/]zoom-mod-128[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/]Received Damage Announcer[/url] [i]This mod have temporarily removed as it falls quite clearly into the not permitted list[/i]
 [*] [url=http://mirtankov.net/mods/11709-mod-nevidimyi-vystrel-iz-kusta-radius-15m.html]Circle15mod[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect/]Botdetect[/url]
