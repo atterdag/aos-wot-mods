@@ -3,7 +3,7 @@
     <!--
         "True" disables mouse scroll to enter Sniper Mode, "False" mouse scroll enabled (default)
     -->
-    <noScroll>True</noScroll>
+    <noScroll>False</noScroll>
 
    
    <!--
