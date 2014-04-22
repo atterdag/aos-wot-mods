@@ -5,10 +5,10 @@ The 6th sense icon is the AoS logo, and Ephex was kind enough to help with AoS b
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
 [size=200]Download[/size]
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.3.exe]aos-wot-mods-0.9.0.3.exe[/url]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.5.exe]aos-wot-mods-0.9.0.5.exe[/url]
 
 Here's a zip file for those that don't like an installer.
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.3.zip]aos-wot-mods-0.9.0.3.zip[/url]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.5.zip]aos-wot-mods-0.9.0.5.zip[/url]
 
 [size=200]Mods included[/size]
 Some details of my mod pack:
