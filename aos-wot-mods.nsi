@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 9
 !define VERSIONPATCH 0
-!define VERSIONBUILD 5
+!define VERSIONBUILD 6
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -195,6 +195,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SP_DV.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SPOOK.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SLVER.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SKIL1.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SKI1L.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SB_K.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\SB_F.png
@@ -299,6 +300,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\D-S3.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\D-S1.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\D-P-X.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\C_G.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\CYS.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\CYS-A.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\RU\clan\CWOT.png
@@ -371,9 +373,12 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\YO_OY.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\XOXO.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\WIPE!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\WGS.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\WGNA.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\WGATX.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\WGA.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\WGA-B.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\WGA-A.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\W-O-W.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\VPG.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\VITAL.png
@@ -387,6 +392,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TYR.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TW3RK.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TTIME.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TSF.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TSAC.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TRAXT.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TRAXO.png
@@ -395,6 +401,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TLR.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TL-DR.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\THUGZ.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\THNK.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TF.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\TESLA.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\T2H.png
@@ -409,6 +416,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\SMRT.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\SM0KE.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\SLOPE.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\SKZ.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\SIMP.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\SHDWC.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\SHCKD.png
@@ -419,6 +427,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\SAC-.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\RUSS.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\RUS.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\RSRDD.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\RS.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\RNR.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\REL_3.png
@@ -444,6 +453,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\OTTER.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\NUGGS.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\NTR.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\NOSHT.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\NERV.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\NBG.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\NARWL.png
@@ -481,6 +491,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\H0RDE.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\GSKUL.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\GROZA.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\GREC.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\GMONK.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\GKC.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\GBEAR.png
@@ -575,6 +586,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\WHY.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\WG12.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\WG.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\WG-EU.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\VTEPS.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\VEBA.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\UNICA.png
@@ -631,6 +643,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\PNX-R.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\PMHC2.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\PMHC.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\PCSTB.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\PAB.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\ORLY.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\OMNI.png
@@ -646,6 +659,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\NEFES.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\MUROP.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\MNSTR.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\MACE.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\MAAM.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\LEOOP.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\LED.png
@@ -682,6 +696,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\FGUK.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\FBFU.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\FAME.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\F4CE.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\F15.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\F-OUT.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\EXEED.png
@@ -740,6 +755,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\-TF-.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\-ONE-.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\-MTA-.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\-HOE-.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\-GOD-.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\-GFE-.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\clan\-BIA-.png
@@ -923,6 +939,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\xvm.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\wn8.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\websock.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehstate.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehinfo_tiers.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehinfo_stat_top.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\vehinfo_stat_avg.pyc
