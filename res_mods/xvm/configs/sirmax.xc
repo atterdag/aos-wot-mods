@@ -1,16 +1,16 @@
 {
-  "configVersion": "5.0.2",
+  "configVersion": "5.1.0",
   "def": {
     //"standardMarkers": true,
     "standardMarkers": false,
 
-    "formatNick":  "{{name}}<font alpha='#A0'>{{clan}}</font>",
-    //"formatVehicle":  "<font face='Consolas' size='11'><font color='{{c:avglvl}}'>{{avglvl}}</font> <font face='Symbol' color='#111111'><b><font color='{{c:tdv}}'>·</font><font color='{{c:tfb}}'>·</font><font color='{{c:tsb}}'>·</font></b></font> <font color='{{c:e}}'>{{e}}</font>|<font color='{{c:xeff}}'>{{xeff}}</font>|<font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb:3}}</font></font>",
-    "formatVehicle":  "<font face='Consolas' size='11'><font color='{{c:avglvl}}'>{{avglvl}}</font> <font color='{{c:xeff}}'>{{xeff}}</font>|<font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:kb}}'>{{kb:3}}</font></font>",
-    //"formatVehicle":  "{{vehicle}}",
+    "formatNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
+    "formatVehicle": "<font face='Consolas' size='11'><font color='{{c:avglvl|#666666}}'>{{avglvl|-}}</font> <font color='{{c:xeff|#666666}}'>{{xeff|--}}</font>|<font color='{{c:xwn8|#666666}}'>{{xwn8|--}}</font> <font color='{{c:kb|#666666}}'>{{kb%2d~k|--k}}</font></font>",
+    //"formatVehicle": "{{vehicle}}",
+    //"formatVehicle": "|{{kb%-2d~k|--k}}|{{t-hb%-2d~h|--h}}|",
 
     "markersStat": "<b><font face='Symbol' color='#CCCCCC' size='11'><font color='{{c:t-battles}}'>·</font> <font color='{{c:xeff}}'>·</font> <font color='{{c:xwn8}}'>·</font></font></b>",
-    "markersStatAlt": "<b><font face='$FieldFont' size='12'><font color='{{c:t-battles}}'>{{t-hb}}</font> <font color='{{c:xeff}}'>{{xeff}}</font> <font color='{{c:xwn8}}'>{{xwn8}}</font> <font color='{{c:rating}}'>{{rating}}</font></font></b>",
+    "markersStatAlt": "<b><font face='$FieldFont' size='12'><font color='{{c:t-battles}}'>{{t-hb%d~h|-}}</font> <font color='{{c:xeff}}'>{{xeff|--}}</font> <font color='{{c:xwn8}}'>{{xwn8|--}}</font> <font color='{{c:rating}}'>{{rating~%|--}}</font></font></b>",
 
     "damageMessageAlive": "{{dmg}}",
     "damageMessageAllyDead": "({{dmg}})",
@@ -63,9 +63,9 @@
   },
   "userInfo": {
     "inHangarFilterEnabled": true,
-    "startPage": 2,
-    //"sortColumn": 5,
-    "sortColumn": -3,
+    "startPage": 4,
+    //"sortColumn": -5,
+    "sortColumn": 3,
     "showExtraDataInProfile": true,
     "defaultFilterValue": "+all -premium -master -arty"
   },
@@ -79,11 +79,12 @@
     "mirroredVehicleIcons": false,
     "showPostmortemTips": false,
     "highlightVehicleIcon": false,
+    "allowHpInPanelsAndMinimap": true,
     "clanIconsFolder": "clanicons",
     "elements": ${"elements"}
   },
   "rating": {
-    //"showPlayersStatistics": true,
+    "showPlayersStatistics": true,
     "loadEnemyStatsInFogOfWar": true,
     "enableStatisticsLog": true,
     "enableUserInfoStatistics": true,
@@ -126,6 +127,8 @@
     "removeSquadIcon": true,
     "removePanelsModeSwitcher": true,
     "clanIcon": { "show": true, "x": 4, "y": 6, "h": 16, "w": 16, "alpha": 90 },
+    "extraTextLeft": "<textformat leading='-24'><img src='xvm://configs/back.png' width='80' height='12'/>\n<img src='xvm://configs/front.png' width='80' height='12'/>\n{{hp}} / {{hp-max}}</textformat>",
+    "extraTextRight": "",
     "medium": {
       "width": 120,
       "formatLeft": "<font color='{{c:xwn8}}'>{{nick}}</font>",
@@ -138,12 +141,12 @@
     },
     "large": {
       "width": 120,
-      "nickFormatLeft": "<font color='{{c:xwn8}}'>{{xwn8}}</font> {{name}}<font color='#cccccc'>{{clan}}</font>",
-      "nickFormatRight": "{{name}}<font color='#cccccc'>{{clan}}</font> <font color='{{c:xwn8}}'>{{xwn8}}</font>",
-      //"vehicleFormatLeft": "",
-      //"vehicleFormatRight": ""
-      "vehicleFormatLeft": "<font color='{{c:rating}}'>{{vehicle}}</font>",
-      "vehicleFormatRight": "<font color='{{c:rating}}'>{{vehicle}}</font>"
+      "nickFormatLeft": "<font color='{{c:xwn8}}'>{{xwn8|--}}</font> {{name}}<font alpha='#A0'>{{clan}}</font>",
+      "nickFormatRight": "{{name}}<font alpha='#A0'>{{clan}}</font> <font color='{{c:xwn8}}'>{{xwn8|--}}</font>",
+      "vehicleFormatLeft": "{{hp}} / {{hp-max}}",
+      "vehicleFormatRight": "{{hp}} / {{hp-max}}"
+      //"vehicleFormatLeft": "<font color='{{c:rating}}'>{{vehicle}}</font>",
+      //"vehicleFormatRight": "<font color='{{c:rating}}'>{{vehicle}}</font>"
     },
     "enemySpottedMarker": {
       "enabled": true,
@@ -169,7 +172,7 @@
   },
   "minimap": {
     "enabled": true,
-    "iconScale": 1,
+    //"iconScale": 2,
     "circles": {
         "major": [
             { "enabled": true, "distance": 445, "thickness": 0.3, "alpha": 65, "color": "0xFF3333" },
@@ -191,12 +194,17 @@
          { "enabled": true, "from": 50,  "to": 1463,  "inmeters": true, "thickness": 0.5,   "alpha": 65, "color": "0xFFFFFF"}
        ]
     },
-    "square" : {
-      "enabled": true,
-      "artilleryEnabled": false,
-      "thickness": 0.7,
-      "alpha": 40,
-      "color": "0xFFFFFF"
+    "labels": {
+      "units": {
+        "format": {
+          "ally":           "<span class='mm_a'><font color='{{c:xwn8}}'>*</font> {{vehicle-short}}</span>",
+          "teamkiller":     "<span class='mm_t'><font color='{{c:xwn8}}'>*</font> {{vehicle-short}}</span>",
+          "enemy":          "<span class='mm_e'><font color='{{c:xwn8}}'>*</font> {{vehicle-short}}</span>"
+        },
+        "alpha" : {
+          //"deadenemy": 50
+        }
+      }
     }
   },
   "hitLog": {
@@ -401,6 +409,7 @@
           },
           "damageText": {
             "y": -55,
+            //"shadow": { "color": null },
             "damageMessage": ${"def.damageMessageAlive"}
           },
           "actionMarker": {
@@ -553,10 +562,11 @@
     "vehicleMarker": "contour/Aslain/iconset2"
   },
   "vehicleNames": {
-    "ussr:T-34": { "name": "т-34.", "short": "т-34" },
-    "usa:T34_hvy": { "name": "т34.", "short": "т34" }
+    "ussr-T-34": { "name": "т-34.", "short": "т-34" },
+    "usa-T34_hvy": { "name": "т34.", "short": "т34" },
+    "ussr-KV-1s": { "name": "квас", "short": "квс" }
   },
   "texts": { "vtype": { "LT":  "ЛТ" } },
-//  "colors": ${"sirmax-colors.xc":"colors"},
+  //"colors": ${"sirmax-colors.xc":"colors"},
   "consts": { "VM_COEFF_VMM_DEAD": 0.75 }
 }

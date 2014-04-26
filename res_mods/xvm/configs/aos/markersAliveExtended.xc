@@ -227,7 +227,7 @@
           "size": 4,
           "strength": 100
         },
-        "format": "{{hp-ratio}}\u0025" // \u0025 - percent symbol / символ процента
+        "format": "{{hp-ratio}}%"
       },
       // Text field with win ratio.
       // Текстовое поле с процентом побед.
@@ -253,7 +253,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{rating}}"
+        "format": "{{rating~%}}"
       }
     ]
   },
@@ -383,7 +383,7 @@
       // Text field with the percentage of remaining health.
       // Текстовое поле с процентом оставшегося здоровья.
       {
-        "name": "Win Rate",
+        "name": "Percent of HP",
         "visible": true,
         "x": 0,
         "y": -20,
@@ -404,7 +404,7 @@
           "size": 4,
           "strength": 100
         },
-        "format": "{{hp-ratio}}\u0025"
+        "format": "{{hp-ratio}}%"
       },
       // Text field with win ratio.
       // Текстовое поле с процентом побед.
@@ -430,7 +430,7 @@
           "size": 6,
           "strength": 200
         },
-        "format": "{{rating}}"
+        "format": "{{rating~%}}"
       }
     ]
   }
