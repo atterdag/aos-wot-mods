@@ -1,105 +1,48 @@
 {
     "showStatForBattle": true,
-    "battleStatText": "WN8: <font color='{{c:WN8}}'><b>{{WN8}} ({{XWN8}})</font>",
+    "battleStatText": [
+         "<textformat tabstops='[15,75]'>{{potential}}",
+		 "{{crewXP}}",
+         "{{autoRepair}}",
+         "{{autoLoad}}",
+         "{{autoEquip}}",
+         "{{totalBattle}}{{statsBattle}}</textformat>"
+	],
     "hideMessagePatterns": [
-        "Welcome",
-        "password"
+        "successfully trained",
+        "successfully transferred",
+        "sent to the Barracks",
+        "You have not changed your password",
+        "The consumables on",
+        "The ammunition on",
+        "repaired successfully"
     ],
     "ignoreBattleType": [2, 4],
-    "showResetButton": false,
-    "textResetButton": "Сброс",
-    "dailyAutoReset": true,
-    "battleEndedMessageDefeat": "<font color='#FE0E00'>Defeat {{map}} - {{vehicle}}</font>",
-    "battleEndedMessageDraw": "<font color='#FE7903'>Draw {{map}} - {{vehicle}}</font>",
-    "battleEndedMessageWin": "<font color='#60FF00'>Victory {{map}} - {{vehicle}}</font>",
+    "showResetButton": true,
+    "textResetButton": "Reset",
+    "dailyAutoReset": false,
+    "dailyAutoResetHour": 2,	
+    "battleEndedMessageDefeat": "<font size='18' color='#FE0E00'>Defeat.</font>\n <font size='13' color='#DBA901'>{{map}}\n</font> <img src='img://gui/maps/icons/vehicle/{{tankimage}}.png' width='120' height='75' align='baseline' vspace='-10'> <font size='14' color='#DBA901'>{{vehicle}}</font>\n",
+    "battleEndedMessageDraw": "<font size='18' color='#FE7903'>Draw.\n <font size='13' color='#DBA901'>{{map}}\n</font> <img src='img://gui/maps/icons/vehicle/{{tankimage}}.png' width='120' height='75' align='baseline' vspace='-10'> <font size='14' color='#DBA901'>{{vehicle}}</font>\n",
+    "battleEndedMessageWin": "<font size='18' color='#60FF00'>Victory!\n <font size='13' color='#DBA901'>{{map}}\n</font> <img src='img://gui/maps/icons/vehicle/{{tankimage}}.png' width='120' height='75' align='baseline' vspace='-10'> <font size='14' color='#DBA901'>{{vehicle}}</font>\n",
+	"battleAchieves": "<img src='img://{{achieveicon}}' width='36' height='38' align='baseline' vspace='-4'> ",
+    "bgIcon": "",
+    "icon": "",
     "template": [
-        "<font size='12'><textformat leading='-4' tabstops='[50,130]'><font color='#FFCC66'>WN8:</font><tab><font color='{{c:WN8}}'><b>{{WN8}} ({{XWN8}})</b></font><tab><font color='#FFCC66'><b>{{avgTier}} (+{{avgBattleTierDiff}}) </b>Tier</font></textformat>",
-        "<textformat leading='-4' tabstops='[50,130,190]'><font color='#FFCC66'>Battles:</font><tab><font color='{{c:rWIN}}'><b>{{winsCount}}/{{battlesCount}}<tab>{{avgWinRate}}%<tab>{{rWIN}}</b></font>",
-        "<font color='#FFCC66'>Dmg:</font><tab><font color='{{c:rDAMAGE}}'><b>{{totalDmg}}<tab>{{avgDamage}}<tab>{{rDAMAGE}}</b></font>",
-        "<font color='#FFCC66'>Frags:</font><tab><font color='{{c:rFRAG}}'><b>{{totalFrag}}<tab>{{avgFrag}}<tab>{{rFRAG}}</b></font>",
-        "<font color='#FFCC66'>Spot:</font><tab><font color='{{c:rSPOT}}'><b>{{totalSpot}}<tab>{{avgSpot}}<tab>{{rSPOT}}</b></font>",
-        "<font color='#FFCC66'>Def:</font><tab><font color='{{c:rDEF}}'><b>{{totalDef}}<tab>{{avgDef}}<tab>{{rDEF}}</b></font>",
-        "<font color='#FFCC66'>Exp:</font><tab><font color='{{c:avgXP}}'><b>{{totalXP}}<tab>{{avgXP}}</b></font>",
-        "<font color='#FFCC66'>Credits:</font><tab><font color='{{c:credits}}'><b>{{credits}} <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='11' height='11' align='baseline' vspace='-2'><tab>{{avgCredits}} <img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='11' height='11' align='baseline' vspace='-2'></b></font></textformat><font>"
-    ],
-    "colors": {
-        "WN8": [
-			{"value":    0, "color": "#990000"},
-			{"value":  300, "color": "#FE0E00"},
-			{"value":  600, "color": "#FE7903"},
-			{"value":  900, "color": "#F8F400"},
-			{"value": 1250, "color": "#60FF00"},
-			{"value": 1600, "color": "#00CC00"},
-			{"value": 1900, "color": "#02C9B3"},
-			{"value": 2350, "color": "#D042F3"},
-			{"value": 2900, "color": "#9900FF"}
-        ],
-        "rWIN": [
-			{"value": 0.00, "color": "#990000"},
-			{"value": 0.96, "color": "#FE0E00"},
-			{"value": 0.98, "color": "#FE7903"},
-			{"value": 1.00, "color": "#F8F400"},
-			{"value": 1.03, "color": "#60FF00"},
-			{"value": 1.05, "color": "#00CC00"},
-			{"value": 1.07, "color": "#02C9B3"},
-			{"value": 1.11, "color": "#D042F3"},
-			{"value": 1.16, "color": "#9900FF"}
-        ],
-        "rDAMAGE": [
-			{"value": 0.00, "color": "#990000"},
-			{"value": 0.96, "color": "#FE0E00"},
-			{"value": 0.98, "color": "#FE7903"},
-			{"value": 1.00, "color": "#F8F400"},
-			{"value": 1.03, "color": "#60FF00"},
-			{"value": 1.05, "color": "#00CC00"},
-			{"value": 1.07, "color": "#02C9B3"},
-			{"value": 1.11, "color": "#D042F3"},
-			{"value": 1.16, "color": "#9900FF"}
-        ],
-        "rFRAG": [
-			{"value": 0.00, "color": "#990000"},
-			{"value": 0.96, "color": "#FE0E00"},
-			{"value": 0.98, "color": "#FE7903"},
-			{"value": 1.00, "color": "#F8F400"},
-			{"value": 1.03, "color": "#60FF00"},
-			{"value": 1.05, "color": "#00CC00"},
-			{"value": 1.07, "color": "#02C9B3"},
-			{"value": 1.11, "color": "#D042F3"},
-			{"value": 1.16, "color": "#9900FF"}
-        ],
-        "rSPOT": [
-			{"value": 0.00, "color": "#990000"},
-			{"value": 0.96, "color": "#FE0E00"},
-			{"value": 0.98, "color": "#FE7903"},
-			{"value": 1.00, "color": "#F8F400"},
-			{"value": 1.03, "color": "#60FF00"},
-			{"value": 1.05, "color": "#00CC00"},
-			{"value": 1.07, "color": "#02C9B3"},
-			{"value": 1.11, "color": "#D042F3"},
-			{"value": 1.16, "color": "#9900FF"}
-        ],
-        "rDEF": [
-			{"value": 0.00, "color": "#990000"},
-			{"value": 0.96, "color": "#FE0E00"},
-			{"value": 0.98, "color": "#FE7903"},
-			{"value": 1.00, "color": "#F8F400"},
-			{"value": 1.03, "color": "#60FF00"},
-			{"value": 1.05, "color": "#00CC00"},
-			{"value": 1.07, "color": "#02C9B3"},
-			{"value": 1.11, "color": "#D042F3"},
-			{"value": 1.16, "color": "#9900FF"}
-        ],
-        "avgXP": [
-            {"value": 0, "color": "#FE0E00"},
-            {"value": 120, "color": "#FE7903"},
-            {"value": 280, "color": "#F8F400"},
-            {"value": 500, "color": "#60FF00"},
-            {"value": 800, "color": "#02C9B3"},
-            {"value": 1000, "color": "#D042F3"}
-        ],
-        "credits": [
-            {"value": -1, "color": "#FE0E00"},
-            {"value": 1, "color": "#60FF00"}
-        ]
+				"<font size='12' face='$FieldFont' color='#FFB964'><textformat leading='-2' tabstops='[80,93,150]'>",			
+				"WN6:<tab>WN7:<tab><tab>WN8:",
+				"<font color='{{g:WN6}}'>{{WN6}} ({{XWN6}})</font><tab><font color='{{g:WN7}}'>{{WN7}} ({{XWN7}})</font><tab><tab><font color='{{g:WN8}}'>{{WN8}} ({{XWN8}})</font>\n",
+				"EFF:<tab>Ø Tier:",
+				"<font color='{{g:EFF}}'>{{EFF}} ({{XEFF}})</font><tab><font color='{{g:avgBattleTier}}'>{{avgBattleTier}} ({{avgBattleTierDiff}})</font>",
+				"</font></textformat>"
+	],
+   "userMacros": {
+		"potential": "\n<font size='12' color='#DBA901'>Pot. Dmg. Received: </font><font size='12' color='{{g:potentialDmg}}'>{{potentialDmg}}</font>",
+        "crewXP": "<font size='7'>\n\n </font><tab><img src='img://gui/maps/icons/library/message/Crew.png' width='20' height='18' align='baseline' vspace='-4'> <font size='12' color='#CDC673'>Crew Exp: </font><font size='12' color='#928A75'><b>{{totalTmenXP}}</b></font> <img src='img://gui/maps/icons/library/message/XpIcon.png' width='16' height='16' align='baseline' vspace='-4'>\n",
+        "autoRepair": "<tab><img src='img://gui/maps/icons/library/message/Wrench.png' width='20' height='18' align='baseline' vspace='-14'> <font size='12' color='#CDC673'>Repair: </font><font size='12' color='#FF1010'><b>{{autoRepairCost}}</b></font> <img src='img://gui/maps/icons/library/message/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'>\n",
+        "autoLoad": "<tab><img src='img://gui/maps/icons/library/message/Shell.png' width='20' height='18' align='baseline' vspace='-14'> <font size='12' color='#CDC673'>Ammo: </font><font size='12' color='#FF1010'><b>{{autoLoadCost}}</b></font> <img src='img://gui/maps/icons/library/message/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'>\n",
+        "autoEquip": "<tab><img src='img://gui/maps/icons/library/message/Toolbox.png' width='20' height='18' align='baseline' vspace='-14'> <font size='12' color='#CDC673'>Goods: </font><font size='12' color='#FF1010'><b>{{autoEquipCost}}</b></font> <img src='img://gui/maps/icons/library/message/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'>\n",
+        "totalBattle": "<font size='10'>\n</font><font size='13' color='#CDC673'><b>Total: <font size='13' color='{{g:netCredits}}'>{{netCredits}}</b></font> <img src='img://gui/maps/icons/library/message/CreditsIcon.png' width='16' height='16' align='baseline' vspace='-4'>",
+        "statsBattle": "<font size='13' color='#CDC673'><b>     WN8:</font> <font size='13' color='{{g:WN8}}'>{{WN8}}</font> <font color='#929292'>(<font color='{{g:WN8}}'>{{XWN8}}</font>)</b></font>"
     }
 }
