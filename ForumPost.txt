@@ -5,10 +5,10 @@ The 6th sense icon is the AoS logo, and Ephex was kind enough to help with AoS b
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
 [size=200]Download[/size]
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.6.exe]aos-wot-mods-0.9.0.6.exe[/url]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.7.exe]aos-wot-mods-0.9.0.7.exe[/url]
 
 Here's a zip file for those that don't like an installer.
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.6.zip]aos-wot-mods-0.9.0.6.zip[/url]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.7.zip]aos-wot-mods-0.9.0.7.zip[/url]
 
 [size=200]Mods included[/size]
 Some details of my mod pack:
@@ -17,6 +17,7 @@ The mods included are as following:
 [list]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/56831-089-j1mb0s-crosshair-mod-xvm-config/]J1mB0's Crosshair Mod & XVM Config[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/]Session Stats[/url]
+[*] [url=http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/]Color Messages[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/89516-089-damage-panel-134-int-centered-and-vanilla/]Damage Panel int centered and vanilla[/url]
 [*] [url=http://www.modxvm.com]XVM Mod[/url]
 [*] [url=http://www.vbaddict.net]Active Dossier Uploader[/url]
@@ -26,16 +27,15 @@ The mods included are as following:
 [*] [url=http://www.koreanrandom.com/forum/index.php?app=core&module=attach&section=attach&attach_id=3936]6thsense-audio[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353419-0811spotmessanger/]SpotMessanger[/url]
 [*] [url=http://worldof-tanks.com/0-8-7-working-zoom-in-out-server-reticle/]zoom-mod-128[/url] (Server reticle isn't working yet)
+[*] [url=http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/]Received Damage Announcer[/url]
+[*] [url=http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect/]Botdetect[/url]
 [/list]
 
 What is not yet included yet:
 [list]
-[*] [url=http://forum.worldoftanks.eu/index.php?/topic/177899-089-color-messages-and-session-stats/]Color Messages[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/295772-088-permanent-serverside-reticle-mod/]Permanent Serverside Reticle mod[/url]
 [*] Serverside Reticle mod - gun_marker_blue_ultraSlimWhite.dds
-[*] [url=http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/]Received Damage Announcer[/url] [i]This mod have temporarily removed as it falls quite clearly into the not permitted list[/i]
 [*] [url=http://mirtankov.net/mods/11709-mod-nevidimyi-vystrel-iz-kusta-radius-15m.html]Circle15mod[/url]
-[*] [url=http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect/]Botdetect[/url]
 [/list]
 
 [size=200]Mods configuration[/size]
@@ -51,7 +51,7 @@ The changes made to the XVM configuration are:
 [*]Enabled win chance
 [*]Redefined colors such as WR, WN & EFF so that the color codes are based on the thresholds from [url=http://wiki.wnefficiency.net/pages/Color_Scale]wiki.wnefficiency.net Color scale[/url], and WOT-News respectively.
 [*]When you press ALT you see the name of the player in the color of the players WN8 rating.
-[*]Platoon mates damage to enemies is colored yellow, and when they receive damage it's colored magenta (because real men don't say 'pink'!).
+[*]Platoon mates damage to enemies is colored dark yellow, and when they receive damage it's colored magenta (because real men don't say 'pink'!).
 [*]Minimap shows a red line with dots where the camera points to.
 [*]Minimap shows a circle around the tank to indicate proxy spotting range.
 [*]SixSense icon is the AoS logo - [b]*** VERY IMPORTANT ***[/b]
@@ -71,6 +71,9 @@ The installer will add a link to ADU to your Start Menu\Programs\Startup folder.
 
 [size=125]A plea for vBAddict[/size]
 I want to encourage people to use [url=http://www.vbaddict.net/wot.php]vBAddict[/url] as it analyses your replays, and WoT dossier, thus generating a WN8D (WN8 dossier) rating rather than a WN8A (WN8 API) rating which is less detailed than WN8D. Also it allows you to share the individual WN8 rating for each tank, that you've driven, and how its configured in regards to equipment, and crew skills etc. This means that you can also compare this with how other people configure their tanks, and how unicums configure their tanks. So its a very useful sites with far more informations that the ones that I've just highlighted here.
+
+[size=150]Received Damage Announcer[/size]
+I've removed the reload time information, as well as the name of the player who shot you. Otherwise its not allowed to use this mod.
 
 [size=200]Common problems[/size]
 If the installer complains that its not able to overwrite C:\Games\World_of_Tanks\ActiveDossierUploader.exe, then just close ADU in your task bar (its the icon with the green circle next to the clock), and click on 'Try Again'. Or you can just click on 'Ignore';

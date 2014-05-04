@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 9
 !define VERSIONPATCH 0
-!define VERSIONBUILD 6
+!define VERSIONBUILD 7
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -569,6 +569,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\-DFM-.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\-CB-.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\NA\clan\--V--.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\KR\clan\WIPE!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\KR\clan\BOT!.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\nick\Yoyo117.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\nick\sirmax2.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\EU\nick\M_r_A.png
@@ -784,6 +786,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\res\clanicons\CT\clan\WG-TM.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\CT\clan\WG-M.png
     Delete $INSTDIR\res_mods\xvm\res\clanicons\CT\clan\WG-A.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\ASIA\clan\WIPE!.png
+    Delete $INSTDIR\res_mods\xvm\res\clanicons\ASIA\clan\BOT!.png
     Delete $INSTDIR\res_mods\xvm\mods\xvm.swf
     Delete $INSTDIR\res_mods\xvm\mods\xvm-techtree.swf
     Delete $INSTDIR\res_mods\xvm\mods\xvm-tcarousel.swf
@@ -911,6 +915,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\xvm\configs\@Default\@xvm.xc
     Delete $INSTDIR\res_mods\ids_wipe.json
     Delete $INSTDIR\res_mods\ids_bots.json
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\vehicle_damage.json
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\vehicle.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\__init__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\spotMessanger\__init__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\spotMessanger\SpotMessanger.pyc
@@ -918,14 +924,49 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\__init__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\trata_stat.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat_config.json
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat_colors.json
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SpotMessangerLoader.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStatistic.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStatConfig.cfg
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#FFA462.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#FFA362.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#FF6262.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#FC6060.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#EEFF62.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#EEFE62.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#BE62FF.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#BE61FF.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#62FF78.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#62FE78.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#62BEFF.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon\#62BDFF.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#1c1c1c.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#1a1a1a.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#171717.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#141414.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#121212.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#0f0f0f.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#0d0d0d.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#0a0a0a.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#080808.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#050505.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks\#030303.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\BattleResultIcon-3.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\BattleResultIcon-2.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\#FFCC00.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\#FE7903.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\#EE0000.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\#D042F3.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\#02C9B3.png
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\#00EE00.png
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.xml
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\MS.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\GunConstraints.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\expected_tank_values.json
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\BRR.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\botdetect.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\ATS.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\messenger\gui\scaleform\view\battlechannelview.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\messenger\gui\messengerDispatcher.pyc
@@ -1028,6 +1069,18 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\gui\NoScroll.xml
     Delete $INSTDIR\res_mods\0.9.0\gui\maps\ingame\aim\gun_marker_blue.dds
     Delete $INSTDIR\res_mods\0.9.0\gui\maps\ingame\aim\gun_marker.dds
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\XpIcon.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\Wrench.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\Victory.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\Toolbox.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\Shell.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\Draw.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\Defeat.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\Crew.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message\CreditsIcon.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\BgBattleResultIconVictory-1.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\BgBattleResultIconDraw-1.png
+    Delete $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\BgBattleResultIconDefeat-1.png
     Delete $INSTDIR\res_mods\0.9.0\gui\gui_sounds.xml
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\waiting.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarouselFilterControls.swf
@@ -1045,12 +1098,16 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\NA\nick
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\NA\clan
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\NA
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\KR\clan
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\KR
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\EU\nick
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\EU\clan
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\EU
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\CT\nick
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\CT\clan
     RMDir $INSTDIR\res_mods\xvm\res\clanicons\CT
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\ASIA\clan
+    RMDir $INSTDIR\res_mods\xvm\res\clanicons\ASIA
     RMDir $INSTDIR\res_mods\xvm\res\clanicons
     RMDir $INSTDIR\res_mods\xvm\res
     RMDir $INSTDIR\res_mods\xvm\mods
@@ -1062,6 +1119,9 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\xvm
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\spotMessanger
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\XpIcon
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\ranks
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\mods
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\messenger\gui\scaleform\view
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\messenger\gui\scaleform
@@ -1090,6 +1150,9 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.9.0\gui\scaleform
     RMDir $INSTDIR\res_mods\0.9.0\gui\maps\ingame\aim
     RMDir $INSTDIR\res_mods\0.9.0\gui\maps\ingame
+    RMDir $INSTDIR\res_mods\0.9.0\gui\maps\icons\library\message
+    RMDir $INSTDIR\res_mods\0.9.0\gui\maps\icons\library
+    RMDir $INSTDIR\res_mods\0.9.0\gui\maps\icons
     RMDir $INSTDIR\res_mods\0.9.0\gui\maps
     RMDir $INSTDIR\res_mods\0.9.0\gui\flash
     RMDir $INSTDIR\res_mods\0.9.0\gui
@@ -1124,6 +1187,9 @@ section "uninstall"
     Delete $INSTDIR\aos-wot-mods\botdetect_report\botuser.jpg
     Delete $INSTDIR\aos-wot-mods\botdetect_report\botdetect_ReadMe.txt
     Delete $INSTDIR\aos-wot-mods\aos-wot-mods.ico
+    Delete $INSTDIR\aos-wot-mods\AoS-Branding\res_mods\xvm\res\SixthSense.png
+    Delete $INSTDIR\aos-wot-mods\AoS-Branding\res_mods\0.9.0\gui\flash\waiting.swf
+    Delete $INSTDIR\aos-wot-mods\AoS-Branding\res_mods\0.9.0\gui\flash\logos.swf
     Delete $INSTDIR\aos-wot-mods\ADU-install.bat
     RMDir $INSTDIR\aos-wot-mods\zoom-mod-dlja-pricela-x-128
     RMDir $INSTDIR\aos-wot-mods\xvm-audio\sounds
@@ -1137,6 +1203,13 @@ section "uninstall"
     RMDir $INSTDIR\aos-wot-mods\Circle15mod
     RMDir $INSTDIR\aos-wot-mods\camo_fix_S0me0ne
     RMDir $INSTDIR\aos-wot-mods\botdetect_report
+    RMDir $INSTDIR\aos-wot-mods\AoS-Branding\res_mods\xvm\res
+    RMDir $INSTDIR\aos-wot-mods\AoS-Branding\res_mods\xvm
+    RMDir $INSTDIR\aos-wot-mods\AoS-Branding\res_mods\0.9.0\gui\flash
+    RMDir $INSTDIR\aos-wot-mods\AoS-Branding\res_mods\0.9.0\gui
+    RMDir $INSTDIR\aos-wot-mods\AoS-Branding\res_mods\0.9.0
+    RMDir $INSTDIR\aos-wot-mods\AoS-Branding\res_mods
+    RMDir $INSTDIR\aos-wot-mods\AoS-Branding
     RMDir $INSTDIR\aos-wot-mods
     
 	# Always delete uninstaller as the last action
