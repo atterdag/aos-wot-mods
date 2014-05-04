@@ -16,26 +16,26 @@
 			{ "value": 9999.0, "color": "#D042F3" }
         ],
         "WN6": [
-			{ "value":    500, "color": "#990000" },
-			{ "value":    700, "color": "#FE0E00" },
-			{ "value":    900, "color": "#FE7903" },
-			{ "value":   1100, "color": "#F8F400" },
-			{ "value":   1350, "color": "#60FF00" },
-			{ "value":   1550, "color": "#00CC00" },
-			{ "value":   1850, "color": "#02C9B3" },
-			{ "value":   2050, "color": "#D042F3" },
-			{ "value":   9999, "color": "#9900FF" }	
+			{ "value":      0, "color": "#990000" },
+			{ "value":    500, "color": "#FE0E00" },
+			{ "value":    700, "color": "#FE7903" },
+			{ "value":    900, "color": "#F8F400" },
+			{ "value":   1100, "color": "#60FF00" },
+			{ "value":   1350, "color": "#00CC00" },
+			{ "value":   1550, "color": "#02C9B3" },
+			{ "value":   1850, "color": "#D042F3" },
+			{ "value":   2050, "color": "#9900FF" }	
         ],
         "WN7": [
-			{ "value":    500, "color": "#990000" },
-			{ "value":    700, "color": "#FE0E00" },
-			{ "value":    900, "color": "#FE7903" },
-			{ "value":   1100, "color": "#F8F400" },
-			{ "value":   1350, "color": "#60FF00" },
-			{ "value":   1550, "color": "#00CC00" },
-			{ "value":   1850, "color": "#02C9B3" },
-			{ "value":   2050, "color": "#D042F3" },
-			{ "value":   9999, "color": "#9900FF" }	
+			{ "value":      0, "color": "#990000" },
+			{ "value":    500, "color": "#FE0E00" },
+			{ "value":    700, "color": "#FE7903" },
+			{ "value":    900, "color": "#F8F400" },
+			{ "value":   1100, "color": "#60FF00" },
+			{ "value":   1350, "color": "#00CC00" },
+			{ "value":   1550, "color": "#02C9B3" },
+			{ "value":   1850, "color": "#D042F3" },
+			{ "value":   2050, "color": "#9900FF" }	
         ],
         "WN8": [
 			{ "value":      0, "color": "#990000" },
