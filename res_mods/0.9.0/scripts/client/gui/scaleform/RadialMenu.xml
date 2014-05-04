@@ -177,13 +177,13 @@ Supported macros in chat text:
    %(ammo)s     - displays your remaining ammo in AUTOLOADER CLIP
    
 XVM stat depending chat command macros:
-   %(winrate)s%% -- targets global winrate
-   %(eff)s -- targets efficiency rating
-   %(kbattles)s -- targets total battles in thousands
-   %(avglvl)s -- targets average tier played
-   %(twr)s -- targets Tourist efficiency factor
-   %(tankDamage)s -- targets avg. damage with the current tank (usually incorrect!)
-   %(tankWinrate)s%% -- targets winrate with the current tank
+   %(winrate)s%% - targets global winrate
+   %(eff)s - targets efficiency rating
+   %(kbattles)s - targets total battles in thousands
+   %(avglvl)s - targets average tier played
+   %(twr)s - targets Tourist efficiency factor
+   %(tankDamage)s - targets avg. damage with the current tank (usually incorrect!)
+   %(tankWinrate)s%% - targets winrate with the current tank
    
   The macros "%(vehicle)s", "%(clan)s", "%(name)s", "%(winrate)s%%", "%(eff)s",
 "%(kbattles)s", "%(avglvl)s", "%(twr)s", "%(tankDamage)s", "%(tankWinrate)s%%"
@@ -225,14 +225,12 @@ A complete list of names of keys for the shortcuts - http://pastebin.com/5GKk9jB
 				<ChatMode>All</ChatMode>
 			</Command>
 			<Command>
-				<Title>Clan spam</Title>
+				<Title>Notify about "Spot Messanger" (For AoS Clan Wars)</Title>
 				<Icon>Support</Icon>
 				<Text>%(randpart)s</Text>
 				<ChatMode>All</ChatMode>
 				<Variants>
-				<Variant>Clan XYZ is recruiting. Contact me per PM...blablabla</Variant>
-				<Variant>If someone wants to join your clan, they will find it on the website...</Variant>
-				<Variant>Ohh..the circus is back in town! Anyone want to run away with it?</Variant>
+				<Variant>If you're using the "AoS Mod Pack" then press &lt;F11&gt; to activate automatic spot notification.</Variant>
 				</Variants>
 			</Command>
 			<Command>
