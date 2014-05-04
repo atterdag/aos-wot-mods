@@ -1,68 +1,86 @@
 {
+	"Comments": [
+		{
+			"thresholds": "Values are top values for each color code, which is opposite from XVM where all values are bottom values.",
+			"sources":    "Values for WR, WN* are from http://wiki.wnefficiency.net/pages/Color_Scale"
+		}
+	],
     "gradient": {
         "EFF": [
-            {"value": 400, "color": "#FE0E00"},
-            {"value": 610, "color": "#FE7903"},
-            {"value": 850, "color": "#F8F400"},
-            {"value": 1145, "color": "#60FF00"},
-            {"value": 1475, "color": "#02C9B3"},
-            {"value": 1775, "color": "#D042F3"}
+			{ "value":    0.1, "color": "#D6D7D4" },
+			{ "value":  630.0, "color": "#FE0E00" },
+			{ "value":  860.0, "color": "#FE7903" },
+			{ "value": 1140.0, "color": "#F8F400" },
+			{ "value": 1460.0, "color": "#60FF00" },
+			{ "value": 1735.0, "color": "#02C9B3" },
+			{ "value": 9999.0, "color": "#D042F3" }
         ],
         "WN6": [
-            {"value": 300, "color": "#FE0E00"},
-            {"value": 410, "color": "#FE7903"},
-            {"value": 795, "color": "#F8F400"},
-            {"value": 1185, "color": "#60FF00"},
-            {"value": 1585, "color": "#02C9B3"},
-            {"value": 1925, "color": "#D042F3"}
+			{ "value":  500, "color": "#990000" },	
+			{ "value":  700, "color": "#FE0E00" },	
+			{ "value":  900, "color": "#FE7903" },	
+			{ "value": 1100, "color": "#F8F400" },	
+			{ "value": 1350, "color": "#60FF00" },	
+			{ "value": 1550, "color": "#00CC00" },	
+			{ "value": 1850, "color": "#02C9B3" },	
+			{ "value": 2050, "color": "#D042F3" },	
+			{ "value": 9999, "color": "#9900FF" }	
         ],
         "WN7": [
-            {"value": 300, "color": "#FE0E00"},
-            {"value": 410, "color": "#FE7903"},
-            {"value": 795, "color": "#F8F400"},
-            {"value": 1185, "color": "#60FF00"},
-            {"value": 1585, "color": "#02C9B3"},
-            {"value": 1925, "color": "#D042F3"}
+			{ "value":  500, "color": "#990000" },	
+			{ "value":  700, "color": "#FE0E00" },	
+			{ "value":  900, "color": "#FE7903" },	
+			{ "value": 1100, "color": "#F8F400" },	
+			{ "value": 1350, "color": "#60FF00" },	
+			{ "value": 1550, "color": "#00CC00" },	
+			{ "value": 1850, "color": "#02C9B3" },	
+			{ "value": 2050, "color": "#D042F3" },	
+			{ "value": 9999, "color": "#9900FF" }	
         ],
         "WN8": [
-            {"value": 200, "color": "#FE0E00"},
-            {"value": 310, "color": "#FE7903"},
-            {"value": 750, "color": "#F8F400"},
-            {"value": 1310, "color": "#60FF00"},
-            {"value": 1965, "color": "#02C9B3"},
-            {"value": 2540, "color": "#D042F3"}
+			{ "value":  300, "color": "#990000" },	
+			{ "value":  600, "color": "#FE0E00" },	
+			{ "value":  900, "color": "#FE7903" },	
+			{ "value": 1250, "color": "#F8F400" },	
+			{ "value": 1600, "color": "#60FF00" },	
+			{ "value": 1900, "color": "#00CC00" },	
+			{ "value": 2350, "color": "#02C9B3" },	
+			{ "value": 2900, "color": "#D042F3" },	
+			{ "value": 9999, "color": "#9900FF" }	
         ],
 		"avgBattleTier": [			
-			{ "value": 2,		"color": "#FE0E00" },	
-			{ "value": 3,		"color": "#FE7903" },	
-			{ "value": 5,		"color": "#F8F400" },	
-			{ "value": 7,		"color": "#60FF00" },	
-			{ "value": 9,		"color": "#02C9B3" },	
-			{ "value": 11,		"color": "#D042F3" }	
+			{ "value":    2, "color": "#FE0E00" },	
+			{ "value":    3, "color": "#FE7903" },	
+			{ "value":    5, "color": "#F8F400" },	
+			{ "value":    7, "color": "#60FF00" },	
+			{ "value":    9, "color": "#02C9B3" },	
+			{ "value":   11, "color": "#D042F3" }	
 		],
 	"potentialDmg": [
-			 { "value": 0,		"color": "#DBA901" },
-			 { "value": 1,      "color": "#FE0E00" },
-			 { "value": 800,      "color": "#FE0E00" },
-			 { "value": 1500,     "color": "#FE7903" },
-			 { "value": 2000,     "color": "#F8F400" },
-			 { "value": 2500,     "color": "#60FF00" },
-			 { "value": 3000,     "color": "#02C9B3" },
-			 { "value": 9999,     "color": "#D042F3" }
+			{ "value":    0, "color": "#DBA901" },
+			{ "value":    1, "color": "#FE0E00" },
+			{ "value":  800, "color": "#FE0E00" },
+			{ "value": 1500, "color": "#FE7903" },
+			{ "value": 2000, "color": "#F8F400" },
+			{ "value": 2500, "color": "#60FF00" },
+			{ "value": 3000, "color": "#02C9B3" },
+			{ "value": 9999, "color": "#D042F3" }
 		],
 		"rWIN": [
-			{ "value": 0.01,	"color": "#619DB8" },
-			{ "value": 0.4,		"color": "#FE0E00" },
-			{ "value": 0.8,		"color": "#FE7903" },
-			{ "value": 1.2,		"color": "#F8F400" },
-			{ "value": 1.6,		"color": "#60FF00" },
-			{ "value": 2.0,		"color": "#02C9B3" },
-			{ "value": 99,		"color": "#D042F3" }
+			{"value":  0.00, "color": "#990000"},
+			{"value":  0.96, "color": "#FE0E00"},
+			{"value":  0.98, "color": "#FE7903"},
+			{"value":  1.00, "color": "#F8F400"},
+			{"value":  1.03, "color": "#60FF00"},
+			{"value":  1.05, "color": "#00CC00"},
+			{"value":  1.07, "color": "#02C9B3"},
+			{"value":  1.11, "color": "#D042F3"},
+			{"value":  1.16, "color": "#9900FF"}
 		],				
         "netCredits": [
-            {"value": -1, "color": "#FF1010"},
-            {"value": 0, "color": "#FFFFFF"},
-            {"value": 1, "color": "#66CC66"}
+            {"value":    -1, "color": "#FF1010"},
+            {"value":     0, "color": "#FFFFFF"},
+            {"value":     1, "color": "#66CC66"}
 		]	
     }
 }
