@@ -3,9 +3,9 @@
   <shadow>True</shadow>
   <text>
     <color>
-      <R>0</R>
-      <G>255</G>
-      <B>0</B>
+      <R>115</R>
+      <G>183</G>
+      <B>34</B>
       <A>255</A>
     </color>
     <position>
@@ -16,7 +16,7 @@
       <R>0</R>
       <G>0</G>
       <B>0</B>
-      <A>255</A>
+      <A>128</A>
     </colorS>
     <positionS>
       <X>1042</X>
