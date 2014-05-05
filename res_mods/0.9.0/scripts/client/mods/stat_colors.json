@@ -7,13 +7,12 @@
 	],
     "gradient": {
         "EFF": [
-			{ "value":    0.1, "color": "#D6D7D4" },
-			{ "value":  630.0, "color": "#FE0E00" },
-			{ "value":  860.0, "color": "#FE7903" },
-			{ "value": 1140.0, "color": "#F8F400" },
-			{ "value": 1460.0, "color": "#60FF00" },
-			{ "value": 1735.0, "color": "#02C9B3" },
-			{ "value": 9999.0, "color": "#D042F3" }
+			{ "value":      0, "color": "#FE0E00" },
+			{ "value":    630, "color": "#FE7903" },
+			{ "value":    860, "color": "#F8F400" },
+			{ "value":   1140, "color": "#60FF00" },
+			{ "value":   1460, "color": "#02C9B3" },
+			{ "value":   1735, "color": "#D042F3" }
         ],
         "WN6": [
 			{ "value":      0, "color": "#990000" },
