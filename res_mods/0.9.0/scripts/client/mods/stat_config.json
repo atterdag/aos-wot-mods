@@ -20,7 +20,7 @@
     "ignoreBattleType": [],
     "showResetButton": true,
     "textResetButton": "Reset",
-    "dailyAutoReset": false,
+    "dailyAutoReset": true,
     "dailyAutoResetHour": 6,	
     "battleEndedMessageDefeat": "<font size='18' color='#FE0E00'>Defeat.</font>\n <font size='13' color='#DBA901'>{{map}}\n</font> <img src='img://gui/maps/icons/vehicle/{{tankimage}}.png' width='120' height='75' align='baseline' vspace='-10'> <font size='14' color='#DBA901'>{{vehicle}}</font>\n",
     "battleEndedMessageDraw": "<font size='18' color='#FE7903'>Draw.\n <font size='13' color='#DBA901'>{{map}}\n</font> <img src='img://gui/maps/icons/vehicle/{{tankimage}}.png' width='120' height='75' align='baseline' vspace='-10'> <font size='14' color='#DBA901'>{{vehicle}}</font>\n",
