@@ -17,11 +17,11 @@
         "The ammunition on",
         "repaired successfully"
     ],
-    "ignoreBattleType": [2, 4],
+    "ignoreBattleType": [],
     "showResetButton": true,
     "textResetButton": "Reset",
     "dailyAutoReset": false,
-    "dailyAutoResetHour": 2,	
+    "dailyAutoResetHour": 6,	
     "battleEndedMessageDefeat": "<font size='18' color='#FE0E00'>Defeat.</font>\n <font size='13' color='#DBA901'>{{map}}\n</font> <img src='img://gui/maps/icons/vehicle/{{tankimage}}.png' width='120' height='75' align='baseline' vspace='-10'> <font size='14' color='#DBA901'>{{vehicle}}</font>\n",
     "battleEndedMessageDraw": "<font size='18' color='#FE7903'>Draw.\n <font size='13' color='#DBA901'>{{map}}\n</font> <img src='img://gui/maps/icons/vehicle/{{tankimage}}.png' width='120' height='75' align='baseline' vspace='-10'> <font size='14' color='#DBA901'>{{vehicle}}</font>\n",
     "battleEndedMessageWin": "<font size='18' color='#60FF00'>Victory!\n <font size='13' color='#DBA901'>{{map}}\n</font> <img src='img://gui/maps/icons/vehicle/{{tankimage}}.png' width='120' height='75' align='baseline' vspace='-10'> <font size='14' color='#DBA901'>{{vehicle}}</font>\n",
@@ -30,10 +30,8 @@
     "icon": "",
     "template": [
 				"<font size='12' face='$FieldFont' color='#FFB964'><textformat leading='-2' tabstops='[80,93,150]'>",			
-				"WN6:<tab>WN7:<tab><tab>WN8:",
-				"<font color='{{g:WN6}}'>{{WN6}} ({{XWN6}})</font><tab><font color='{{g:WN7}}'>{{WN7}} ({{XWN7}})</font><tab><tab><font color='{{g:WN8}}'>{{WN8}} ({{XWN8}})</font>\n",
-				"EFF:<tab>Ø Tier:",
-				"<font color='{{g:EFF}}'>{{EFF}} ({{XEFF}})</font><tab><font color='{{g:avgBattleTier}}'>{{avgBattleTier}} ({{avgBattleTierDiff}})</font>",
+				"WN8:<tab>EFF:<tab><tab>Ø Tier:",
+				"<font color='{{g:WN8}}'>{{WN8}} ({{XWN8}})</font><tab><font color='{{g:EFF}}'>{{EFF}} ({{XEFF}})</font><tab><tab><font color='{{g:avgBattleTier}}'>{{avgBattleTier}} ({{avgBattleTierDiff}})</font>",
 				"</font></textformat>"
 	],
    "userMacros": {
