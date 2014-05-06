@@ -228,7 +228,7 @@ A complete list of names of keys for the shortcuts - http://pastebin.com/5GKk9jB
 				<Title>Notify about "Spot Messanger" (For AoS Clan Wars)</Title>
 				<Icon>Support</Icon>
 				<Text>%(randpart)s</Text>
-				<ChatMode>All</ChatMode>
+				<ChatMode>Team</ChatMode>
 				<Variants>
 				<Variant>If you're using the "AoS Mod Pack" then press &lt;F11&gt; to activate automatic spot notification.</Variant>
 				</Variants>
