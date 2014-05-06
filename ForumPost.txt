@@ -5,10 +5,10 @@ The 6th sense icon is the AoS logo, and Ephex was kind enough to help with AoS b
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
 [size=200]Download[/size]
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.7.exe]aos-wot-mods-0.9.0.7.exe[/url]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.8.exe]aos-wot-mods-0.9.0.8.exe[/url]
 
 Here's a zip file for those that don't like an installer.
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.7.zip]aos-wot-mods-0.9.0.7.zip[/url]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.8.zip]aos-wot-mods-0.9.0.8.zip[/url]
 
 [size=200]Mods included[/size]
 Some details of my mod pack:
@@ -29,6 +29,7 @@ The mods included are as following:
 [*] [url=http://worldof-tanks.com/0-8-7-working-zoom-in-out-server-reticle/]zoom-mod-128[/url] (Server reticle isn't working yet)
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/]Received Damage Announcer[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect/]Botdetect[/url]
+[*] [url=http://forum.worldoftanks.eu/index.php?/topic/377290-090-permanent-channels]Permanent channels[/url]
 [/list]
 
 What is not yet included yet:
@@ -65,6 +66,9 @@ The SpotMessanger mod is disabled by default, so that you don't spam the chat in
 
 [size=150]Session Stats[/size]
 The colors (WR, WN8 etc) are based on [url=http://wiki.wnefficiency.net/pages/Color_Scale]wiki.wnefficiency.net Color scale[/url]. 
+Removed all WN6, and WN7 ratings. Only WN8 is valid these days
+Removed ratings from daily session stat, and only left ratings in the global stat.
+Configured global stats to be reset every day at 6 AM. (In effect turning ratings in global stat into daily stats. If you want to see global stats goto WotLabs ...)
 
 [size=150]ADU (ActiveDossierUploader)[/size]
 The installer will add a link to ADU to your Start Menu\Programs\Startup folder.

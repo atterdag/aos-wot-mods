@@ -14,7 +14,7 @@
 !define VERSIONMAJOR 0
 !define VERSIONMINOR 9
 !define VERSIONPATCH 0
-!define VERSIONBUILD 7
+!define VERSIONBUILD 8
 # These will be displayed by the "Click here for support information" link in "Add/Remove Programs"
 # It is possible to use "mailto:" links in here to open the email client
 !define HELPURL "https://code.google.com/p/aos-wot-mods/w/list" # "Support Information" link
@@ -922,7 +922,6 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\spotMessanger\SpotMessanger.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\modsOOP\spotMessanger\config.xml
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\__init__.pyc
-    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\trata_stat.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat_config.json
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat_colors.json
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\stat.pyc
@@ -962,6 +961,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SessionStat\#00EE00.png
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.xml
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\SafeShot.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\permachannel.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\MS.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\GunConstraints.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\mods\expected_tank_values.json
@@ -973,6 +973,7 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\RadialMenu.xml
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\RadialMenu.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\locale\__init__.pyc
+    Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby\settings\SettingsWindow.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby\hangar\tankcarousel.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\__init__.pyc
     Delete $INSTDIR\res_mods\0.9.0\scripts\client\gui\mods\xvmstat\__version__.pyc
@@ -1086,6 +1087,8 @@ section "uninstall"
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarouselFilterControls.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarousel.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\TankCarousel.cfg
+    Delete $INSTDIR\res_mods\0.9.0\gui\flash\settingsWindow.swf
+    Delete $INSTDIR\res_mods\0.9.0\gui\flash\ModSettingsPanel.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\logos.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\battle.swf
     Delete $INSTDIR\res_mods\0.9.0\gui\flash\Application.swf
@@ -1128,6 +1131,7 @@ section "uninstall"
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\messenger\gui
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\messenger
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\locale
+    RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby\settings
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby\hangar
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view\lobby
     RMDir $INSTDIR\res_mods\0.9.0\scripts\client\gui\scaleform\daapi\view
@@ -1211,7 +1215,7 @@ section "uninstall"
     RMDir $INSTDIR\aos-wot-mods\AoS-Branding\res_mods
     RMDir $INSTDIR\aos-wot-mods\AoS-Branding
     RMDir $INSTDIR\aos-wot-mods
-    
+
 	# Always delete uninstaller as the last action
 	Delete $INSTDIR\aos-wot-mods-uninstall.exe
 
