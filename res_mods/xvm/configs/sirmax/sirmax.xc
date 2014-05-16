@@ -5,12 +5,12 @@
     "standardMarkers": false,
 
     "formatNick": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
-    "formatVehicle": "<font face='Consolas' size='11'><font color='{{c:avglvl|#666666}}'>{{avglvl|-}}</font> <font color='{{c:xeff|#666666}}'>{{xeff|--}}</font>|<font color='{{c:xwn8|#666666}}'>{{xwn8|--}}</font> <font color='{{c:kb|#666666}}'>{{kb%2d~k|--k}}</font></font>",
+    "formatVehicle": "<font face='Consolas' size='11'><font color='{{c:avglvl|#666666}}'>{{avglvl%d|-}}</font> <font color='{{c:tdv|#666666}}'>{{tdv%0.1f|---}}|<font color='{{c:e|#666666}}'>{{e|-}}</font>|<font color='{{c:xeff|#666666}}'>{{xeff|--}}</font>|<font color='{{c:xwn8|#666666}}'>{{xwn8|--}}</font> <font color='{{c:kb|#666666}}'>{{kb%2d~k|--k}}</font></font>",
     //"formatVehicle": "{{vehicle}}",
-    //"formatVehicle": "|{{kb%-2d~k|--k}}|{{t-hb%-2d~h|--h}}|",
+    //"formatVehicle": "<font color='{{c:rating}}'>{{rating%2d~%|--%}}</font>",
 
     "markersStat": "<b><font face='Symbol' color='#CCCCCC' size='11'><font color='{{c:t-battles}}'>·</font> <font color='{{c:xeff}}'>·</font> <font color='{{c:xwn8}}'>·</font></font></b>",
-    "markersStatAlt": "<b><font face='$FieldFont' size='12'><font color='{{c:t-battles}}'>{{t-hb%d~h|-}}</font> <font color='{{c:xeff}}'>{{xeff|--}}</font> <font color='{{c:xwn8}}'>{{xwn8|--}}</font> <font color='{{c:rating}}'>{{rating~%|--}}</font></font></b>",
+    "markersStatAlt": "<b><font face='$FieldFont' size='12'><font color='{{c:t-battles}}'>{{t-hb%d~h|-}}</font> <font color='{{c:xeff}}'>{{xeff|--}}</font> <font color='{{c:xwn8}}'>{{xwn8|--}}</font> <font color='{{c:rating}}'>{{rating%d~%|--}}</font></font></b>",
 
     "damageMessageAlive": "{{dmg}}",
     "damageMessageAllyDead": "({{dmg}})",
@@ -32,7 +32,7 @@
   },
   "elements": [
     ${"sirmax-snippet-test.xc":"."},
-//    ${"sirmax-snippet-pp.xc":"."},  // players panels
+    //${"sirmax-snippet-pp.xc":"."},  // players panels
     ${"sirmax-snippet-bt.xc":"."} // battle timer
   ],
   "definition": {
@@ -123,7 +123,6 @@
   },
   "playersPanel": {
     "alpha": 50,
-    "initialMode": "short",
     "removeSquadIcon": true,
     "removePanelsModeSwitcher": true,
     "clanIcon": { "show": true, "x": 4, "y": 6, "h": 16, "w": 16, "alpha": 90 },
@@ -141,8 +140,8 @@
     },
     "large": {
       "width": 120,
-      "nickFormatLeft": "<font color='{{c:xwn8}}'>{{xwn8|--}}</font> {{name}}<font alpha='#A0'>{{clan}}</font>",
-      "nickFormatRight": "{{name}}<font alpha='#A0'>{{clan}}</font> <font color='{{c:xwn8}}'>{{xwn8|--}}</font>",
+      "nickFormatLeft": "<font color='{{c:xwn8}}'>{{xwn8|--}}</font> {{name%.20s~..}}<font alpha='#A0'>{{clan}}</font>",
+      "nickFormatRight": "{{name%.20s~..}}<font alpha='#A0'>{{clan}}</font> <font color='{{c:xwn8}}'>{{xwn8|--}}</font>",
       "vehicleFormatLeft": "{{hp}} / {{hp-max}}",
       "vehicleFormatRight": "{{hp}} / {{hp-max}}"
       //"vehicleFormatLeft": "<font color='{{c:rating}}'>{{vehicle}}</font>",
@@ -162,6 +161,14 @@
           "dead": "<font face='$FieldFont' size='24' color='#222222'>*</font>"
         }
       }
+    },
+    "allySpottedMarker": {
+      "enabled": true,
+      "format": {
+        "lost": "<font face='$FieldFont' size='24' color='#DDDDDD'>*</font>",
+        "revealed": "",
+        "dead": ""
+      }
     }
   },
   "battleResults": {
@@ -175,7 +182,7 @@
     //"iconScale": 2,
     "circles": {
         "major": [
-            { "enabled": true, "distance": 445, "thickness": 0.3, "alpha": 65, "color": "0xFF3333" },
+            { "enabled": true, "distance": 445, "thickness": 0.3, "alpha": 50, "color": "0xFFCC66" },
             { "enabled": true, "distance": 50, "thickness": 1, "alpha": 50, "color": "0xFFFFFF" }
         ]
     },
@@ -205,7 +212,8 @@
           //"deadenemy": 50
         }
       }
-    }
+    },
+    "square" : { "enabled": true }
   },
   "hitLog": {
     "visible": true,
@@ -217,8 +225,8 @@
     "direction": "down",
     "insertOrder": "end",
     "groupHitsByPlayer": true,
-    "deadMarker": "<font face='Wingdings'>N</font>",
-    "blowupMarker": "<font face='Wingdings'>M</font>",
+    "deadMarker": "<img src='xvm://res/icons/dead.png' width='12' height='12'>",
+    "blowupMarker": "<img src='xvm://res/icons/blowedup.png' width='12' height='12'>",
 //  TEST
 //    "formatHistory": "<textformat tabstops='[20,50,90,150]'><font size='12'>#19</font>:<tab>9999<tab>| 2222<tab>| ramming<tab>| {{n}} {{n-player}} {{nick}}</textformat>",
     "defaultHeader": "<textformat leading='-2'><font color='#CCCCCC'>Total:</font> <font size='13'>#0</font></textformat>",
@@ -550,6 +558,13 @@
       { "value": 350,  "alpha": 100 },
       { "value": 500,  "alpha": 50 },
       { "value": 9999, "alpha": 0 }
+    ],
+    "hp_ratio": [
+      { "value": 1, "alpha": "#00" },
+      { "value": 10, "alpha": "#FF" },
+      { "value": 20, "alpha": "#BB" },
+      { "value": 50, "alpha": "#00" },
+      { "value": 101, "alpha": "#00" }
     ]
   },
   "iconset": {
@@ -566,7 +581,7 @@
     "usa-T34_hvy": { "name": "т34.", "short": "т34" },
     "ussr-KV-1s": { "name": "квас", "short": "квс" }
   },
-  "texts": { "vtype": { "LT":  "ЛТ" } },
+  //"texts": { "vtype": { "LT":  "ЛТ" } },
   //"colors": ${"sirmax-colors.xc":"colors"},
   "consts": { "VM_COEFF_VMM_DEAD": 0.75 }
 }

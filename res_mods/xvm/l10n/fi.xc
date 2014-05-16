@@ -84,8 +84,7 @@
     "SPG": "SPG",
     "blownUp": "Räjähti!",
     "token/network_error": "Verkkovirhe. Ei yhteyttä XVM tilastoihin, yritä uudelleen myöhemmin.",
-    "token/bad_token": "Virhe lukuoikeudessa XVM tilastoihin,
-    {{l10n:token/notify_xvm_site}}",
+    "token/bad_token": "Virhe lukuoikeudessa XVM tilastoihin.{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Tila: <font color='#FF0000'>Estetty</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Tila: <font color='#FFFF00'>Pois päältä</font><br>{{l10n:token/notify_xvm_site}}",
     "token/active": "Tila: <font color='#00FF00'>Päällä</font>",
@@ -93,8 +92,6 @@
     "token/hours_left": "Tunteja jäljellä:<tab/><font color='#ffff00'>{0}</font>",
     "token/cnt": "Kysely laskuri:<tab/><font color='#eeeeee'>{0}</font>",
     "token/unknown_status": "Tunnistamaton tila",
-    "token/notify_xvm_site": "<font color='#EEEEEE'>Ohjeet kirjautumiseen,
-    Avaa linkki</font> <a href='#XVM_SITE#'>XVM site</a>. <font color='#FF0000'>Kirjaudu ulos pelistä.</font,
-    <font color='#EEEEEE'>Vaihda avatun sivuston kieli englanniksi. Kirjautuessasi 'sing-in' valitse Eu-serveri. Kirjauduttuasi valitse 'activate', tai 'Prolong'. Voit jatkaa pelaamista. Useammalla tietokoneella valitse 'add PC'.</font>"
+    "token/notify_xvm_site": "<font color='#EEEEEE'>Ohjeet kirjautumiseen: Avaa linkki</font> <a href='#XVM_SITE#'>XVM site</a>. <font color='#FF0000'>Kirjaudu ulos pelistä.</font><font color='#EEEEEE'>Vaihda avatun sivuston kieli englanniksi. Kirjautuessasi 'sing-in' valitse Eu-serveri. Kirjauduttuasi valitse 'activate', tai 'Prolong'. Voit jatkaa pelaamista. Useammalla tietokoneella valitse 'add PC'.</font>"
   }
 }

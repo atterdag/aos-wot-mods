@@ -64,6 +64,31 @@
         }
       }
     },
+    // Ally spotted status marker at left side panel.
+    // This feature depends on enabled XVM minimap mod
+    // Маркер статуса засвета в левой боковой панели списка игроков.
+    // Фича зависит от включенного XVM мода миникарты
+    "allySpottedMarker": {
+      // false - Disable.
+      // false - отключить.
+      "enabled": true,
+      // Offset relative to level icon (by X, Y).
+      // Смещение относительно иконки уровня танка (по X, Y).
+      "Xoffset": -15,
+      "Yoffset": 0,
+      // Формат.
+      "format": {
+        // This ally was lost at minimap.
+        // Этот союзник отмечен на миникарте как потерянный.
+        "lost": "",
+        // Ally currently revealed at minimap.
+        // Союзник виден на миникарте прямо сейчас.
+        "revealed": "",
+        // Dead ally.
+        // Уничтоженный союзник.
+        "dead": ""
+      }
+    },
     // Options for the "medium" panels - the first of the medium panels.
     // Режим ушей "medium" - первые средние уши в игре.
     "medium": {
@@ -80,8 +105,8 @@
     // Options for the "medium2" panels - the second of the medium panels.
     // Режим ушей "medium2" - вторые средние уши в игре.
     "medium2": {
-      // Minimum width of the vehicle name column, 0-250. Default is 65.
-      // Минимальная ширина названия танка, 0-250. По умолчанию: 65.
+      // Maximum width of the vehicle name column, 0-250. Default is 65.
+      // Максимальная ширина названия танка, 0-250. По умолчанию: 65.
       "width": 65,
       // Display format for the left panel (macros allowed, see readme-en.txt).
       // Формат отображения для левой панели (допускаются макроподстановки, см. readme-ru.txt).
