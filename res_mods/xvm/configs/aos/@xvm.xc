@@ -19,7 +19,7 @@
 {
   // Version of the config. Do not remove or change it unnecessarily.
   // Версия конфига. Не удаляйте и не изменяйте её без необходимости.
-  "configVersion": "0.9.0.6",
+  "configVersion": "0.9.0.9",
 
   // Version of the editor.
   // Версия редактора.
