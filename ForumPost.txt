@@ -5,10 +5,10 @@ The 6th sense icon is the AoS logo, and Ephex was kind enough to help with AoS b
 I've created a installer using NSIS of my mod packs for all those that can't be bothered with downloading mods, and installing them manually from the ZIP files.
 
 [size=200]Download[/size]
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.8.exe]aos-wot-mods-0.9.0.8.exe[/url]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.9.exe]aos-wot-mods-0.9.0.9.exe[/url]
 
 Here's a zip file for those that don't like an installer.
--> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.8.zip]aos-wot-mods-0.9.0.8.zip[/url]
+-> [url=https://dl.dropboxusercontent.com/u/11915528/wot/aos-wot-mods-0.9.0.9.zip]aos-wot-mods-0.9.0.9.zip[/url]
 
 [size=200]Mods included[/size]
 Some details of my mod pack:
@@ -30,6 +30,7 @@ The mods included are as following:
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/299941-received-damage-announcer-v17-089/]Received Damage Announcer[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/353476-0811-botdetect/]Botdetect[/url]
 [*] [url=http://forum.worldoftanks.eu/index.php?/topic/377290-090-permanent-channels]Permanent channels[/url]
+[*] [url=http://forum.worldoftanks.ru/index.php?/topic/1190058-09-autoequip]AutoEquip[/url]
 [/list]
 
 What is not yet included yet:
@@ -54,7 +55,7 @@ The changes made to the XVM configuration are:
 [*]When you press ALT you see the name of the player in the color of the players WN8 rating.
 [*]Platoon mates damage to enemies is colored dark yellow, and when they receive damage it's colored magenta (because real men don't say 'pink'!).
 [*]Minimap shows a red line with dots where the camera points to.
-[*]Minimap shows a circle around the tank to indicate proxy spotting range.
+[*]Minimap shows a circle around the tank to indicate proximity spotting range.
 [*]SixSense icon is the AoS logo - [b]*** VERY IMPORTANT ***[/b]
 [*]Preconfigured contour icons to use two different directories (under res_mods\xvm\res\contours\ you have ally, and enemy)
 [/list]
