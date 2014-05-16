@@ -228,7 +228,6 @@ A complete list of names of keys for the shortcuts - http://pastebin.com/5GKk9jB
 					<Variant>%(name)s, do you want some cheese with that "whine"?</Variant>
 					<Variant>%(name)s, cry some more. Your tears sustain me!</Variant>
 				</Variants>
-				<Hotkey>KEY_LALT+KEY_W</Hotkey>
 			</Command>
 			<Command>
 				<Title>Notify about "Spot Messanger" (For AoS Clan Wars)</Title>
