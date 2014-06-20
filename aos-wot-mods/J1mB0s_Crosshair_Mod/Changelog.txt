@@ -1,3 +1,12 @@
+1.40
+- Indicator and Central Marker settings fixed
+
+1.39
+- World of Tanks v0.9.1 supported
+- 4th sniper mode ammo clip possition fixed
+- Installation status added to in-garage reticle settings
+- Known Bug: Indicator and Central Marker settings broken
+
 1.38
 - World of Tanks v0.9.0 supported
 - New optional aim optimized for colorblind people
