@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Превод: Георги Шарапанов, корекции от Пламен Синигерски // Translated by Georgi Sharapanov, edited by Plamen Sinigersky",
     "Initialization": "Подготовка",
     "New version available": "Налична е нова версия",
     "Chance error": "Вероятност за загуба",
@@ -87,11 +86,12 @@
     "token/bad_token": "Грешен жетон.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Състояние: <font color='#FF0000'>Блокирано</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Състояние: <font color='#FFFF00'>Неактивно</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Състояние: <font color='#00FF00'>Активно</font>",
-    "token/days_left": "Оставащи дни:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Оставащи часове:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Брой заявки:<tab/><font color='#eeeeee'>{0}</font>",
     "token/unknown_status": "Незнаен статут",
-    "token/notify_xvm_site": "Моля, отворете <a href='#XVM_SITE#'>страницата на XVM</a> и активирайте статистиките в персоналния ви кабинет."
+    "token/notify_xvm_site": "Моля, отворете <a href='#XVM_SITE#'>страницата на XVM</a> и активирайте статистиките в персоналния ви кабинет.",
+    "": "Превод: Георги Шарапанов, корекции от Пламен Синигерски // Translated by Georgi Sharapanov, edited by Plamen Sinigersky",
+    "": "Състояние: <font color='#00FF00'>Активно</font>",
+    "": "Оставащи дни:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Оставащи часове:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Брой заявки:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

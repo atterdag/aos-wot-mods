@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Crabtr33",
     "Initialization": "Načítání",
     "New version available": "Nová verze k dispozici",
     "Chance error": "Chyba",
@@ -66,6 +65,14 @@
     "PutOwnCrew": "Vlastní posádka",
     "PutBestCrew": "Nejlepší posádka",
     "PutClassCrew": "Posádka stejné třídy",
+    "gun_reload_time/actual": "Aktuální čas nabíjení",
+    "view_range/base": "základní",
+    "view_range/actual": "aktuální",
+    "view_range/stereoscope": "s binokulárem",
+    "radio_range/base": "základní",
+    "radio_range/actual": "aktuální",
+    "(sec)": "(sek)",
+    "(m)": "(m)",
     "Vehicle": "Vozidlo",
     "Battle tiers": "MM",
     "Type": "Typ",
@@ -87,11 +94,16 @@
     "token/bad_token": "Špatný token.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Stav: <font color='#FF0000'>Blokován</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Stav: <font color='#FFFF00'>Neaktivní</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Stav: <font color='#00FF00'>Aktivní</font>",
-    "token/days_left": "Zbývá dnů:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Zbývá hodin:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Počet přístupů:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/active": "Stav:<tab/><font color='#00FF00'>Aktivní</font>",
+    "token/time_left": "Zbývající čas:<tab/><font color='#EEEEEE'>{0}d. {1}h. {2}m.</font>",
+    "token/time_left_warn": "Zbývající čas:<tab/><font color='#EEEE00'>{0}d. {1}h. {2}m.</font>",
+    "token/cnt": "Počet přístupů:<tab/><font color='#EEEEEE'>{0}</font>",
     "token/unknown_status": "Stav neznámý",
-    "token/notify_xvm_site": "Prosím jděte na <a href='#XVM_SITE#'>stránky XVM</a> a aktivujte statistiky."
+    "token/notify_xvm_site": "Prosím jděte na <a href='#XVM_SITE#'>stránky XVM</a> a aktivujte statistiky.",
+    "": "Crabtr33",
+    "": "Stav: <font color='#00FF00'>Aktivní</font>",
+    "": "Zbývá dnů:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Zbývá hodin:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Počet přístupů:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

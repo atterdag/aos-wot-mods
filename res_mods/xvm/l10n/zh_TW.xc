@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "(SG)LiNcUtT[507SW]",
     "Initialization": "初始化中",
     "New version available": "新版已出!",
     "Chance error": "失敗率",
@@ -82,6 +81,7 @@
     "LT": "輕型戰車",
     "TD": "驅逐戰車",
     "SPG": "自走炮",
-    "blownUp": "彈藥架殉爆!"
+    "blownUp": "彈藥架殉爆!",
+    "": "(SG)LiNcUtT[507SW]"
   }
 }

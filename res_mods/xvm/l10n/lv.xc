@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Latvian WoT community http://goo.gl/lG87wX ",
     "Initialization": "Inicializācija",
     "New version available": "Pieejama jauna versija",
     "Chance error": "Kļūda aprēķinos",
@@ -66,6 +65,14 @@
     "PutOwnCrew": "Šī tanka apkalpe",
     "PutBestCrew": "Labākā apkalpe",
     "PutClassCrew": "Tās pašas klases apkalpe",
+    "gun_reload_time/actual": "Faktiskais ieroča pārlādes laiks",
+    "view_range/base": "pamata",
+    "view_range/actual": "faktiskais",
+    "view_range/stereoscope": "ar stereoskopu",
+    "radio_range/base": "pamata",
+    "radio_range/actual": "faktiskais",
+    "(sec)": "(s)",
+    "(m)": "(m)",
     "Vehicle": "Tanks",
     "Battle tiers": "Kaujas līmenis",
     "Type": "Veids",
@@ -87,11 +94,16 @@
     "token/bad_token": "Slikta iezīme.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Statuss: <font color='#FF0000'>Bloķēts</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Statuss: <font color='#FFFF00'>Neaktīvs</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Statuss: <font color='#00FF00'>Aktīvs</font>",
-    "token/days_left": "Atlikušas dienas:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Atlikušas stundas:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Pieprasījumu skaits:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/active": "Statuss:<tab/><font color='#00FF00'>Aktīvs</font>",
+    "token/time_left": "Atlicis:<tab/><font color='#EEEEEE'>{0}d. {1}h. {2}m.</font>",
+    "token/time_left_warn": "Atlicis:<tab/><font color='#EEEE00'>{0}d. {1}h. {2}m.</font>",
+    "token/cnt": "Pieprasījumu skaits:<tab/><font color='#EEEEEE'>{0}</font>",
     "token/unknown_status": "Nezināms statuss",
-    "token/notify_xvm_site": "Lūdzu, apmeklē <a href='#XVM_SITE#'>XVM mājaslapu</a> un aktivizē statistiku savā profilā."
+    "token/notify_xvm_site": "Lūdzu, apmeklē <a href='#XVM_SITE#'>XVM mājaslapu</a> un aktivizē statistiku savā profilā.",
+    "": "Latvian WoT community http://goo.gl/lG87wX ",
+    "": "Statuss: <font color='#00FF00'>Aktīvs</font>",
+    "": "Atlikušas dienas:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Atlikušas stundas:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Pieprasījumu skaits:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

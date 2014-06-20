@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Mikael Palokangas, Seula, Taifuuni and Tuomas Rantalainen",
     "Initialization": "Alustus",
     "New version available": "Uusi versio on saatavilla",
     "Chance error": "Todennäköisyyden epävarmuus",
@@ -87,11 +86,12 @@
     "token/bad_token": "Virhe lukuoikeudessa XVM tilastoihin.{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Tila: <font color='#FF0000'>Estetty</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Tila: <font color='#FFFF00'>Pois päältä</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Tila: <font color='#00FF00'>Päällä</font>",
-    "token/days_left": "Päiviä jäljellä:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Tunteja jäljellä:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Kysely laskuri:<tab/><font color='#eeeeee'>{0}</font>",
     "token/unknown_status": "Tunnistamaton tila",
-    "token/notify_xvm_site": "<font color='#EEEEEE'>Ohjeet kirjautumiseen: Avaa linkki</font> <a href='#XVM_SITE#'>XVM site</a>. <font color='#FF0000'>Kirjaudu ulos pelistä.</font><font color='#EEEEEE'>Vaihda avatun sivuston kieli englanniksi. Kirjautuessasi 'sing-in' valitse Eu-serveri. Kirjauduttuasi valitse 'activate', tai 'Prolong'. Voit jatkaa pelaamista. Useammalla tietokoneella valitse 'add PC'.</font>"
+    "token/notify_xvm_site": "<font color='#EEEEEE'>Avaa linkki</font> <a href='#XVM_SITE#'>XVM site</a>. <font color='#EEEEEE'>Vaihda avatun sivuston kieli englanniksi. Kirjautuessasi 'sing-in' valitse Eu-serveri. Kirjauduttuasi valitse 'Activate statistic'.</font>",
+    "": "Mikael Palokangas, Seula, Taifuuni and Tuomas Rantalainen",
+    "": "Tila: <font color='#00FF00'>Päällä</font>",
+    "": "Päiviä jäljellä:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Tunteja jäljellä:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Kysely laskuri:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

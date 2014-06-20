@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "AzlanDyNasTy(SEA)",
     "Initialization": "Penyediaan bermula",
     "New version available": "Ada versi terkini",
     "Chance error": "Ralat kemungkinan",
@@ -64,6 +63,7 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-    "blownUp": "Meletup!"
+    "blownUp": "Meletup!",
+    "": "AzlanDyNasTy(SEA)"
   }
 }

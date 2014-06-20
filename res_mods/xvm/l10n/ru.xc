@@ -90,6 +90,16 @@
     "PutBestCrew": "Лучший экипаж",
     "PutClassCrew": "Экипаж того же класса",
 
+    // Vehicle Params
+    "gun_reload_time/actual": "Расчетное время перезарядки орудия",
+    "view_range/base": "базовый",
+    "view_range/actual": "расчетный",
+    "view_range/stereoscope": "со стереотрубой",
+    "radio_range/base": "базовая",
+    "radio_range/actual": "расчетная",
+    "(sec)": "(сек)",
+    "(m)": "(м)",
+
     // Squad
     "Vehicle": "Танк",
     "Battle tiers": "Уровень боёв",
@@ -116,10 +126,10 @@
     "token/bad_token": "Неверный токен.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Статус: <font color='#FF0000'>Заблокирован</font>\n{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Статус: <font color='#FFFF00'>Неактивен</font>\n{{l10n:token/notify_xvm_site}}",
-    "token/active": "Статус:<tab><font color='#00FF00'>Активен</font>",
-    "token/days_left": "Осталось дней:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Осталось часов:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Количество запросов:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/active": "Статус:<tab/><font color='#00FF00'>Активен</font>",
+    "token/time_left": "Осталось:<tab/><font color='#EEEEEE'>{0}д. {1}ч. {2}м.</font>",
+    "token/time_left_warn": "Осталось:<tab/><font color='#EEEE00'>{0}д. {1}ч. {2}м.</font>",
+    "token/cnt": "Количество запросов:<tab/><font color='#EEEEEE'>{0}</font>",
     "token/unknown_status": "Неизвестный статус",
     "token/notify_xvm_site": "Пожалуйста, перейдите на <a href='#XVM_SITE#'>сайт XVM</a> и активируйте статистику в личном кабинете."
   }

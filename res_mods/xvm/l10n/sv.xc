@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Nilkrokodil (EU)",
     "Initialization": "Initialisering",
     "New version available": "Ny version tillgänglig",
     "Chance error": "Fel med vinstchans",
@@ -65,6 +64,7 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-    "blownUp": "Sprängd!"
+    "blownUp": "Sprängd!",
+    "": "Nilkrokodil (EU)"
   }
 }

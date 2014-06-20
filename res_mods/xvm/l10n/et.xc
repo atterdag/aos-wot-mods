@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "jyrka98, Mikk Kiilaspää",
     "Initialization": "Käivitumine",
     "New version available": "Uus versioon saadaval",
     "Chance error": "Tõenäosuse viga",
@@ -82,6 +81,7 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-    "blownUp": "Plahvatas!"
+    "blownUp": "Plahvatas!",
+    "": "jyrka98, Mikk Kiilaspää"
   }
 }

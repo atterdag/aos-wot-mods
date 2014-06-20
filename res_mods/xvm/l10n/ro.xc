@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "XVM Team",
     "Initialization": "Iniţializare",
     "New version available": "Versiune nouă disponibilă",
     "Chance error": "Eroare posibilităţi de victorie",
@@ -50,6 +49,7 @@
     "LT": "TU",
     "TD": "DT",
     "SPG": "Tun autopropulsat",
-    "blownUp": "Explozie!"
+    "blownUp": "Explozie!",
+    "": "XVM Team"
   }
 }

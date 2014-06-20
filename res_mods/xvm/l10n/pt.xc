@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Xft (25-Apr-2014)",
     "Initialization": "Inicialização",
     "New version available": "Nova versão disponível",
     "Chance error": "Margem de erro",
@@ -88,11 +87,12 @@
     {{l10n:token/notify_xvm_site}}",
     "token/blocked": "Estado: <font color='#FF0000'>Bloqueado</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Estado: <font color='#FFFF00'>Inactivo</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Estado: <font color='#00FF00'>Activo</font>",
-    "token/days_left": "Dias restantes:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Horas restantes:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Número de solicitações:<tab/><font color='#eeeeee'>{0}</font>",
     "token/unknown_status": "Estado desconhecido",
-    "token/notify_xvm_site": "Por favor aceda ao <a href='#XVM_SITE#'>site do XVM</a> e active as estatisticas na sua área pessoal."
+    "token/notify_xvm_site": "Por favor aceda ao <a href='#XVM_SITE#'>site do XVM</a> e active as estatisticas na sua área pessoal.",
+    "": "Xft (25-Apr-2014)",
+    "": "Estado: <font color='#00FF00'>Activo</font>",
+    "": "Dias restantes:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Horas restantes:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Número de solicitações:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

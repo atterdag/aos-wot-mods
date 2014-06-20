@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Orrie (EU)",
     "Initialization": "Initialisering",
     "New version available": "Ny versjon tilgjengelig",
     "Chance error": "Feil med vinnersjanse",
@@ -66,6 +65,14 @@
     "PutOwnCrew": "Sett egen besetning",
     "PutBestCrew": "Sett beste besetning",
     "PutClassCrew": "Sett besetning av same klasse",
+    "gun_reload_time/actual": "Reell ladetid",
+    "view_range/base": "basis",
+    "view_range/actual": "reell",
+    "view_range/stereoscope": "med kikkert",
+    "radio_range/base": "basis",
+    "radio_range/actual": "reell",
+    "(sec)": "(sek)",
+    "(m)": "(m)",
     "Vehicle": "Fartøy",
     "Battle tiers": "Kampnivå",
     "Type": "Type",
@@ -87,11 +94,16 @@
     "token/bad_token": "Defekt token.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Status: <font color='#FF0000'>Blokkert</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Status: <font color='#FFFF00'>Inaktiv</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Status: <font color='#00FF00'>Aktiv</font>",
-    "token/days_left": "Dager igjen:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Timer igjen:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Antall forespørsler:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/active": "Status:<tab/><font color='#00FF00'>Aktiv</font>",
+    "token/time_left": "Tid igjen:<tab/><font color='#EEEEEE'>{0}d. {1}h. {2}m.</font>",
+    "token/time_left_warn": "Tid igjen:<tab/><font color='#EEEE00'>{0}d. {1}h. {2}m.</font>",
+    "token/cnt": "Antall forespørsler:<tab/><font color='#EEEEEE'>{0}</font>",
     "token/unknown_status": "Ukjent status",
-    "token/notify_xvm_site": "Vennligst gå til <a href='#XVM_SITE#'>XVM siden</a> og aktiver statistikk i kontrollpanelet."
+    "token/notify_xvm_site": "Vennligst gå til <a href='#XVM_SITE#'>XVM siden</a> og aktiver statistikk i kontrollpanelet.",
+    "": "Orrie (EU)",
+    "": "Status: <font color='#00FF00'>Aktiv</font>",
+    "": "Dager igjen:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Timer igjen:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Antall forespørsler:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

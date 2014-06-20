@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "PowerBait",
     "Initialization": "Initialization",
     "New version available": "New version available",
     "Chance error": "Chance-fejl",
@@ -82,6 +81,7 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-    "blownUp": "Eksploderet!"
+    "blownUp": "Eksploderet!",
+    "": "PowerBait"
   }
 }

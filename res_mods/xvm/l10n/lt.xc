@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Miega",
     "Initialization": "Pasiruošimas",
     "New version available": "Yra nauja versija!",
     "Chance error": "Tikimybės klaida",
@@ -63,6 +62,7 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-    "blownUp": "Sprogo!"
+    "blownUp": "Sprogo!",
+    "": "Miega"
   }
 }

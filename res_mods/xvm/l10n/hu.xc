@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "drhideg",
     "Initialization": "Inicializálás",
     "New version available": "Új verzió elérhető",
     "Chance error": "Esély lekérdezési hiba",
@@ -66,6 +65,14 @@
     "PutOwnCrew": "Saját legénység",
     "PutBestCrew": "Legjobb legénység",
     "PutClassCrew": "Azonos típusú legénység",
+    "gun_reload_time/actual": "Tényleges löveg újratöltési idő",
+    "view_range/base": "alap",
+    "view_range/actual": "tényleges",
+    "view_range/stereoscope": "periszkóppal",
+    "radio_range/base": "alap",
+    "radio_range/actual": "tényleges",
+    "(sec)": "(mp)",
+    "(m)": "(m)",
     "Vehicle": "Jármű",
     "Battle tiers": "Csata szintek",
     "Type": "Típus",
@@ -84,15 +91,19 @@
     "SPG": "SPG",
     "blownUp": "Felrobbant!",
     "token/network_error": "Hálózati hiba. XVM statisztika nem elérhető, próbáld később!",
-    "token/bad_token": "Rossz token,
-    {{l10n:token/notify_xvm_site}}",
+    "token/bad_token": "Rossz token.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Állapot: <font color='#FF0000'>Zárolt</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Állapot: <font color='#FFFF00'>Inaktív</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Állapot: <font color='#00FF00'>Aktív</font>",
-    "token/days_left": "Hátralévő napok:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Hátralévő órák:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Kérések száma:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/active": "Állapot:<tab/><font color='#00FF00'>Aktív</font>",
+    "token/time_left": "Hátralévő idő:<tab/><font color='#EEEEEE'>{0}n. {1}ó. {2}p.</font>",
+    "token/time_left_warn": "Hátralévő idő:<tab/><font color='#EEEE00'>{0}n. {1}ó. {2}p.</font>",
+    "token/cnt": "Kérések száma:<tab/><font color='#EEEEEE'>{0}</font>",
     "token/unknown_status": "Ismeretlen állapot",
-    "token/notify_xvm_site": "Látogasd meg az <a href='#XVM_SITE#'>XVM oldalt</a> és aktiváld a statisztikát a személyes beállításoknál!"
+    "token/notify_xvm_site": "Látogasd meg az <a href='#XVM_SITE#'>XVM oldalt</a> és aktiváld a statisztikát a személyes beállításoknál!",
+    "": "drhideg",
+    "": "Állapot: <font color='#00FF00'>Aktív</font>",
+    "": "Hátralévő napok:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Hátralévő órák:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Kérések száma:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

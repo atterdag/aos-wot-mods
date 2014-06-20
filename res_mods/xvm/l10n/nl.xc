@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Ruud Bremer",
     "Initialization": "Initialiseren",
     "New version available": "Nieuwe versie beschikbaar",
     "Chance error": "Fout kans",
@@ -64,6 +63,7 @@
     "LT": "LT",
     "TD": "TD",
     "SPG": "SPG",
-    "blownUp": "Opgeblazen!"
+    "blownUp": "Opgeblazen!",
+    "": "Ruud Bremer"
   }
 }

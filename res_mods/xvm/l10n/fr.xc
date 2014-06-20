@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Edgar 'LaCourgette' Fournival",
     "Initialization": "Initialisation",
     "New version available": "Nouvelle version disponible",
     "Chance error": "Erreur lors du calcul des chances",
@@ -87,11 +86,12 @@
     "token/bad_token": "Jeton d'accès incorrect.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Statut : <font color='#FF0000'>Bloqué</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Statut : <font color='#FFFF00'>Inactif</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Statut : <font color='#00FF00'>Actif</font>",
-    "token/days_left": "Jours restant :<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Heures restantes :<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Nb. de requêtes :<tab/><font color='#eeeeee'>{0}</font>",
     "token/unknown_status": "Statut inconnu",
-    "token/notify_xvm_site": "Merci d'aller sur le <a href='#XVM_SITE#'>site d'XVM</a> et d'activer les statistiques dans les paramètres personnels."
+    "token/notify_xvm_site": "Merci d'aller sur le <a href='#XVM_SITE#'>site d'XVM</a> et d'activer les statistiques dans les paramètres personnels.",
+    "": "Edgar 'LaCourgette' Fournival",
+    "": "Statut : <font color='#00FF00'>Actif</font>",
+    "": "Jours restant :<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Heures restantes :<tab/><font color='#ffff00'>{0}</font>",
+    "": "Nb. de requêtes :<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

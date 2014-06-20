@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Rick Chen  陈郭",
     "Initialization": "初始化",
     "New version available": "有新版本可以更新",
     "Chance error": "失败概率",
@@ -82,6 +81,7 @@
     "LT": "轻型坦克",
     "TD": "反坦克歼击车",
     "SPG": "自行火炮",
-    "blownUp": "击毁弹药架!"
+    "blownUp": "击毁弹药架!",
+    "": "Rick Chen  陈郭"
   }
 }

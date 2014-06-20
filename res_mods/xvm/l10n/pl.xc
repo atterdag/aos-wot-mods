@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "XVM Team, wRR, shogomad, jerry1333",
     "Initialization": "Inicjalizacja",
     "New version available": "Nowa wersja dostępna",
     "Chance error": "Szansa (błąd)",
@@ -87,11 +86,12 @@
     "token/bad_token": "Błędny token.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Stan: <font color='#FF0000'>Zablokowany</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Stan: <font color='#FFFF00'>Nieaktywny</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Stan: <font color='#00FF00'>Aktywny</font>",
-    "token/days_left": "Pozostało dni:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Pozostało godzin:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Liczba zapytań:<tab/><font color='#eeeeee'>{0}</font>",
     "token/unknown_status": "Stan nieznany",
-    "token/notify_xvm_site": "Proszę odwiedzić <a href='#XVM_SITE#'>stronę XVM</a> i aktywować statystyki w profilu."
+    "token/notify_xvm_site": "Proszę odwiedzić <a href='#XVM_SITE#'>stronę XVM</a> i aktywować statystyki w profilu.",
+    "": "XVM Team, wRR, shogomad, jerry1333",
+    "": "Stan: <font color='#00FF00'>Aktywny</font>",
+    "": "Pozostało dni:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Pozostało godzin:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Liczba zapytań:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

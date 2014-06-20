@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Ferhat 'Fornicras' Pınar/EU",
     "Initialization": "Initialization",
     "New version available": "New version available",
     "Chance error": "Şans hata",
@@ -50,6 +49,7 @@
     "LT": "HT",
     "TD": "TA",
     "SPG": "KMT",
-    "blownUp": "Patladı!"
+    "blownUp": "Patladı!",
+    "": "Ferhat 'Fornicras' Pınar/EU"
   }
 }

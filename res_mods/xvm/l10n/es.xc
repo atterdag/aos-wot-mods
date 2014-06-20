@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "RKPhantom",
     "Initialization": "Inicialización",
     "New version available": "Nueva versión disponible",
     "Chance error": "Probabilidad de error",
@@ -66,6 +65,14 @@
     "PutOwnCrew": "Cargar tripulación propia",
     "PutBestCrew": "Cargar la mejor tripulación",
     "PutClassCrew": "Cargar tripulación de la misma clase",
+    "gun_reload_time/actual": "Tiempo de recarga del cañón actual",
+    "view_range/base": "base",
+    "view_range/actual": "actual",
+    "view_range/stereoscope": "con estereoscopio",
+    "radio_range/base": "base",
+    "radio_range/actual": "actual",
+    "(sec)": "(seg)",
+    "(m)": "(m)",
     "Vehicle": "Vehículo",
     "Battle tiers": "Tiers de batalla",
     "Type": "Tipo",
@@ -87,11 +94,14 @@
     "token/bad_token": "Mala señal.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Estado: <font color='#FF0000'>Bloqueado</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Estado: <font color='#FFFF00'>Inactivo</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Estado: <font color='#00FF00'>Activo</font>",
-    "token/days_left": "Días restantes:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Horas restantes:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Cantidad de solicitudes:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/time_left": "Tiempo restante:<tab/><font color='#EEEEEE'>{0}d. {1}h. {2}m.</font>",
+    "token/time_left_warn": "Tiempo restante:<tab/><font color='#EEEE00'>{0}d. {1}h. {2}m.</font>",
     "token/unknown_status": "Estado desconocido",
-    "token/notify_xvm_site": "Por favor visite <a href='#XVM_SITE#'>la página de XVM</a> y active las estadísticas en tu cuenta personal."
+    "token/notify_xvm_site": "Por favor visite <a href='#XVM_SITE#'>la página de XVM</a> y active las estadísticas en tu cuenta personal.",
+    "": "RKPhantom",
+    "": "Estado: <font color='#00FF00'>Activo</font>",
+    "": "Tiempo restante:<tab/><font color='#EEEEEE'>{0}d. {1}h. {2}m.</font>",
+    "": "Tiempo restante:<tab/><font color='#EEEE00'>{0}d. {1}h. {2}m.</font>",
+    "": "Cantidad de solicitudes:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

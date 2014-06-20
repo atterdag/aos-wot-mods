@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Tixar, Tekija (EU)",
     "Initialization": "Pokretanje",
     "New version available": "Nova verzija je raspoloživa",
     "Chance error": "Šansa greške",
@@ -61,6 +60,7 @@
     "LT": "Laki",
     "TD": "Destrojeri",
     "SPG": "Artiljerija",
-    "blownUp": "Eksplodirao"
+    "blownUp": "Eksplodirao",
+    "": "Tixar, Tekija (EU)"
   }
 }

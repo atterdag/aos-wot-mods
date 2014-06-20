@@ -89,18 +89,7 @@
     http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/text/TextField.html#htmlText
 
   Macros available:
-    In players panel, battle loading screen and statistic form:
-      {{nick}}        - player nickname with clan name
-      {{name}}        - player nickname without clan name
-      {{clan}}        - clan name with brackets (empty if no clan)
-      {{clannb}}      - clan name without brackets
-      {{vehicle}}     - vehicle name
-      {{vehiclename}} - internal vehicle name (usa-M24_Chaffee)
-      {{vtype}}       - vehicle type
-      {{c:vtype}}     - color depending on vehicle type
-      + statistics macros (see below)
-
-    In tank markers:
+    In players panel, battle loading screen, statistic form and vehicle markers:
       {{nick}}        - player nickname with clan name
       {{name}}        - player nickname without clan name
       {{clan}}        - clan name with brackets (empty if no clan)
@@ -112,26 +101,33 @@
       {{vtype}}       - vehicle type
       {{level}}       - vehicle level (Arabic numerals)
       {{rlevel}}      - vehicle level (Roman numerals)
-      {{turret}}      - stock turret marker:
-                          "*" symbol - stock turret, cannot mount top gun
-                          "'" symbol - stock turret, top gun is possible
-                          empty - top turret
       {{hp}}          - current health points
       {{hp-ratio}}    - current health ratio (without '%' sign)
       {{hp-max}}      - maximum health points
-      {{dmg}}         - damage health points
-      {{dmg-ratio}}   - damage health ratio (without '%' sign)
-      {{dmg-kind}}    - damage kind (attack, fire, ramming, ...)
       {{c:hp}}        - color depending on current health points (only in vehicle markers)
       {{c:hp-ratio}}  - color depending on current health ratio (only in vehicle markers)
-      {{c:dmg}}       - color depending on damage source
-      {{c:dmg-kind}}  - color depending on damage kind
       {{c:vtype}}     - color depending on vehicle type
       {{c:system}}    - system color (disable override color)
       {{a:hp}}        - transparency depending on current health points (only in vehicle markers)
       {{a:hp-ratio}}  - transparency depending on current health ratio (only in vehicle markers)
-      {{l10n:blownUp}}  - localizated text "Blown-up!", only in "blowupMessage"
+      {{l10n:blownUp}} - localizated text "Blown-up!", only in "blowupMessage"
+      {{battletier}}  - guessed current battle tier
       + statistics macros (see below)
+
+    In players panel, battle loading screen, statistic form only:
+      {{frags}}       - current frags
+      {{alive}}       - 'alive' for alive, '' for dead
+
+    In vehicle markers only:
+      {{turret}}      - stock turret marker:
+                          "*" symbol - stock turret, cannot mount top gun
+                          "'" symbol - stock turret, top gun is possible
+                          empty - top turret
+      {{dmg}}         - damage health points
+      {{dmg-ratio}}   - damage health ratio (without '%' sign)
+      {{dmg-kind}}    - damage kind (attack, fire, ramming, ...)
+      {{c:dmg}}       - color depending on damage source
+      {{c:dmg-kind}}  - color depending on damage kind
 
     In Hits Log:
       {{n}}           - total number of hits
@@ -250,16 +246,22 @@
       {{c:t-battles}} - color depending on current vehicle battles
       Any color macro you can change to transparency macro (e.g. {{a:tdb}}).
 
-    Extended macros formatting rules:
-      {{name[%[flag][width][.prec]type][~suf][|def]}}
-      name  - macro name
-      flag  - "-" for left align, else right align
-              "0" for filling with leading zeros
-      width - minimum width
-      prec  - maximum width for lines or number of digits after comma for numbers
-      type  - type (s - string, d - decimal, f - float, ...)
-      suf   - suffix added at the end
-      def   - default value, set when value is absent:
+      Extended macros formatting rules:
+        {{name[:norm][%[flag][width][.prec]type][~suf][?rep][|def]}}
+        name  - macro name
+
+        :norm - value normalization, for example {{hp-ratio:300}} returns values in range 0..300
+
+        flag  - "-" for left align, else right align
+                "0" for filling with leading zeros
+        width - minimum width
+        prec  - maximum width for lines or number of digits after comma for numbers
+        type  - type (s - string, d - decimal, f - float, ...)
+
+        suf   - suffix added at the end
+        rep   - value replacement, returns instead of regilar value if value is present
+        def   - default value, set when value is absent:
+
     Details: http://en.wikipedia.org/wiki/Printf
     For example:
       {{name%-16.16s}}      - cut names longer 10 chars, and fill names shorter 10 chars and align left

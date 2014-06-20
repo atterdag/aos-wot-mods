@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "PFN [-EGL-]",
     "Initialization": "시작 중",
     "New version available": "새 버전이 나왔습니다!",
     "Chance error": "확률 에러 발생",
@@ -82,6 +81,7 @@
     "LT": "경전차",
     "TD": "구축전차",
     "SPG": "자주포",
-    "blownUp": "유폭!"
+    "blownUp": "유폭!",
+    "": "PFN [-EGL-]"
   }
 }

@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "naokii",
     "Initialization": "初期化中",
     "New version available": "新しいバージョンがあります",
     "Chance error": "誤差",
@@ -41,10 +40,19 @@
     "avg": "平均",
     "top": "トップ",
     "draws": "引き分け",
+    "Maximum damage": "最大ダメージ",
     "Specific damage (Avg dmg / HP)": "特定ダメージ (平均ダメージ / HP)",
     "Capture points": "占領ポイント",
     "Defence points": "防御ポイント",
     "Filter": "フィルター",
+    "Average battle time": "平均戦闘時間",
+    "Average battle time per day": "日次平均戦闘時間",
+    "Average experience": "経験値平均",
+    "Average experience without premium": "経験値平均(Premiumを除く)",
+    "Average distance driven per battle": "移動距離平均",
+    "Average damage assisted": "平均アシストダメージ",
+    "Average HE shells fired (splash)": "平均榴弾発射数 (splash)",
+    "Average penetrations per battle": "平均貫通ダメージ",
     "PutOwnCrew": "元のクルーを搭乗",
     "PutBestCrew": "最適なクルーを搭乗",
     "PutClassCrew": "同クラスのクルーを搭乗",
@@ -64,6 +72,15 @@
     "LT": "軽戦車",
     "TD": "駆逐戦車",
     "SPG": "自走砲",
-    "blownUp": "爆散!"
+    "blownUp": "爆散!",
+    "token/network_error": "ネットワークエラー　XVM統計情報は有効になりませんでした。再度試行してください。",
+    "token/bad_token": "不正なトークン\n{{l10n:token/notify_xvm_site}}",
+    "token/blocked": "ステータス: <font color='#FF0000'>ブロック</font><br>{{l10n:token/notify_xvm_site}}",
+    "token/inactive": "ステータス: <font color='#FFFF00'>Inactive</font><br>{{l10n:token/notify_xvm_site}}",
+    "token/unknown_status": "未知のステータス",
+    "": "naokii",
+    "": "ステータス: <font color='#00FF00'>Active</font>",
+    "": "残り <font color='#eeeeee'>{0}</font>日",
+    "": "残り <font color='#eeeeee'>{0}</font>時間"
   }
 }

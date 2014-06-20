@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "3ar0n",
     "Initialization": "Đang khởi tạo",
     "New version available": "Đã có phiên bản mới",
     "Chance error": "Sai sót",
@@ -66,6 +65,14 @@
     "PutOwnCrew": "Dùng kíp lái của xe",
     "PutBestCrew": "Dùng kíp lái tốt nhất",
     "PutClassCrew": "Dùng kíp lái cùng loại",
+    "gun_reload_time/actual": "Thời gian nạp đạn thực tế",
+    "view_range/base": "cơ bản",
+    "view_range/actual": "thực tế",
+    "view_range/stereoscope": "có ống nhòm",
+    "radio_range/base": "cơ bản",
+    "radio_range/actual": "thực tế",
+    "(sec)": "(giây)",
+    "(m)": "(m)",
     "Vehicle": "Xe",
     "Battle tiers": "Cấp trận đấu",
     "Type": "Loại",
@@ -87,11 +94,16 @@
     "token/bad_token": "Mã xác thực hỏng.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Tình trạng: <font color='#FF0000'>Bị khóa</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Tình trạng: <font color='#FFFF00'>Chưa kích hoạt</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Tình trạng: <font color='#00FF00'>Đã kích hoạt</font>",
-    "token/days_left": "Số ngày còn:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Số giờ còn:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Số yêu cầu:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/active": "Tình trạng:<tab/><font color='#00FF00'>Đã kích hoạt</font>",
+    "token/time_left": "Thời gian còn lại:<tab/><font color='#EEEEEE'>{0}d. {1}h. {2}m.</font>",
+    "token/time_left_warn": "Thời gian còn lại:<tab/><font color='#EEEE00'>{0}d. {1}h. {2}m.</font>",
+    "token/cnt": "Số yêu cầu:<tab/><font color='#EEEEEE'>{0}</font>",
     "token/unknown_status": "Tình trạng không rõ",
-    "token/notify_xvm_site": "Xin hãy truy cập <a href='#XVM_SITE#'>Web XVM</a> và kích hoạt sử dụng dữ liệu thống kê người chơi."
+    "token/notify_xvm_site": "Xin hãy truy cập <a href='#XVM_SITE#'>Web XVM</a> và kích hoạt sử dụng dữ liệu thống kê người chơi.",
+    "": "3ar0n",
+    "": "Tình trạng: <font color='#00FF00'>Đã kích hoạt</font>",
+    "": "Số ngày còn:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Số giờ còn:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Số yêu cầu:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

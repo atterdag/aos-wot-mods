@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "diclovit",
     "Initialization": "Initialisierung",
     "New version available": "Neue Version verfügbar",
     "Chance error": "Fehler bei Berechnung der Siegchance",
@@ -66,6 +65,14 @@
     "PutOwnCrew": "Eingewiesene Besatzung einsetzen",
     "PutBestCrew": "Beste Besatzung einsetzen",
     "PutClassCrew": "Besatzung der selben Klasse einsetzen",
+    "gun_reload_time/actual": "Tatsächliche Geschütz Nachladezeit",
+    "view_range/base": "Basis",
+    "view_range/actual": "Tatsächlich",
+    "view_range/stereoscope": "mit Scherenfernrohr",
+    "radio_range/base": "Basis",
+    "radio_range/actual": "Tatsächlich",
+    "(sec)": "(sek)",
+    "(m)": "(m)",
     "Vehicle": "Fahrzeug",
     "Battle tiers": "Gefechtsstufen",
     "Type": "Typ",
@@ -87,11 +94,16 @@
     "token/bad_token": "Ungültiges Token.\n{{l10n:token/notify_xvm_site}}",
     "token/blocked": "Status: <font color='#FF0000'>Blockiert</font><br>{{l10n:token/notify_xvm_site}}",
     "token/inactive": "Status: <font color='#FFFF00'>Inaktiv</font><br>{{l10n:token/notify_xvm_site}}",
-    "token/active": "Status: <font color='#00FF00'>Aktiv</font>",
-    "token/days_left": "Verbleibende Tage:<tab/><font color='#eeeeee'>{0}</font>",
-    "token/hours_left": "Verbleibende Stunden:<tab/><font color='#ffff00'>{0}</font>",
-    "token/cnt": "Abrufe:<tab/><font color='#eeeeee'>{0}</font>",
+    "token/active": "Status: <tab/><font color='#00FF00'>Aktiv</font>",
+    "token/time_left": "Verbleibende Zeit: <tab/><font color='#EEEEEE'>{0}d. {1}h. {2}m.</font>",
+    "token/time_left_warn": "Verbleibende Zeit: <tab/><font color='#EEEE00'>{0}d. {1}h. {2}m.</font>",
+    "token/cnt": "API Abrufe:<tab/><font color='#EEEEEE'>{0}</font>",
     "token/unknown_status": "Unbekannter Status",
-    "token/notify_xvm_site": "Bitte besuche die <a href='#XVM_SITE#'>XVM Webseite</a> und aktiviere die Statistiken für deinen Account."
+    "token/notify_xvm_site": "Bitte besuche die <a href='#XVM_SITE#'>XVM Webseite</a> und aktiviere die Statistiken für deinen Account.",
+    "": "diclovit",
+    "": "Status: <font color='#00FF00'>Aktiv</font>",
+    "": "Verbleibende Tage:<tab/><font color='#eeeeee'>{0}</font>",
+    "": "Verbleibende Stunden:<tab/><font color='#ffff00'>{0}</font>",
+    "": "Abrufe:<tab/><font color='#eeeeee'>{0}</font>"
   }
 }

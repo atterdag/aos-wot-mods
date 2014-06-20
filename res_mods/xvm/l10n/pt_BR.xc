@@ -1,6 +1,5 @@
 {
   "locale": {
-    "XVM_translator": "Zazula",
     "Initialization": "Inicialização",
     "New version available": "Nova versão disponível",
     "Chance error": "Margem de erro",
@@ -63,6 +62,7 @@
     "LT": "TL",
     "TD": "CT",
     "SPG": "AAP",
-    "blownUp": "Explodido!"
+    "blownUp": "Explodido!",
+    "": "Zazula"
   }
 }
