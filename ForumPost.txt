@@ -63,7 +63,7 @@ The changes made to the XVM configuration are:
 [b]NB Remember you need to sign up at http://www.modxvm.com/en/, and click on Activate before you can see statistics in XVM.[/b]
 
 [size=150]SpotMessanger[/size] [i](yeah I know its spelled wrong, but it is done so by the author)[/i]
-The SpotMessanger mod is disabled by default, so that you don't spam the chat in random battles. You enable it by pressing F11. (Which is helpful at CW)
+The SpotMessanger mod is disabled by default, so that you don't spam the chat in random battles. You enable it by pressing <F11>. (Which is helpful at CW)
 
 [size=150]Session Stats[/size]
 The colors (WR, WN8 etc) are based on [url=http://wiki.wnefficiency.net/pages/Color_Scale]wiki.wnefficiency.net Color scale[/url]. 
