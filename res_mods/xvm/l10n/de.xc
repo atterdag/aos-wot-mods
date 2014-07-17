@@ -73,6 +73,7 @@
     "radio_range/actual": "Tatsächlich",
     "(sec)": "(sek)",
     "(m)": "(m)",
+    "Squad battle tiers": "Gefechtsstufen",
     "Vehicle": "Fahrzeug",
     "Battle tiers": "Gefechtsstufen",
     "Type": "Typ",
